@@ -22,7 +22,7 @@ export const presentations = [
     },{
         title: 'Scaling Execution: Zero Knowledge',
         time: '11:55 AM – 12:25pm',
-        speakers: 'Alex Gluchowski, Ye Zhang, Louis Guthman, Alex Beckett (moderator)',
+        speakers: 'Alex Gluchowski, Ye Zhang, Louis Guthman, Zaki Manian (moderator)',
     },{
         title: 'MEV on Modular Blockchains',
         time: '12:25 PM – 1:00pm',
@@ -39,11 +39,11 @@ export const presentations = [
     },{
         title: 'Modular Design across the Blockchain Ecosystem',
         time: '2:40 PM - 3:10 PM',
-        speakers: 'Ismail Khoffi (moderator), Nicola Greco , Marko Baricevic, James Prestwich',
+        speakers: 'Ismail Khoffi (moderator), Alex North , Marko Baricevic, James Prestwich',
     },{
         title: 'Scaling Execution: Optimistic',
         time: '3:10 PM - 3:40 PM',
-        speakers: 'Can Gurel (moderator), Proto, Cem Ozer, Emily Herbert',
+        speakers: 'Can Gurel (moderator), Proto, John Adler, Emily Herbert',
     },{
         title: 'Investing in the Modular Stack',
         time: '3:55 PM - 4:25 PM',

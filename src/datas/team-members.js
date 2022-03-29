@@ -146,8 +146,8 @@ export const teamMembers = [
         image: 'members/Mathjis.png'
     },{
         name : 'Eric Wall',
-        org: '',
-        title: '',
+        org: 'EricaDAO',
+        title: 'Blogger',
         image: 'members/EricWall.png'
     }
 
