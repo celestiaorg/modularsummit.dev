@@ -103,7 +103,7 @@ export const teamMembers = [
         name : 'Guillermo Angeris',
         org: 'Bain Capital Crypto',
         title: 'Research Partner',
-        image: 'members/GuillermoAngeris.png'
+        image: 'members/Guille.png'
     },{
         name : 'Louis Guthman',
         org: 'StarkWare',
@@ -150,18 +150,5 @@ export const teamMembers = [
         title: '',
         image: 'members/EricWall.png'
     }
-    /*{
-        name : 'Guille',
-        company: 'Company',
-        image: 'members/Guille.png'
-    },{
-        name : 'Michael Jordan',
-        company: 'Company',
-        image: 'members/MichaelJordan.png'
-    },{
-        name : 'Cem Ozer',
-        company: 'Company',
-        image: 'members/CemOzer.png'
-    },*/
 
 ]
