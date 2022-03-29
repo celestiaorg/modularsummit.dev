@@ -1,0 +1,175 @@
+@font-face {
+  font-family: 'Inter';
+  src: url('../fonts/subset-Inter-Light.woff2') format('woff2'),
+  url('../fonts/subset-Inter-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('../fonts/subset-Inter-Regular.woff2') format('woff2'),
+  url('../fonts/subset-Inter-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('../fonts/subset-Inter-Bold.woff2') format('woff2'),
+  url('../fonts/subset-Inter-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Ruberoid';
+  src: url('../fonts/subset-Ruberoid-Medium.woff2') format('woff2'),
+  url('../fonts/subset-Ruberoid-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Ruberoid';
+  src: url('../fonts/subset-Ruberoid-Bold.woff2') format('woff2'),
+  url('../fonts/subset-Ruberoid-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Ruberoid';
+  src: url('../fonts/subset-Ruberoid-Oblique.woff2') format('woff2'),
+  url('../fonts/subset-Ruberoid-Oblique.woff') format('woff');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Ruberoid';
+  src: url('../fonts/subset-Ruberoid-SemiBold.woff2') format('woff2'),
+  url('../fonts/subset-Ruberoid-SemiBold.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Ruberoid';
+  src: url('../fonts/subset-Ruberoid-Light.woff2') format('woff2'),
+  url('../fonts/subset-Ruberoid-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'celestia';
+  src:  url('../fonts/celestia.eot?hw1sjl');
+  src:  url('../fonts/celestia.eot?hw1sjl#iefix') format('embedded-opentype'),
+  url('../fonts/celestia.woff2?hw1sjl') format('woff2'),
+  url('../fonts/celestia.ttf?hw1sjl') format('truetype'),
+  url('../fonts/celestia.woff?hw1sjl') format('woff'),
+  url('../fonts/celestia.svg?hw1sjl#celestia') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'celestia' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+.icon-edit:before {
+  content: "\e917";
+}
+.icon-telegram:before {
+  content: "\e900";
+}
+.icon-copy:before {
+  content: "\e901";
+}
+.icon-facebook:before {
+  content: "\e902";
+}
+.icon-search:before {
+  content: "\e903";
+}
+.icon-linkedin:before {
+  content: "\e904";
+}
+.icon-social-discord:before {
+  content: "\e905";
+}
+.icon-dropdown:before {
+  content: "\e906";
+}
+.icon-arrow-down:before {
+  content: "\e907";
+}
+.icon-arrow-left:before {
+  content: "\e908";
+}
+.icon-arrow-right:before {
+  content: "\e909";
+}
+.icon-carousel-left:before {
+  content: "\e90a";
+}
+.icon-carousel-right:before {
+  content: "\e90b";
+}
+.icon-checkmark:before {
+  content: "\e90c";
+}
+.icon-close:before {
+  content: "\e90d";
+}
+.icon-document:before {
+  content: "\e90e";
+}
+.icon-download:before {
+  content: "\e90f";
+}
+.icon-email:before {
+  content: "\e910";
+}
+.icon-external-link:before {
+  content: "\e911";
+}
+.icon-github:before {
+  content: "\e912";
+}
+.icon-heart:before {
+  content: "\e913";
+}
+.icon-play-button:before {
+  content: "\e914";
+}
+.icon-twitter:before {
+  content: "\e915";
+}
+.icon-youtube:before {
+  content: "\e916";
+}
+
+

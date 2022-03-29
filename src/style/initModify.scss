@@ -1,0 +1,18 @@
+a{
+  color:inherit;
+  text-decoration:none;
+
+  &:hover{
+    color:inherit;
+  }
+}
+
+input{
+  &.form-control{
+    border:none !important;
+    &:focus{
+      border:none !important;
+      box-shadow:none !important;
+    }
+  }
+}

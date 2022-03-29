@@ -1,0 +1,117 @@
+.presentation{
+  border-top: 1px solid #E8E8E8;
+  padding:25px;
+  position:relative;
+
+  @include media-breakpoint-down(sm) {
+    padding:25px 0;
+  }
+
+  &:after{
+    box-shadow: 0 1px 3px 0 rgba(0,0,0,0.18);
+    border-radius: 6px;
+    background:url(../images/presentation-bg.png) no-repeat scroll center center transparent;
+    background-size:cover;
+    border-color:transparent;
+    opacity:0;
+    content:'';
+    position: absolute;
+    left: -3px;
+    top: -2px;
+    width: calc(100% + 6px);
+    height: calc(100% + 3px);
+    @include transition(1000ms all ease-in-out);
+
+    @include media-breakpoint-down(md) {
+      display:none;
+    }
+  }
+
+  &.first{
+    border-top:none;
+  }
+
+  &:hover{
+
+    &:after{
+      opacity:1;
+    }
+
+  }
+
+  .inner{
+    position: relative;
+    z-index:2;
+  }
+
+  &.schedule-pause{
+    background: #F6F6F6;
+    border-radius: 6px;
+    padding:30px 25px;
+    border:none;
+
+    .speakers, button{
+      display:none;
+    }
+
+    .time{
+      float:right;
+      margin-bottom:0;
+      font-size: 14px;
+      color: #000000;
+      letter-spacing: 0;
+      padding-top:5px;
+    }
+
+    .title{
+      font-weight:bold;
+      font-size: 24px;
+      color: #000000;
+      letter-spacing: 0;
+      margin-bottom:0;
+      float:left;
+    }
+
+    .col-auto{
+      width:100%;
+    }
+  }
+
+  .title{
+    font-family: $ruberoid;
+    font-weight:500;
+    font-size: 24px;
+    color: #000000;
+    letter-spacing: 0;
+    margin-bottom:10px;
+    line-height:1em;
+  }
+
+  .time{
+    font-family: $inter;
+    font-weight:300;
+    font-size: 14px;
+    color: #606060;
+    letter-spacing: 0;
+    margin-bottom:10px;
+    line-height:1em;
+  }
+
+  .speakers{
+    font-family: $inter;
+    font-weight:normal;
+    font-size: 14px;
+    color: #606060;
+    letter-spacing: 0;
+    line-height:1em;
+
+    span{
+      font-family: $ruberoid;
+      font-weight:bold;
+      font-size: 14px;
+      color: #000000;
+      letter-spacing: 0;
+      margin-right:15px;
+    }
+  }
+}
