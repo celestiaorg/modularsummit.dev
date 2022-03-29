@@ -125,11 +125,6 @@ export const teamMembers = [
         title: 'Product Owner of Cosmos SDK',
         image: 'members/MarkoBaricevic.png'
     },{
-        name : 'Alex Beckett',
-        org: 'Celestia Labs',
-        title: 'Content Lead',
-        image: 'members/AlexBeckett.png'
-    },{
         name : 'Emily Herbert',
         org: 'Fuel Labs',
         title: 'Software Engineer',
