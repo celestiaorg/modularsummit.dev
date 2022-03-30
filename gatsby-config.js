@@ -28,5 +28,12 @@ module.exports = {
       "path": "./src/pages/"
     },
     __key: "pages"
+  }, {
+    resolve: `gatsby-plugin-plausible`,
+    options: {
+      domain: `modularsummit.dev`,
+      // https://github.com/pixelplicity/gatsby-plugin-plausible/issues/49#issuecomment-716125674
+      customDomain: `plausible.celestia.org/js/plausible.js?original=`,
+    },
   }]
 };
