@@ -22,7 +22,7 @@ export const presentations = [
     },{
         title: 'Scaling Execution: Zero Knowledge',
         time: '11:55 AM – 12:25pm',
-        speakers: 'Zaki Manian (moderator), Alex Gluchowski, Ye Zhang, Louis Guthman',
+        speakers: 'Zaki Manian (moderator), Alex Gluchowski, Toghrul Maharramov, Louis Guthman',
     },{
         title: 'MEV on Modular Blockchains',
         time: '12:25 PM – 1:00pm',
