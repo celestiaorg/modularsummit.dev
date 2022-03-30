@@ -11,5 +11,8 @@ export const sponsors = [
     },{
         name: 'Bain Capital',
         image: 'projects/bain-capital.svg'
+    },{
+       name: 'Starkware', 
+       image: 'projects/starkware.svg'
     }
 ];
