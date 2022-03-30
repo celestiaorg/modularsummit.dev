@@ -105,6 +105,11 @@ export const teamMembers = [
         title: 'Research Partner',
         image: 'members/Guille.png'
     },{
+        name: 'Eric Wall', 
+        org: 'EricaDAO', 
+        title: 'Blogger', 
+        image: 'members/EricWall.png'
+    },{
         name : 'Louis Guthman',
         org: 'StarkWare',
         title: 'Ecosystem Lead',
@@ -139,11 +144,5 @@ export const teamMembers = [
         org: 'Maven 11',
         title: 'Associate Partner',
         image: 'members/Mathjis.png'
-    },{
-        name : 'Eric Wall',
-        org: 'EricaDAO',
-        title: 'Blogger',
-        image: 'members/EricWall.png'
     }
-
 ]
