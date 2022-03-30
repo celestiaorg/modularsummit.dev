@@ -63,7 +63,7 @@ const IndexPage = () => {
                                         <div className={'col-12 col-md-auto pt-4 pt-md-0'}>
                                             <div className={'row justify-content-center justify-content-md-end'}>
                                                 <div className={'col-auto'}>
-                                                    <a href="https://www.eventbrite.com/e/modular-summit-tickets-301616973487" target={'_blank'} rel={'noreferrer'}>
+                                                    <a href="#" target={'_blank'} rel={'noreferrer'}>
                                                         <button className={'button-simple'}>Register</button>
                                                     </a>
                                                 </div>
@@ -81,10 +81,10 @@ const IndexPage = () => {
                     </div>
                     <div className={'col-12 col-lg-4 col-xl-6'}>
                         <div className={'hero-image'}>
-                            <StaticImage src={'../images/hero-image.svg'}
+                            <StaticImage src={'../images/modular-summit.svg'}
                                          alt={'The Modular Summit'}
-                                         width={625}
-                                         height={541}
+                                         width={616}
+                                         height={584}
                                          placeholder="blurred"
                             />
                         </div>
