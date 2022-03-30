@@ -140,9 +140,19 @@ const IndexPage = () => {
                     <div className={'col-auto'}>
                         <h2 className={'with-decor'}>Schedule</h2>
                     </div>
-                    <div className={'col-12 col-sm-auto pt-4 pt-sm-0'}>
-                        <button className={'button-simple w-100'}>Watch Livestream</button>
-                    </div>
+
+                        // create button inside link to youtube livestream
+                      <a href='https://youtube.com/'>
+                        <button className={'button-simple w-100'}>
+                          Watch Livestream
+                        </button>
+                      </a>
+
+                    // <div className={'col-12 col-sm-auto pt-4 pt-sm-0'}>
+                      //  <button className={'button-simple w-100'}>Watch Livestream</button>
+                   // </div>
+
+
                 </div>
 
                 <div className={'row mt-5'}>
