@@ -1,8 +1,5 @@
 export const sponsors = [
-    {
-        name: 'Starkware',
-        image: 'projects/starkware.svg'
-    },{
+   {
         name: 'Blockchain Capital',
         image: 'projects/blockchain-capital.svg'
     },{
