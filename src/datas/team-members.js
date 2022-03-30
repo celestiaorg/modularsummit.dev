@@ -55,6 +55,11 @@ export const teamMembers = [
         title: 'Partner',
         image: 'members/AlexEvans.png'
     },{
+        name : 'Eric Wall',
+        org: 'EricaDAO',
+        title: 'Blogger',
+        image: 'members/EricWall.png'
+    },{
         name : 'protolambda',
         org: 'Optimism',
         title: 'Researcher at Optimism',
@@ -139,11 +144,6 @@ export const teamMembers = [
         org: 'Maven 11',
         title: 'Associate Partner',
         image: 'members/Mathjis.png'
-    },{
-        name : 'Eric Wall',
-        org: 'EricaDAO',
-        title: 'Blogger',
-        image: 'members/EricWall.png'
     }
 
 ]
