@@ -63,7 +63,7 @@ const IndexPage = () => {
                                         <div className={'col-12 col-md-auto pt-4 pt-md-0'}>
                                             <div className={'row justify-content-center justify-content-md-end'}>
                                                 <div className={'col-auto'}>
-                                                    <a href="#" target={'_blank'} rel={'noreferrer'}>
+                                                    <a href="https://www.eventbrite.com/e/modular-summit-tickets-301616973487" target={'_blank'} rel={'noreferrer'}>
                                                         <button className={'button-simple'}>Register</button>
                                                     </a>
                                                 </div>
