@@ -180,7 +180,7 @@ const IndexPage = () => {
         </section>
 
 
-        <Footer/>
+        {/*<Footer/>*/}
     </main>
   )
 }
