@@ -142,7 +142,7 @@ const IndexPage = () => {
                     </div>
 
                       <div className={'col-12 col-sm-auto pt-4 pt-sm-0'}>
-                        <a href='https://youtu.be/35_rr8Vf-4k'>
+                        <a href="https://youtu.be/35_rr8Vf-4k" target={'_blank'}>
                           <button className={'button-simple w-100'}>
                             Watch Livestream
                           </button>

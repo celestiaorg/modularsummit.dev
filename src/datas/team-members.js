@@ -115,6 +115,11 @@ export const teamMembers = [
         title: 'Research Partner',
         image: 'members/Guille.png'
     },{
+        name: 'Eric Wall', 
+        org: 'EricaDAO', 
+        title: 'Blogger', 
+        image: 'members/EricWall.png'
+    },{
         name : 'Louis Guthman',
         org: 'StarkWare',
         title: 'Ecosystem Lead',
