@@ -146,8 +146,8 @@ export const teamMembers = [
         image: 'members/EmilyHerbert.png'
     },{
         name : 'Sean Braithwaite',
-        org: '',
-        title: '',
+        org: 'Metakek',
+        title: 'Co-Founder, CEO',
         image: 'members/SeanBraithwaite.png'
     },{
         name : 'Mathjis van Esch',
