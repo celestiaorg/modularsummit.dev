@@ -47,7 +47,7 @@ export const presentations = [
     },{
         title: 'Investing in the Modular Stack',
         time: '3:55 PM - 4:25 PM',
-        speakers: 'Aditi Sriram (moderator), Aleks Larsen, Morgan Beller, Michael Jordan, Eli Krenzke, Mathijs van Esch',
+        speakers: 'Morgan Beller (moderator), Aleks Larsen, Michael Jordan, Eli Krenzke, Mathijs van Esch',
     },{
         title: 'The Data Availability Landscape',
         time: '4:25 PM - 4:55 PM',
