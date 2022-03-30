@@ -8,7 +8,7 @@ import {sponsors} from "../datas/sponsors";
 import {presentations} from "../datas/schedule";
 import ProjectLogo from "../components/project-logo";
 import Presentation from "../modules/presentation";
-//import Footer from "../components/footer";
+import Footer from "../components/footer";
 import {Helmet} from "react-helmet";
 
 const IndexPage = () => {
@@ -180,7 +180,7 @@ const IndexPage = () => {
         </section>
 
 
-        {/*<Footer/>*/}
+        <Footer/>
     </main>
   )
 }
