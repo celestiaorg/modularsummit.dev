@@ -55,11 +55,6 @@ export const teamMembers = [
         title: 'Partner',
         image: 'members/AlexEvans.png'
     },{
-        name : 'Eric Wall',
-        org: 'EricaDAO',
-        title: 'Blogger',
-        image: 'members/EricWall.png'
-    },{
         name : 'protolambda',
         org: 'Optimism',
         title: 'Researcher',
