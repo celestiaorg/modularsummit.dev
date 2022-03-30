@@ -22,6 +22,6 @@ export const sponsors = [
        image: 'projects/starkware.svg'
     },{
        name: 'Polychain Capital', 
-       image: 'projects/polychain-capital.svg/
+       image: 'projects/polychain-capital.svg'
     }
 ];
