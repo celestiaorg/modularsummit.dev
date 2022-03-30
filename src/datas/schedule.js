@@ -8,7 +8,7 @@ export const presentations = [
         time: '9:40 AM - 10:10 AM',
         speakers: 'Mustafa Al-Bassam',
     },{
-        title: 'Small Pieces Loosely Joined',
+        title: 'Small Pieces Loosely Joined: The Modular Thesis',
         time: '10:10 AM - 10:40 AM',
         speakers: 'Alex Evans',
     }, {
