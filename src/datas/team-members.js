@@ -47,7 +47,7 @@ export const teamMembers = [
     },{
         name : 'Morgan Beller',
         org: 'NfX',
-        title: 'General Partner',
+        title: 'General Partner, Event Emcee',
         image: 'members/MorganBeller.png'
     },{
         name : 'Alex Evans',
