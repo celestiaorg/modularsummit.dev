@@ -22,11 +22,11 @@ export const presentations = [
     },{
         title: 'Scaling Execution: Zero Knowledge',
         time: '11:55 AM – 12:25pm',
-        speakers: 'Alex Gluchowski, Ye Zhang, Louis Guthman, Zaki Manian (moderator)',
+        speakers: 'Zaki Manian (moderator), Alex Gluchowski, Ye Zhang, Louis Guthman',
     },{
         title: 'MEV on Modular Blockchains',
         time: '12:25 PM – 1:00pm',
-        speakers: 'Tarun Chitra, Guillermo Angeris, Sean Braithwaite, Alex Obadia',
+        speakers: 'Sean Braithwaite (moderator), Tarun Chitra, Guillermo Angeris, Alex Obadia', 
     },{
         type: 'Break',
         title: 'Lunch',
@@ -39,7 +39,7 @@ export const presentations = [
     },{
         title: 'Modular Design across the Blockchain Ecosystem',
         time: '2:40 PM - 3:10 PM',
-        speakers: 'Ismail Khoffi (moderator), Alex North , Marko Baricevic, James Prestwich',
+        speakers: 'Ismail Khoffi (moderator), Alex North , Marko Baricevic, James Prestwich, Bo Du',  
     },{
         title: 'Scaling Execution: Optimistic',
         time: '3:10 PM - 3:40 PM',
@@ -47,7 +47,7 @@ export const presentations = [
     },{
         title: 'Investing in the Modular Stack',
         time: '3:55 PM - 4:25 PM',
-        speakers: 'Aleks Larsen, Morgan Beller, Michael Jordan, Eli Krenzke, Mathijs van Esch',
+        speakers: 'Aditi Sriram (moderator), Aleks Larsen, Morgan Beller, Michael Jordan, Eli Krenzke, Mathijs van Esch',
     },{
         title: 'The Data Availability Landscape',
         time: '4:25 PM - 4:55 PM',
@@ -55,7 +55,7 @@ export const presentations = [
     },{
         title: 'The Counter Thesis - Monolithic vs. Modular',
         time: '4:55 PM - 5:30 PM',
-        speakers: ' Tarun Chitra (mod), Mustafa Al-Bassam, Anatoly Yakovenko',
+        speakers: ' Tarun Chitra (moderator), Mustafa Al-Bassam, Anatoly Yakovenko',
     },{
         type: 'Break',
         title: 'Networking Drinks',
