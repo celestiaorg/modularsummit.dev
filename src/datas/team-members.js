@@ -85,6 +85,11 @@ export const teamMembers = [
         title: 'Co-founder, CTO',
         image: 'members/IsmailKhoffi.png'
     },{
+        name : 'Bo Du',
+        org: 'Polymer',
+        title: 'Co-Founder',
+        image: 'members/BoDu.png'
+    },{
         name : 'Toghrul Maharramov',
         org: 'Scroll Tech',
         title: 'Senior Researcher',
@@ -145,5 +150,4 @@ export const teamMembers = [
         title: 'Associate Partner',
         image: 'members/Mathjis.png'
     }
-
 ]
