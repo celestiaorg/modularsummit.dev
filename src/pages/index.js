@@ -43,7 +43,7 @@ const IndexPage = () => {
                             Envision the modular future with us.
                         </div>
                         <div className={'hosted'}>
-                            The Modular Summit is a day-long event that will bring together visionaries to discuss what’s next in blockchain. It’s a series of conversations that will celebrate builders seeking to escape the limitations of monolithic chains. Hosted by Maven 11 and Celestia
+                            Hosted by Maven 11 and Celestia
                         </div>
                         <div className={'row'}>
                             <div className={'col-12'}>
