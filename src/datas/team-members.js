@@ -80,10 +80,15 @@ export const teamMembers = [
         title: 'Co-founder, CTO',
         image: 'members/IsmailKhoffi.png'
     },{
-        name : 'Ye Zhang',
+        name : 'Bo Du',
+        org: 'Polymer',
+        title: 'Co-Founder',
+        image: 'members/BoDu.png'
+    },{
+        name : 'Toghrul Maharramov',
         org: 'Scroll Tech',
-        title: 'Co-Founder, Researcher',
-        image: 'members/YeZhang.png'
+        title: 'Senior Researcher',
+        image: 'members/ToghrulMaharramov.png'
     },{
         name : 'Eli Krenzke',
         org: 'Polychain Capital',

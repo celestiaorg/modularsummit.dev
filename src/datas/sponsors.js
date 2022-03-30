@@ -1,5 +1,11 @@
 export const sponsors = [
    {
+        name: 'Celestia',
+        image: 'projects/celestia.svg'
+   },{
+        name: 'Maven 11',
+        image: 'projects/maven11.svg'
+   },{
         name: 'Blockchain Capital',
         image: 'projects/blockchain-capital.svg'
    },{ 
