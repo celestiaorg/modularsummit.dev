@@ -62,7 +62,7 @@ export const teamMembers = [
     },{
         name : 'protolambda',
         org: 'Optimism',
-        title: 'Researcher at Optimism',
+        title: 'Researcher',
         image: 'members/Proto.png'
     },{
         name : 'Balder Bomans',
