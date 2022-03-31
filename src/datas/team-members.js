@@ -47,7 +47,7 @@ export const teamMembers = [
     },{
         name : 'Morgan Beller',
         org: 'NfX',
-        title: 'General Partner',
+        title: 'General Partner, Event Emcee',
         image: 'members/MorganBeller.png'
     },{
         name : 'Alex Evans',
@@ -57,7 +57,7 @@ export const teamMembers = [
     },{
         name : 'protolambda',
         org: 'Optimism',
-        title: 'Researcher at Optimism',
+        title: 'Researcher',
         image: 'members/Proto.png'
     },{
         name : 'Balder Bomans',
@@ -80,10 +80,15 @@ export const teamMembers = [
         title: 'Co-founder, CTO',
         image: 'members/IsmailKhoffi.png'
     },{
-        name : 'Ye Zhang',
+        name : 'Bo Du',
+        org: 'Polymer',
+        title: 'Co-Founder',
+        image: 'members/BoDu.png'
+    },{
+        name : 'Toghrul Maharramov',
         org: 'Scroll Tech',
-        title: 'Co-Founder, Researcher',
-        image: 'members/YeZhang.png'
+        title: 'Senior Researcher',
+        image: 'members/ToghrulMaharramov.png'
     },{
         name : 'Eli Krenzke',
         org: 'Polychain Capital',
@@ -105,6 +110,11 @@ export const teamMembers = [
         title: 'Research Partner',
         image: 'members/Guille.png'
     },{
+        name: 'Eric Wall', 
+        org: 'EricaDAO', 
+        title: 'Blogger', 
+        image: 'members/EricWall.png'
+    },{
         name : 'Louis Guthman',
         org: 'StarkWare',
         title: 'Ecosystem Lead',
@@ -125,25 +135,24 @@ export const teamMembers = [
         title: 'Product Owner of Cosmos SDK',
         image: 'members/MarkoBaricevic.png'
     },{
+        name: 'Aditi Sriram', 
+        org: 'Celestia Labs', 
+        title: 'Strategy Lead, Event Emcee',
+        image: 'members/AditiSriram.png'
+    },{
         name : 'Emily Herbert',
         org: 'Fuel Labs',
         title: 'Software Engineer',
         image: 'members/EmilyHerbert.png'
     },{
         name : 'Sean Braithwaite',
-        org: '',
-        title: '',
+        org: 'Metakek',
+        title: 'Co-Founder, CEO',
         image: 'members/SeanBraithwaite.png'
     },{
         name : 'Mathjis van Esch',
         org: 'Maven 11',
         title: 'Associate Partner',
         image: 'members/Mathjis.png'
-    },{
-        name : 'Eric Wall',
-        org: 'EricaDAO',
-        title: 'Blogger',
-        image: 'members/EricWall.png'
     }
-
 ]
