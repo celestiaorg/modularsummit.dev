@@ -86,6 +86,7 @@ const IndexPage = () => {
                                          width={616}
                                          height={584}
                                          placeholder="blurred"
+                                         quality={90}
                             />
                         </div>
                     </div>
