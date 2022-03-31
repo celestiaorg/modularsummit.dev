@@ -62,7 +62,7 @@ export const teamMembers = [
     },{
         name : 'Balder Bomans',
         org: 'Maven 11',
-        title: 'Parter, CIO',
+        title: 'Partner, CIO',
         image: 'members/BalderBomans.png'
     },{
         name : 'Sreeram Kannan',
