@@ -120,6 +120,11 @@ export const teamMembers = [
         title: 'Ecosystem Lead',
         image: 'members/LouisGuthman.png'
     },{
+        name: 'Aleks Larsen', 
+        org: 'Blockchain Capital', 
+        title: 'General Partner', 
+        image: 'members/AleksLarsen.png'
+    },{
         name : 'Will Nuelle',
         org: 'Galaxy Digital',
         title: 'Principle Investments',
