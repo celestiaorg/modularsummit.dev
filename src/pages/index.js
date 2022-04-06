@@ -50,7 +50,7 @@ const IndexPage = () => {
                                 <div className={'time-box'}>
                                     <div className={'row'}>
                                         <div className={'col-12 time'}>
-                                            Thu, April 21, 2022  <span>•</span>  9:00 AM – 5:00 PM CEST
+                                            Thu, April 21, 2022  <span>•</span>  9:00 AM – 7:00 PM CEST
                                         </div>
                                     </div>
                                     <div className={'row justify-content-between align-items-center'}>
