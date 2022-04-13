@@ -35,10 +35,10 @@ export const teamMembers = [
         title: 'Co-founder, CEO',
         image: 'members/AlexGluchowski.png'
     },{
-        name : 'John Adler',
+        name : 'Josh Bowen',
         org: 'Celestia Labs',
-        title: 'Co-founder, CRO',
-        image: 'members/JohnAdler.png'
+        title: 'Astria Lead',
+        image: 'members/Josh Bowen.png'
     },{
         name : 'James Prestwich',
         org: 'Nomad',
