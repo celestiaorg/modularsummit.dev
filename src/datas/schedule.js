@@ -43,7 +43,7 @@ export const presentations = [
     },{
         title: 'Scaling Execution: Optimistic',
         time: '3:10 PM - 3:40 PM',
-        speakers: 'Can Gurel (moderator), Proto, John Adler, Emily Herbert',
+        speakers: 'Can Gurel (moderator), Proto, Josh Bowen, Emily Herbert',
     },{
         title: 'Investing in the Modular Stack',
         time: '3:55 PM - 4:25 PM',
