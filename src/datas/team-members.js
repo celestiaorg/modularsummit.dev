@@ -35,10 +35,10 @@ export const teamMembers = [
         title: 'Co-founder, CEO',
         image: 'members/AlexGluchowski.png'
     },{
-        name : 'Josh Bowen',
-        org: 'Celestia Labs',
-        title: 'Astria Lead',
-        image: 'members/Josh Bowen.png'
+        name : 'Alex Obadia',
+        org: 'Flashbots',
+        title: 'Researcher, Steward',
+        image: 'members/AlexObadia.png'
     },{
         name : 'James Prestwich',
         org: 'Nomad',
@@ -95,10 +95,10 @@ export const teamMembers = [
         title: 'Partner',
         image: 'members/EliKrenzke.png'
     },{
-        name : 'Alex Obadia',
-        org: 'Flashbots',
-        title: 'Researcher, Steward',
-        image: 'members/AlexObadia.png'
+        name : 'Josh Bowen',
+        org: 'Celestia Labs',
+        title: 'Astria Lead',
+        image: 'members/Josh Bowen.png'
     },{
         name : 'Can Gurel',
         org: 'Delphi Digital',
