@@ -53,7 +53,7 @@ export const presentations = [
         time: '4:25 PM - 4:55 PM',
         speakers: 'Sreeram Kannan (moderator), John Adler, Anurag Arjun, Matt Garnett',
     },{
-        title: 'The Counter Thesis - Monolithic vs. Modular',
+        title: 'Monolithic or Modular',
         time: '4:55 PM - 5:30 PM',
         speakers: ' Tarun Chitra (moderator), Mustafa Al-Bassam, Anatoly Yakovenko',
     },{
