@@ -85,10 +85,10 @@ export const teamMembers = [
         title: 'Co-Founder',
         image: 'members/BoDu.png'
     },{
-        name : 'Toghrul Maharramov',
-        org: 'Scroll Tech',
-        title: 'Senior Researcher',
-        image: 'members/ToghrulMaharramov.png'
+        name : 'Emily Herbert',
+        org: 'Fuel Labs',
+        title: 'Software Engineer',
+        image: 'members/EmilyHerbert.png'
     },{
         name : 'Eli Krenzke',
         org: 'Polychain Capital',
@@ -145,10 +145,10 @@ export const teamMembers = [
         title: 'Strategy Lead, Event Emcee',
         image: 'members/AditiSriram.png'
     },{
-        name : 'Emily Herbert',
-        org: 'Fuel Labs',
-        title: 'Software Engineer',
-        image: 'members/EmilyHerbert.png'
+        name : 'Toghrul Maharramov',
+        org: 'Scroll Tech',
+        title: 'Senior Researcher',
+        image: 'members/ToghrulMaharramov.png'
     },{
         name : 'Sean Braithwaite',
         org: 'Metakek',
