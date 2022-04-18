@@ -159,5 +159,20 @@ export const teamMembers = [
         org: 'Maven 11',
         title: 'Associate Partner',
         image: 'members/Mathjis.png'
+    },{
+        name : 'Nusret Tas',
+        org: 'Stanford',
+        title: 'PhD Candidate',
+        image: 'members/NusretTas.png'
+    },{
+        name : 'LZRS',
+        org: 'Celestia Scan',
+        title: '',
+        image: 'members/LZRS.png'
+    },{
+        name : 'Joachim Neu',
+        org: 'Stanford',
+        title: 'PhD Candidate',
+        image: 'members/JoachimNeu.png'
     }
 ]
