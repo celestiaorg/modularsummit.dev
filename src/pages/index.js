@@ -5,7 +5,7 @@ import TeamMember from "../modules/teamMember";
 import {teamMembers} from "../datas/team-members";
 import {projects} from "../datas/projects";
 import {sponsors} from "../datas/sponsors";
-import {presentations} from "../datas/schedule";
+import {presentations} from "../datas/schedule-main";
 import ProjectLogo from "../components/project-logo";
 import Presentation from "../modules/presentation";
 import Footer from "../components/footer";
@@ -22,12 +22,15 @@ const IndexPage = () => {
                 <div className={'row justify-content-end'}>
                     <div className={'col-auto'}>
                         <div className={'row justify-content-end'}>
-                            <div className={'col-auto pe-2 pe-md-5'}>
-                                <a href="/#schedule">Schedule</a>
+                            <div className={'col-auto {/*pe-2 pe-md-5*/}'}>
+                                <a href="/#schedule-main">Main schedule</a>
                             </div>
                             <div className={'col-auto'}>
-                                <a href="/#speakers">Speakers</a>
+                                <a href="/#schedule-research">Research schedule</a>
                             </div>
+                            {/*<div className={'col-auto'}>
+                                <a href="/#speakers">Speakers</a>
+  </div>*/}
                         </div>
                     </div>
                 </div>
@@ -135,11 +138,11 @@ const IndexPage = () => {
             </div>
         </section>
 
-        <section className={'schedule-section pb-5'} id={'schedule'}>
+        <section className={'schedule-section pb-5'} id={'schedule-main'}>
             <div className={'container'}>
                 <div className={'row justify-content-between align-items-center'}>
                     <div className={'col-auto'}>
-                        <h2 className={'with-decor'}>Schedule</h2>
+                        <h2 className={'with-decor'}>Main track schedule</h2>
                     </div>
 
                       <div className={'col-12 col-sm-auto pt-4 pt-sm-0'}>
@@ -148,6 +151,33 @@ const IndexPage = () => {
                             Watch Livestream
                           </button>
                         </a>
+                      </div>
+
+
+                </div>
+
+                <div className={'row mt-5'}>
+                    {presentations.map((presentation,index) => {
+                            return (
+                                <div className={'col-12'} key={index}>
+                                    <Presentation index={index} presentation={presentation}/>
+                                </div>
+                            )
+                        }
+                    )}
+                </div>
+            </div>
+        </section>
+
+        <section className={'schedule-section pb-5'} id={'schedule-research'}>
+            <div className={'container'}>
+                <div className={'row justify-content-between align-items-center'}>
+                    <div className={'col-auto'}>
+                        <h2 className={'with-decor'}>Research track schedule</h2>
+                    </div>
+
+                      <div className={'col-12 col-sm-auto pt-4 pt-sm-0'}>
+                        No Livestream
                       </div>
 
 
