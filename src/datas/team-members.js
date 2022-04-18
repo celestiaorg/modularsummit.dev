@@ -167,7 +167,7 @@ export const teamMembers = [
     },{
         name : 'LZRS',
         org: 'Celestia Scan',
-        title: '',
+        title: 'Community member',
         image: 'members/LZRS.png'
     },{
         name : 'Joachim Neu',
