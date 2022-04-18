@@ -5,7 +5,8 @@ import TeamMember from "../modules/teamMember";
 import {teamMembers} from "../datas/team-members";
 import {projects} from "../datas/projects";
 import {sponsors} from "../datas/sponsors";
-import {presentations} from "../datas/schedule-main";
+import {presentations1} from "../datas/schedule-main";
+import {presentations2} from "../datas/schedule-research";
 import ProjectLogo from "../components/project-logo";
 import Presentation from "../modules/presentation";
 import Footer from "../components/footer";
@@ -157,7 +158,7 @@ const IndexPage = () => {
                 </div>
 
                 <div className={'row mt-5'}>
-                    {presentations.map((presentation,index) => {
+                    {presentations1.map((presentation,index) => {
                             return (
                                 <div className={'col-12'} key={index}>
                                     <Presentation index={index} presentation={presentation}/>
@@ -184,7 +185,7 @@ const IndexPage = () => {
                 </div>
 
                 <div className={'row mt-5'}>
-                    {presentations.map((presentation,index) => {
+                    {presentations2.map((presentation,index) => {
                             return (
                                 <div className={'col-12'} key={index}>
                                     <Presentation index={index} presentation={presentation}/>
