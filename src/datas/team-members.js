@@ -76,8 +76,8 @@ export const teamMembers = [
         image: 'members/MattGarnett.png'
     },{
         name: 'Joe Coll', 
-        org: 'Framework', 
-        title: 'Partner', 
+        org: 'Framework Ventures', 
+        title: 'Investor', 
         image: 'members/JoeColl.png'
     },{
         name : 'Ismail Khoffi',
