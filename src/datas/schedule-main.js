@@ -1,4 +1,4 @@
-export const presentations = [
+export const presentations1 = [
     {
         title: 'Intro to Modular Summit',
         time: '9:30 AM - 9:40 PM',

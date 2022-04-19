@@ -1,4 +1,4 @@
-export const presentations = [
+export const presentations2 = [
     {
         title: 'Decentralization and Modularity',
         time: '2:30pm – 3:00pm',
