@@ -75,6 +75,11 @@ export const teamMembers = [
         title: 'Researcher',
         image: 'members/MattGarnett.png'
     },{
+        name: 'Joe Coll', 
+        org: 'Framework', 
+        title: 'Partner', 
+        image: 'members/JoeColl.png'
+    },{
         name : 'Ismail Khoffi',
         org: 'Celestia Labs',
         title: 'Co-founder, CTO',
