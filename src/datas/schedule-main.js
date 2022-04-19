@@ -47,7 +47,7 @@ export const presentations1 = [
     },{
         title: 'Investing in the Modular Stack',
         time: '3:55 PM - 4:25 PM',
-        speakers: 'Morgan Beller (moderator), Aleks Larsen, Will Nuelle, Eli Krenzke, Mathijs van Esch',
+        speakers: 'Joe Coll (moderator), Aleks Larsen, Will Nuelle, Eli Krenzke, Mathijs van Esch',
     },{
         title: 'The Data Availability Landscape',
         time: '4:25 PM - 4:55 PM',
