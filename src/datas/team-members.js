@@ -45,10 +45,10 @@ export const teamMembers = [
         title: 'Founder, CTO',
         image: 'members/JamesPrestwich.png'
     },{
-        name : 'Morgan Beller',
-        org: 'NfX',
-        title: 'General Partner, Event Emcee',
-        image: 'members/MorganBeller.png'
+        name : 'Nick White',
+        org: 'Celestia Labs',
+        title: 'COO, Event Emcee',
+        image: 'members/NickWhite.png'
     },{
         name : 'Alex Evans',
         org: 'Bain Capital Crypto',
