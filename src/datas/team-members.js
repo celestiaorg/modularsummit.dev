@@ -125,6 +125,11 @@ export const teamMembers = [
         title: 'Blogger', 
         image: 'members/EricWall.png'
     },{
+        name: 'John Adler', 
+        org: 'Celestia Labs/Fuel', 
+        title: 'Chief Research Officer, Co-Founder', 
+        image: 'members/JohnAdler.png'
+    },{
         name : 'Louis Guthman',
         org: 'StarkWare',
         title: 'Ecosystem Lead',
