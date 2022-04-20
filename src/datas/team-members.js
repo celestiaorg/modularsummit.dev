@@ -102,7 +102,7 @@ export const teamMembers = [
     },{
         name : 'Josh Bowen',
         org: 'Celestia Labs',
-        title: 'Cevmos Lead',
+        title: 'Cevmos',
         image: 'members/Josh Bowen.png'
     },{
         name : 'Can Gurel',
