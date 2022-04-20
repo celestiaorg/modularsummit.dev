@@ -102,7 +102,7 @@ export const teamMembers = [
     },{
         name : 'Josh Bowen',
         org: 'Celestia Labs',
-        title: 'Astria Lead',
+        title: 'Cevmos Lead',
         image: 'members/Josh Bowen.png'
     },{
         name : 'Can Gurel',
@@ -121,8 +121,8 @@ export const teamMembers = [
         image: 'members/EricWall.png'
     },{
         name: 'John Adler', 
-        org: 'Celestia Labs/Fuel', 
-        title: 'Chief Research Officer, Co-Founder', 
+        org: 'Celestia Labs', 
+        title: 'Chief Research Officer, 
         image: 'members/JohnAdler.png'
     },{
         name : 'Louis Guthman',
