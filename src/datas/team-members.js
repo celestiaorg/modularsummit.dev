@@ -65,6 +65,11 @@ export const teamMembers = [
         title: 'Partner, CIO',
         image: 'members/BalderBomans.png'
     },{
+        name : 'John Adler',
+        org: 'Celestia Labs',
+        title: 'Co-founder, CRO',
+        image: 'members/JohnAdler.png'
+    },{
         name : 'Sreeram Kannan',
         org: 'University of Washington',
         title: 'Associate Professor',
@@ -102,7 +107,7 @@ export const teamMembers = [
     },{
         name : 'Josh Bowen',
         org: 'Celestia Labs',
-        title: 'Astria Lead',
+        title: 'Software Engineer',
         image: 'members/Josh Bowen.png'
     },{
         name : 'Can Gurel',
