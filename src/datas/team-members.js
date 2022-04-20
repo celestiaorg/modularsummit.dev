@@ -122,7 +122,7 @@ export const teamMembers = [
     },{
         name: 'John Adler', 
         org: 'Celestia Labs', 
-        title: 'Chief Research Officer, 
+        title: 'Chief Research Officer', 
         image: 'members/JohnAdler.png'
     },{
         name : 'Louis Guthman',
