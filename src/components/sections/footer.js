@@ -1,0 +1,50 @@
+import * as React from "react";
+import { footerData } from "../../data/footer/footer-data";
+import { Button } from "../elements/button";
+import { Twitter } from "../elements/icons.js";
+
+export default function Footer() {
+	return (
+		<section className='footer py-[50px]'>
+			<div className='container'>
+				<div className={"flex flex-wrap sm:flex-nowrap items-center max-md:space-y-10 justify-center md:justify-between"}>
+					<div className='basis-auto max-md:mb-4 max-md:w-full'>
+						<Button
+							class={footerData.button.class}
+							type={footerData.button.type}
+							text={footerData.button.text}
+							url={footerData.button.url}
+						/>
+					</div>
+					<div className='basis-full md:basis-auto'>
+						<div className='flex flex-wrap items-center justify-center max-md:space-y-10 md:space-x-10'>
+							<div className='text-center max-md:w-full text'>Hosted by Celestia Labs and Maven 11</div>
+						</div>
+					</div>
+					{/* <div className='flex flex-1 justify-center sm:justify-end space-x-[24px] basis-auto sm:basis-full'> */}
+					{/* <div className='basis-auto'>
+							<a className='icon' href={footerData.social.discord} target='_blank' rel='noreferrer noopener'>
+								<Discord />
+							</a>
+						</div>
+						<div className='basis-auto'>
+							<a className='icon' href={footerData.social.github} target='_blank' rel='noreferrer noopener'>
+								<Github />
+							</a>
+						</div>
+						<div className='basis-auto'>
+							<a className='icon' href={footerData.social.github} target='_blank' rel='noreferrer noopener'>
+								<Telegram />
+							</a>
+						</div> */}
+					<div className='basis-auto'>
+						<a className='icon' href={footerData.social.twitter} target='_blank' rel='noreferrer noopener'>
+							<Twitter />
+						</a>
+					</div>
+					{/* </div> */}
+				</div>
+			</div>
+		</section>
+	);
+}

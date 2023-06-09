@@ -1,54 +1,29 @@
-import * as React from "react"
-import { Link } from "gatsby"
+import * as React from "react";
 
-// styles
-const pageStyles = {
-  color: "#232129",
-  padding: "96px",
-  fontFamily: "-apple-system, Roboto, sans-serif, serif",
-}
-const headingStyles = {
-  marginTop: 0,
-  marginBottom: 64,
-  maxWidth: 320,
-}
+import Layout from "../components/layout";
+import { Link } from "gatsby";
 
-const paragraphStyles = {
-  marginBottom: 48,
+export default function NotFoundPage() {
+	return (
+		<Layout>
+			<section className='not-found'>
+				<div className='container'>
+					<div className='content-wrapper'>
+						<div className='flex flex-wrap'>
+							<div className='basis-full'>
+								<h1 className='mb-8 heading-lg'>404 - Page not found </h1>
+								<p className='max-w-2xl mb-10 text-lg'>
+									We apologize, but the page you're looking for cannot be found. Please visit our homepage for more information.
+									Thank you for your understanding.
+								</p>
+								<Link to='/'>
+									<button className='primary'>Go to homepage</button>
+								</Link>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</Layout>
+	);
 }
-const codeStyles = {
-  color: "#8A6534",
-  padding: 4,
-  backgroundColor: "#FFF4DB",
-  fontSize: "1.25rem",
-  borderRadius: 4,
-}
-
-// markup
-const NotFoundPage = () => {
-  return (
-    <main style={pageStyles}>
-      <title>Not found</title>
-      <h1 style={headingStyles}>Page not found</h1>
-      <p style={paragraphStyles}>
-        Sorry{" "}
-        <span role="img" aria-label="Pensive emoji">
-          😔
-        </span>{" "}
-        we couldn’t find what you were looking for.
-        <br />
-        {process.env.NODE_ENV === "development" ? (
-          <>
-            <br />
-            Try creating a page in <code style={codeStyles}>src/pages/</code>.
-            <br />
-          </>
-        ) : null}
-        <br />
-        <Link to="/">Go home</Link>.
-      </p>
-    </main>
-  )
-}
-
-export default NotFoundPage

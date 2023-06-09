@@ -1,0 +1,58 @@
+.heading-xxl {
+	font-size: 110px;
+	font-weight: 900;
+	letter-spacing: 0;
+	line-height: 116px;
+}
+.heading-xl {
+	font-size: 70px;
+	font-weight: bold;
+	letter-spacing: 0.2px;
+	@media (max-width: $md) {
+		font-size: 50px;
+	}
+}
+.heading-lg {
+	font-size: 36px;
+	font-weight: bold;
+	letter-spacing: 0;
+	@media (max-width: $md) {
+		font-size: 26px;
+	}
+}
+
+.text-xl {
+	font-weight: 600;
+	font-size: 26px;
+	letter-spacing: 0;
+	line-height: 45px;
+	@media (max-width: $md) {
+		font-size: 18px;
+	}
+}
+
+a {
+	// display: inline-block;
+	font-family: $satoshi;
+	font-style: normal;
+	line-height: 24px;
+	letter-spacing: 0;
+	color: #000000;
+	text-decoration: underline;
+	position: relative;
+	cursor: pogeneral;
+
+	/* These are technically the same, but use both */
+	overflow-wrap: break-word;
+	word-wrap: break-word;
+
+	-ms-word-break: break-all;
+	/* Instead use this non-standard one: */
+	word-break: break-word;
+
+	/* Adds a hyphen where the word breaks, if supported (No Blink) */
+	-ms-hyphens: auto;
+	-moz-hyphens: auto;
+	-webkit-hyphens: auto;
+	hyphens: auto;
+}

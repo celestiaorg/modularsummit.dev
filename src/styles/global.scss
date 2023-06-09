@@ -1,0 +1,77 @@
+* {
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+html {
+	scroll-behavior: smooth;
+	background: $light-gray;
+	
+	// prevent layout jumps on mobile menu open & close
+	width: 100vw;
+	overflow-x: hidden;
+
+	body {
+		font-family: $satoshi;
+		font-weight: normal;
+		font-size: 16px;
+		color: #000000;
+		background-color: $light-gray;
+		-webkit-overflow-scrolling: touch;
+		main {
+			overflow: hidden;
+		}
+	}
+}
+
+section {
+	overflow: visible;
+	position: relative;
+}
+
+.container {
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 25px;
+	padding-right: 25px;
+	max-width: 1277px;
+	@media (min-width: $md) {
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+	
+	@media (min-width: $lg) {
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+}
+
+::selection {
+	color: white;
+	background: #FF3300;
+}
+
+html {
+	--scrollbarBG: transparent;
+	--thumbBG: #FF3300;
+}
+
+body,
+div,
+section {
+	scrollbar-width: thin;
+	scrollbar-color: var(--thumbBG) var(--scrollbarBG);
+}
+::-webkit-scrollbar {
+	height: 2px; /* height of horizontal scrollbar ← You're missing this */
+	width: 5px;
+	background: --scrollbarBG;
+}
+::-webkit-scrollbar-track {
+	background: var(--scrollbarBG);
+}
+::-webkit-scrollbar-thumb {
+	background-color: var(--thumbBG);
+	border-radius: 6px;
+	border: 3px solid var(--scrollbarBG);
+}

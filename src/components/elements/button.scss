@@ -1,0 +1,136 @@
+.button {
+	display: inline-flex;
+	align-items: center;
+	text-decoration: none;
+	background-color: transparent;
+	border-radius: 7px;
+	padding: 18px 40px;
+	height: fit-content;
+	position: relative;
+	overflow: hidden;
+	transition: 600ms all $easing;
+	@media (max-width: $sm) {
+		padding: 14px 32px;
+		width: 100%;
+	}
+	&:hover {
+		.filter {
+			transform: translateX(-100%);
+			&.animate {
+				animation: hover-animation 300ms; /* apply animation on hover */
+			}
+		}
+	}
+	.filter {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		opacity: 1;
+		z-index: 1;
+		transform: translateX(100%);
+		transition: none;
+		&.animate {
+			animation: none; /* remove animation on hover out */
+		}
+		@keyframes hover-animation {
+			0% {
+				/* initial state styles when not hovered */
+				transform: translateX(100%);
+			}
+			100% {
+				/* final state styles when hovered */
+				transform: translateX(-100%);
+			}
+		}
+	}
+	.label {
+		font-family: $satoshi;
+		font-weight: bold;
+		font-size: 20px;
+		color: #000000;
+		letter-spacing: 0.24px;
+		text-align: center;
+		z-index: 2;
+
+		@media (max-width: $sm) {
+			width: 100%;
+			font-size: 18px;
+			letter-spacing: -0.04em;
+			width: 100%;
+		}
+	}
+
+	&.primary {
+		background-color: $red;
+		.filter {
+			background: linear-gradient(90deg, #ffffff00, #fc704d, #ffffff00);
+		}
+		.label {
+			color: #ffffff;
+		}
+	}
+
+	&.secondary {
+		background-color: white;
+		.filter {
+			background: linear-gradient(90deg, #ffffff00, #f2f2f2, #ffffff00);
+		}
+		.label {
+			color: #000000;
+		}
+	}
+
+	&.small {
+		padding: 13px 32px;
+		width: max-content;
+		@media (max-width: $sm) {
+			padding: 10px 25px;
+			width: 100%;
+		}
+		.label {
+			font-family: $satoshi;
+			font-weight: bold;
+			font-size: 18px;
+			letter-spacing: 0.24px;
+			text-align: center;
+			z-index: 2;
+
+			@media (max-width: $sm) {
+				width: 100%;
+				font-size: 15px;
+				letter-spacing: -0.04em;
+				width: 100%;
+			}
+		}
+	}
+
+	&.withIcon {
+		background-color: transparent;
+		cursor: pointer;
+		@media (max-width: $sm) {
+			padding: 0;
+		}
+
+		.label {
+			text-transform: uppercase;
+			font-size: 13px;
+			font-weight: 900;
+			color: #000000;
+			letter-spacing: 0;
+			line-height: 40px;
+			width: fit-content;
+		}
+		.icon {
+			margin-left: 20px;
+			transform: translateX(0);
+			transition: 600ms all $easing;
+		}
+		&:hover {
+			.icon {
+				transform: translateX(8px);
+			}
+		}
+	}
+}

@@ -1,0 +1,8 @@
+.not-found {
+	padding-top: 142px;
+	padding-bottom: 70px;
+	@media (min-width: $md) {
+		padding-top: 210px;
+		padding-bottom: 164px;
+	}
+}
