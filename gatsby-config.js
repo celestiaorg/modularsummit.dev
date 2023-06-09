@@ -7,7 +7,7 @@
 module.exports = {
 	siteMetadata: {
 		title: `Modular Summit`,
-		description: `Celestia and Maven 11 will host the visionary builders at the forefront of the growing modular ecosystem. Join us for a two-day event to learn about the latest modular technologies shaping the future.`,
+		description: `Join us for a two-day event to learn from the visionary builders at the forefront of the modular blockchain revolution.`,
 		siteUrl: `https://modularsummit.dev`,
 		image: `/modular-summit-og-image.jpg`,
 	},
