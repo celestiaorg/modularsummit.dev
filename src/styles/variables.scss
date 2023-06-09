@@ -1,0 +1,19 @@
+$satoshi: "satoshi";
+
+$red: #FF3300;
+$light-gray: #F2F2F2;
+
+$chinese-black: #051A21;
+$columbia-blue: #CEDCE1;
+$sky-blue: #44EAE5;
+$slate-gray: #73878E;
+
+// breakpoints mapped from tailwind.config.js for 1:1 match
+$xs: theme('screens.xs');
+$sm: theme('screens.sm');
+$md: theme('screens.md');
+$lg: theme('screens.lg');
+$xl: theme('screens.xl');
+$xxl: theme('screens.xxl');
+
+$easing: cubic-bezier(0.34, 1.56, 0.64, 1);

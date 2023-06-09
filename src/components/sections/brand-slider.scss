@@ -1,0 +1,16 @@
+.brand-slider {
+    .gatsby-image-wrapper.gatsby-image-wrapper-constrained {
+        @media (max-width: $md) {
+			width: 70%;
+		}
+    }
+    .container {
+        max-width: 2500px;
+        padding-left: 0;
+        padding-right: 0;
+
+        @media (min-width: 2500px) {
+            max-width: 1277px;
+        }
+    }
+}
