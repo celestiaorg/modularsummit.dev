@@ -1,4 +1,4 @@
-import * as React from "react";
+import React, { useState } from "react";
 import { speakersData } from "../../data/speakers/speakers-data";
 import { Button } from "../elements/button";
 
@@ -6,6 +6,12 @@ import { graphql, useStaticQuery } from "gatsby";
 import { GatsbyImage } from "gatsby-plugin-image";
 
 export default function Speakers() {
+	const [open, setOpen] = useState(false);
+
+	const handleClick = () => {
+		setOpen(!open);
+	};
+
 	const data = useStaticQuery(graphql`
 		query {
 			allFile(filter: { sourceInstanceName: { eq: "speakers" } }) {
@@ -34,7 +40,7 @@ export default function Speakers() {
 						<h2 className='heading-lg'>Coming soon</h2>
 					</div>
 				</div> */}
-				<div className='three-col-grid'>
+				<div className={`three-col-grid speakers-collapsed ${open && 'speakers-open'}`}>
 					{speakersData.speakers.map((item, index) => {
 						const speakersImage = data.allFile.nodes.find((element) => element.childImageSharp.fluid.originalName === item.image);
 						return (
@@ -47,12 +53,12 @@ export default function Speakers() {
 						);
 					})}
 				</div>
-				<div className='flex justify-center mt-20'>
+				<div className='flex justify-center mt-10'>
 					<Button
 						class={speakersData.buttons.class}
 						type={speakersData.buttons.type}
-						text={speakersData.buttons.text}
-						url={speakersData.buttons.url}
+						text={open ? speakersData.buttons.text.close : speakersData.buttons.text.open}
+						onClick={handleClick}
 					/>
 				</div>
 			</div>

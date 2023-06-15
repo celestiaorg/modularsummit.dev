@@ -5,7 +5,7 @@ export const heroData = {
     date: 'Paris | July 21-22 2023',
     buttons:[
             {
-                text: 'Get your tickets',
+                text: 'Apply for tickets',
                 class: 'primary',
                 type: 'external',
                 url: 'https://lu.ma/79ay90fe'

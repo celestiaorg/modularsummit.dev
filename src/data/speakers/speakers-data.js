@@ -1,9 +1,12 @@
 export const speakersData = {
 	title: "Speakers",
 	buttons: {
-		text: "View all",
+		text: {
+			open: "View all",
+			close: "View less",
+		},
 		class: "primary small",
-		type: "external",
+		type: "trigger",
 		url: "/",
 	},
 	speakers: [
