@@ -4,7 +4,7 @@
 	// height: 1140px; // original height
 	height: 1050px;
 	overflow: hidden;
-	z-index: 0;
+	z-index: 1;
 	@media (min-width: $sm) {
 		height: 1295px;
 	}
@@ -18,7 +18,7 @@
 
 	.hero-section-bg {
 		position: absolute;
-		z-index: 1;
+		z-index: 2;
 		top: unset;
 		bottom: -324px;
 		left: 50%;
@@ -62,7 +62,7 @@
 	}
 
 	.container {
-		z-index: 2;
+		z-index: 3;
 	}
 
 	.heading-xxl {

@@ -1,4 +1,40 @@
 .sponsors {
+	overflow: visible;
+	position: relative;
 	padding-top: 100px;
 	padding-bottom: 40px;
+	.gradient-1 {
+		width: 100%;
+		&::before {
+			content: "";
+			position: absolute;
+			top: -500px;
+			right: 0;
+			width: 1700px;
+			height: 1700px;
+			background-image: url(../images/sections/gradient-1.png);
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: cover;
+			transform: translateX(40%);
+			z-index: 0;
+		}
+	}
+	.gradient-2 {
+		width: 100%;
+		&::before {
+			content: "";
+			position: absolute;
+			top: 200px;
+			left: 0;
+			width: 1100px;
+			height: 1700px;
+			background-image: url(../images/sections/gradient-2.png);
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: cover;
+			transform: translateX(-55%);
+			z-index: 0;
+		}
+	}
 }
