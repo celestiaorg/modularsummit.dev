@@ -25,6 +25,7 @@
 		}
 	}
 	.speaker-image {
+		border-radius: 9999px;
 		max-width: 150px;
 		@media (min-width: $md) {
 			max-width: 220px;
