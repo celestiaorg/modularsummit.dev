@@ -23,31 +23,18 @@
 		@media (min-width: $xl) {
 			grid-template-columns: repeat(4, 1fr);
 		}
-	}
 
-	.speakers-collapsed {
-		overflow: hidden;
-		height:auto;
-		max-height: 1650px;
-		@media (min-width: 400px) {
-			max-height: 1620px;
+		&.show-rest {
+			display: grid;
 		}
-		@media (min-width: $sm) {
-			max-height: 1230px;
-		}
-		@media (min-width: $sm) {
-			max-height: 1640px;
-		}
-		@media (min-width: $lg) {
-			max-height: 1280px;
-		}
-		&.speakers-open {
-			max-height: 100%;
+
+		&.hide-rest {
+			display: none;
 		}
 	}
 
 	.speaker-image {
-		border-radius: 9999px;
+		border-radius: 100%;
 		max-width: 150px;
 		@media (min-width: $md) {
 			max-width: 220px;

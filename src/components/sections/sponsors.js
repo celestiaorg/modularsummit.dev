@@ -5,58 +5,29 @@ export default function Sponsors() {
 	return (
 		<section className='sponsors'>
 			<div className='container'>
-				<div className='flex flex-wrap justify-start lg:flex-nowrap'>
-					<div className='basis-full lg:basis-1/4'>
-						<h2 className='heading-xl'>Sponsors</h2>
+				<div className='flex flex-col items-center'>
+					<h2 className='mb-[60px] heading-xl'>Sponsors</h2>
+					<StaticImage className='w-[260px] mb-[70px]' src='../../images/sections/sponsors/anoma.png' placeholder='none' quality={100} />
+					<div className="flex items-center lg:space-x-[74px] mb-[28px]">
+						<div className='item'>
+							<StaticImage className='w-[224px]' src='../../images/sections/sponsors/hyperlane.png' placeholder='none' quality={100} />
+						</div>
+						<div className='item'>
+							<StaticImage className='w-[75px]' src='../../images/sections/sponsors/risczero.png' placeholder='none' quality={100} />
+						</div>
+						<div className='item'>
+							<StaticImage className='w-[234px]' src='../../images/sections/sponsors/espresso.png' placeholder='none' quality={100} />
+						</div>
 					</div>
-					<div className='wrapper basis-full lg:basis-3/4'>
-						<div className='category'>
-							<h3 className='title'>Platinum</h3>
-							<StaticImage className='w-[260px]' src='../../images/sections/sponsors/anoma.png' placeholder='none' quality={100} />
+					<div className="flex items-center lg:space-x-[74px]">
+						<div className='item'>
+							<StaticImage className='w-[216px]' src='../../images/sections/sponsors/spartan.png' placeholder='none' quality={100} />
 						</div>
-						<div className='category'>
-							<h3 className='title'>Gold</h3>
-							{/* <StaticImage className='w-[240px]' src='../../images/sections/sponsors/anoma.png' placeholder='none' quality={100} /> */}
+						<div className='item'>
+							<StaticImage className='w-[226px]' src='../../images/sections/sponsors/signature.png' placeholder='none' quality={100} />
 						</div>
-						<div className='category'>
-							<h3 className='title'>Silver</h3>
-							<div className='flex flex-wrap items-center lg:flex-nowrap max-lg:space-y-5 lg:space-x-14'>
-								<div className='no-logo basis-full lg:basis-auto'>RiseO</div>
-								<div className='basis-full lg:basis-auto'>
-									<StaticImage
-										className='w-[200px]'
-										src='../../images/sections/sponsors/hyperlane.png'
-										placeholder='none'
-										quality={100}
-									/>
-								</div>
-								<div className='no-logo basis-full lg:basis-auto'>Espresso</div>
-							</div>
-						</div>
-						<div className='category'>
-							<h3 className='title'>Bronze</h3>
-							{/* <StaticImage className='w-[170px]' src='../../images/sections/sponsors/ankr.png' placeholder='none' quality={100} /> */}
-						</div>
-						<div className='category'>
-							<h3 className='title'>Other Packages</h3>
-							<div className='flex flex-wrap items-center lg:flex-nowrap max-lg:space-y-5 lg:space-x-14'>
-								<div className='basis-full lg:basis-auto'>
-									<StaticImage
-										className='w-[160px]'
-										src='../../images/sections/sponsors/spartan.png'
-										placeholder='none'
-										quality={100}
-									/>
-								</div>
-								<div className='basis-full lg:basis-auto'>
-									<StaticImage
-										className='w-[160px]'
-										src='../../images/sections/sponsors/signature.png'
-										placeholder='none'
-										quality={100}
-									/>
-								</div>
-							</div>
+						<div className='item'>
+							<StaticImage className='w-[85px]' src='../../images/sections/sponsors/avail.png' placeholder='none' quality={100} />
 						</div>
 					</div>
 				</div>
