@@ -12,7 +12,7 @@ export default function Sponsors() {
 					<div className='wrapper basis-full lg:basis-3/4'>
 						<div className='category'>
 							<h3 className='title'>Platinum</h3>
-							<StaticImage className='w-[240px]' src='../../images/sections/sponsors/anoma.png' placeholder='none' quality={100} />
+							<StaticImage className='w-[260px]' src='../../images/sections/sponsors/anoma.png' placeholder='none' quality={100} />
 						</div>
 						<div className='category'>
 							<h3 className='title'>Gold</h3>
@@ -20,16 +20,27 @@ export default function Sponsors() {
 						</div>
 						<div className='category'>
 							<h3 className='title'>Silver</h3>
-							<StaticImage className='w-[200px]' src='../../images/sections/sponsors/hyperlane.png' placeholder='none' quality={100} />
+							<div className='flex flex-wrap items-center lg:flex-nowrap max-lg:space-y-5 lg:space-x-14'>
+								<div className='no-logo basis-full lg:basis-auto'>RiseO</div>
+								<div className='basis-full lg:basis-auto'>
+									<StaticImage
+										className='w-[200px]'
+										src='../../images/sections/sponsors/hyperlane.png'
+										placeholder='none'
+										quality={100}
+									/>
+								</div>
+								<div className='no-logo basis-full lg:basis-auto'>Espresso</div>
+							</div>
 						</div>
 						<div className='category'>
 							<h3 className='title'>Bronze</h3>
-							<StaticImage className='w-[170px]' src='../../images/sections/sponsors/ankr.png' placeholder='none' quality={100} />
+							{/* <StaticImage className='w-[170px]' src='../../images/sections/sponsors/ankr.png' placeholder='none' quality={100} /> */}
 						</div>
 						<div className='category'>
 							<h3 className='title'>Other Packages</h3>
-							<div className='flex flex-wrap items-center lg:flex-nowrap max-lg:space-y-4 lg:space-x-14'>
-								<div className='basis-auto'>
+							<div className='flex flex-wrap items-center lg:flex-nowrap max-lg:space-y-5 lg:space-x-14'>
+								<div className='basis-full lg:basis-auto'>
 									<StaticImage
 										className='w-[160px]'
 										src='../../images/sections/sponsors/spartan.png'
@@ -37,7 +48,7 @@ export default function Sponsors() {
 										quality={100}
 									/>
 								</div>
-								<div className='basis-auto'>
+								<div className='basis-full lg:basis-auto'>
 									<StaticImage
 										className='w-[160px]'
 										src='../../images/sections/sponsors/signature.png'

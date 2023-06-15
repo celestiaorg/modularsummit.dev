@@ -1,38 +1,38 @@
 .sponsors {
-    padding-top: 50px;
-    padding-bottom: 20px;
-    @media (min-width: $sm) {
+	padding-top: 50px;
+	padding-bottom: 20px;
+	@media (min-width: $sm) {
 		padding-top: 0px;
-        padding-bottom: 60px;
+		padding-bottom: 60px;
 	}
-    @media (min-width: $md) {
+	@media (min-width: $md) {
 		padding-top: 20px;
-        padding-bottom: 60px;
+		padding-bottom: 60px;
 	}
-    @media (min-width: $lg) {
-        padding-top: 100px;
+	@media (min-width: $lg) {
+		padding-top: 100px;
 	}
-    
-    .heading-xl {
-        text-align: left;
-    }
+
+	.heading-xl {
+		text-align: left;
+	}
 
 	.wrapper {
-        padding-left: 0px;
+		padding-left: 0px;
 		padding-top: 80px;
-        @media (min-width: $md) {
-            padding-top: 100px;
-        }
-        @media (min-width: $lg) {
-            padding-top: 50px;
-            padding-left: 150px;
-        }
+		@media (min-width: $md) {
+			padding-top: 100px;
+		}
+		@media (min-width: $lg) {
+			padding-top: 50px;
+			padding-left: 150px;
+		}
 
 		.category {
 			padding-bottom: 48px;
 			&:not(:last-child) {
 				margin-bottom: 48px;
-                border-bottom: 1px solid #dfdfdf;
+				border-bottom: 1px solid #dfdfdf;
 			}
 
 			.title {
@@ -44,6 +44,14 @@
 				letter-spacing: 0.2px;
 				text-transform: uppercase;
 				margin-bottom: 25px;
+			}
+
+			.no-logo {
+				font-family: $satoshi;
+				font-style: normal;
+				font-weight: 900;
+				font-size: 35px;
+				line-height: 40px;
 			}
 		}
 	}
