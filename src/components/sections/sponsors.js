@@ -13,6 +13,7 @@ export default function Sponsors() {
 						className='w-[200px] md:w-[260px] mb-16 md:mb-[70px]'
 						src='../../images/sections/sponsors/anoma.png'
 						placeholder='none'
+						alt='Anoma'
 						quality={100}
 					/>
 					<div className='flex flex-wrap max-w-[150px] sm:max-w-[450px] md:max-w-[674px] justify-center sm:justify-between space-y-6'>
@@ -22,6 +23,7 @@ export default function Sponsors() {
 								src='../../images/sections/sponsors/hyperlane.png'
 								placeholder='none'
 								quality={100}
+								alt='Hyperlane'
 							/>
 						</div>
 						<div className='flex items-center basis-auto'>
@@ -30,6 +32,7 @@ export default function Sponsors() {
 								src='../../images/sections/sponsors/risczero.png'
 								placeholder='none'
 								quality={100}
+								alt='Risc Zero'
 							/>
 						</div>
 						<div className='flex items-center basis-auto'>
@@ -38,6 +41,7 @@ export default function Sponsors() {
 								src='../../images/sections/sponsors/espresso.png'
 								placeholder='none'
 								quality={100}
+								alt='Espresso'
 							/>
 						</div>
 						<div className='flex items-center basis-auto'>
@@ -46,6 +50,7 @@ export default function Sponsors() {
 								src='../../images/sections/sponsors/spartan.png'
 								placeholder='none'
 								quality={100}
+								alt='Spartan'
 							/>
 						</div>
 						<div className='flex items-center basis-auto'>
@@ -54,6 +59,7 @@ export default function Sponsors() {
 								src='../../images/sections/sponsors/signature.png'
 								placeholder='none'
 								quality={100}
+								alt='Signature'
 							/>
 						</div>
 						<div className='flex items-center basis-auto'>
@@ -62,6 +68,7 @@ export default function Sponsors() {
 								src='../../images/sections/sponsors/avail.png'
 								placeholder='none'
 								quality={100}
+								alt='Avail'
 							/>
 						</div>
 					</div>

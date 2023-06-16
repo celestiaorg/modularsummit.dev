@@ -9,14 +9,19 @@ export default function Speakers() {
 	const [show, setShow] = useState(false);
 
 	const handleClick = () => {
-		setShow(!show);
-		// check if client ot server side rendering
-		if (typeof window !== "undefined") {
-			if (show) {
-				const targetSection = document.getElementById("speakers");
-				targetSection.scrollIntoView({ behavior: "smooth" });
-			}
-		}
+		setShow((show) => {
+			setTimeout(() => {
+				if (show === true) {
+					const targetSection = document.getElementById("speakers");
+					const offsetY = 0; // Adjust this value based on the height of your header or navigation bar.
+					const elementPosition = targetSection.getBoundingClientRect().top;
+					const offsetPosition = elementPosition + window.pageYOffset + offsetY;
+
+					window.scrollTo({ top: offsetPosition, behavior: "smooth" });
+				}
+			}, 600);
+			return !show;
+		});
 	};
 
 	const data = useStaticQuery(graphql`
@@ -34,7 +39,7 @@ export default function Speakers() {
 		}
 	`);
 
-	console.log(speakersData.speakers.featured);
+	// console.log(speakersData.speakers.featured);
 	return (
 		<section id='speakers' className='speakers'>
 			<div className='container'>
