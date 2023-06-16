@@ -12,7 +12,7 @@ export default function Speakers() {
 		setShow(!show);
 		// check if client ot server side rendering
 		if (typeof window !== "undefined") {
-			if ( show ) {
+			if (show) {
 				const targetSection = document.getElementById("speakers");
 				targetSection.scrollIntoView({ behavior: "smooth" });
 			}
@@ -38,6 +38,8 @@ export default function Speakers() {
 	return (
 		<section id='speakers' className='speakers'>
 			<div className='container'>
+				<div className='gradient-3' />
+				<div className='gradient-4' />
 				<div className='flex justify-center mb-[32px] md:mb-[70px]'>
 					<h2 className='heading-xl'>{speakersData.title}</h2>
 				</div>

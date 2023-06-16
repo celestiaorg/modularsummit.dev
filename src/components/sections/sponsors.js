@@ -4,10 +4,10 @@ import { StaticImage } from "gatsby-plugin-image";
 export default function Sponsors() {
 	return (
 		<section className='sponsors'>
-			<div className="gradient-1"/>
-			<div className="gradient-2"/>
 			<div className='container'>
-				<div className='flex flex-col items-center'>
+				<div className='gradient-1' />
+				<div className='gradient-2' />
+				<div className='flex flex-col items-center sponsors-list'>
 					<h2 className='mb-[60px] heading-xl'>Sponsors</h2>
 					<StaticImage
 						className='w-[200px] md:w-[260px] mb-16 md:mb-[70px]'

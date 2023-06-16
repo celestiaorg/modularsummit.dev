@@ -25,6 +25,32 @@
 		}
 	}
 
+	.gradient-5 {
+		width: 100%;
+		&::before {
+			content: "";
+			position: absolute;
+			top: -600px;
+			right: 50%;
+			width: 3000px;
+			height: 1500px;
+			background-image: url(../images/sections/gradient-5.png);
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: cover;
+			transform: translateX(50%);
+			z-index: -1;
+			@media (max-width: $md) {
+				z-index: 0;
+			}
+		}
+	}
+
+	.content {
+		z-index: 1;
+		position: relative;
+	}
+	
 	.heading-xl {
 		font-weight: 900;
 		font-size: 60px;
