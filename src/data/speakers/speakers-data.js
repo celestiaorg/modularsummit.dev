@@ -126,6 +126,13 @@ export const speakersData = {
 				alt: "Toghrul Maharramov - Modular Summit 2023",
 			},
 			{
+				name: "Jesse Pollak",
+				title: "Head of Protocols and Creator",
+				company: "Base",
+				image: "jesse_polak.png",
+				alt: "Jesse Pollak - Modular Summit 2023",
+			},
+			{
 				name: "Scott Sunarto",
 				title: "Founder",
 				company: "Argus Labs",
@@ -138,6 +145,13 @@ export const speakersData = {
 				company: "0xFable",
 				image: "norswap.jpg",
 				alt: "Norswap - Modular Summit 2023",
+			},
+			{
+				name: "Josh Lee",
+				title: "Co-founder of Keplr & Osmosis",
+				company: "Chainapsis",
+				image: "josh_lee.png",
+				alt: "Josh Lee - Modular Summit 2023",
 			},
 			{
 				name: "Zac Williamson",
@@ -194,6 +208,13 @@ export const speakersData = {
 				company: "Eclipse",
 				image: "neel_somani.jpg",
 				alt: "Neel Somani - Modular Summit 2023",
+			},
+			{
+				name: "Kenny Li",
+				title: "co-founder",
+				company: "Manta",
+				image: "kenny_li.jpg",
+				alt: "Kenny Li - Modular Summit 2023",
 			},
 			{
 				name: "Cem Ozer",
@@ -376,6 +397,13 @@ export const speakersData = {
 				company: "Rollkit",
 				image: "gabriel_blaut.jpg",
 				alt: "Gabriel Blaut - Modular Summit 2023",
+			},
+			{
+				name: "Bikem Ozaydin",
+				title: "Software Engineer",
+				company: "Essential Contributions",
+				image: "bikem_ozaydin.jpg",
+				alt: "Bikem Ozaydin - Modular Summit 2023",
 			},
 		],
 	},
