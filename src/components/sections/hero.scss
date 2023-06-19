@@ -2,23 +2,27 @@
 	padding-top: 100px;
 	// padding-top: 153px; // original padding
 	// height: 1140px; // original height
-	height: 1050px;
+	height: 1060px;
 	overflow: hidden;
-	z-index: 0;
+	z-index: 1;
 	@media (min-width: $sm) {
-		height: 1295px;
+		height: 1185px;
 	}
 	@media (min-width: $md) {
-		height: 1350px;
+		height: 1260px;
 	}
 	@media (min-width: $lg) {
 		padding-top: 163px;
-		height: 1043px;
+		height: 1050px;
+	}
+	@media (min-width: $xxl) {
+		padding-top: 163px;
+		height: 1160px;
 	}
 
 	.hero-section-bg {
 		position: absolute;
-		z-index: 1;
+		z-index: 2;
 		top: unset;
 		bottom: -324px;
 		left: 50%;
@@ -47,10 +51,10 @@
 		}
 		@media (min-width: $xl) {
 			top: unset;
-			bottom: -560px;
+			bottom: -590px;
 			left: 50%;
 			transform: translateX(-50%);
-			width: 100%;
+			width: 120%;
 		}
 		@media (min-width: $xxl) {
 			top: unset;
@@ -62,7 +66,7 @@
 	}
 
 	.container {
-		z-index: 2;
+		z-index: 3;
 	}
 
 	.heading-xxl {

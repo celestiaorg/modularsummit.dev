@@ -7,6 +7,7 @@ export default function Hero() {
 	return (
 		<section className='details'>
 			<div className='container'>
+			<div className='gradient-5' />
 				<div className='details-section-bg'>
 					<StaticImage
 						className='w-full h-full'
@@ -16,7 +17,7 @@ export default function Hero() {
 						src={"../../images/sections/details/details-bg-image.png"}
 					/>
 				</div>
-				<div className='flex flex-wrap'>
+				<div className='flex flex-wrap content'>
 					<div className='basis-full lg:basis-9/12'>
 						<h2 className='mb-8 heading-xl'>{detailsData.title}</h2>
 						<p className='text-xl mb-[50px] sm:mb-[70px]'>{detailsData.subtitle}</p>
