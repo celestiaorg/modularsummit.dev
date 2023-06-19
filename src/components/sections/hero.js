@@ -3,8 +3,8 @@ import { Button } from "../../components/elements/button";
 import { StaticImage } from "gatsby-plugin-image";
 import { heroData } from "../../data/home/hero-data";
 
-import celestiaLabs from "../../images/celestia-labs.png";
-import mavenEleven from "../../images/maven11.png";
+import celestiaLabs from "../../images/celestia-lab.svg";
+import mavenEleven from "../../images/maven11.svg";
 
 export default function Hero() {
 	return (
