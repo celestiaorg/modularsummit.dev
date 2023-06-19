@@ -75,11 +75,11 @@ export const speakersData = {
 				alt: "Anna Rose - Modular Summit 2023",
 			},
 			{
-				name: "Zac Williamson",
+				name: "Anatoly Yakovenko",
 				title: "Co-Founder",
-				company: "Aztec",
-				image: "zac_williamson.jpg",
-				alt: "Zac Williamson - Modular Summit 2023",
+				company: "Solana",
+				image: "anatoly_yakovenko.jpg",
+				alt: "Anatoly Yakovenko - Modular Summit 2023",
 			},
 			{
 				name: "Jelena Djuric",
@@ -138,6 +138,13 @@ export const speakersData = {
 				company: "0xFable",
 				image: "norswap.jpg",
 				alt: "Norswap - Modular Summit 2023",
+			},
+			{
+				name: "Zac Williamson",
+				title: "Co-Founder",
+				company: "Aztec",
+				image: "zac_williamson.jpg",
+				alt: "Zac Williamson - Modular Summit 2023",
 			},
 			{
 				name: "Jack Zampolin",
@@ -222,6 +229,13 @@ export const speakersData = {
 				company: "Caldera",
 				image: "matt_katz.jpg",
 				alt: "Matt Katz - Modular Summit 2023",
+			},
+			{
+				name: "Jia Yaoqi",
+				title: "Founder and CEO",
+				company: "Altlayer",
+				image: "jia_yaoqi.jpg",
+				alt: "Jia Yaoqi - Modular Summit 2023",
 			},
 			{
 				name: "lzrs",

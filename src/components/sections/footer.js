@@ -5,7 +5,7 @@ import { Twitter } from "../elements/icons.js";
 
 export default function Footer() {
 	return (
-		<section className='footer py-[50px]'>
+		<section className='footer py-[30px]'>
 			<div className='container'>
 				<div className={"flex flex-wrap sm:flex-nowrap items-center max-md:space-y-10 justify-center md:justify-between"}>
 					<div className='basis-auto max-md:mb-4 max-md:w-full'>
@@ -17,9 +17,6 @@ export default function Footer() {
 						/>
 					</div>
 					<div className='basis-full md:basis-auto'>
-						<div className='flex flex-wrap items-center justify-center max-md:space-y-10 md:space-x-10'>
-							<div className='text-center max-md:w-full text'>Hosted by Celestia Labs and Maven 11</div>
-						</div>
 					</div>
 					{/* <div className='flex flex-1 justify-center sm:justify-end space-x-[24px] basis-auto sm:basis-full'> */}
 					{/* <div className='basis-auto'>
