@@ -72,6 +72,15 @@ export default function Sponsors() {
 							/>
 						</div>
 					</div>
+					<div className='flex items-center basis-full text-center mt-5 md:mt-[30px]'>
+						<StaticImage
+							className='w-[140px] md:w-[220px] mb-16 md:mb-[50px]'
+							src='../../images/sections/sponsors/altlayer.png'
+							placeholder='none'
+							quality={100}
+							alt='Altlayer'
+						/>
+					</div>
 				</div>
 			</div>
 		</section>
