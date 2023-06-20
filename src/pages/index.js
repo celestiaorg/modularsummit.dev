@@ -61,7 +61,7 @@ export function Head({ data }) {
 			<meta name='twitter:description' content={siteMeta.description} />
 			<meta name='twitter:image' content={siteMeta.image} />
 
-			<meta name="format-detection" content="telephone=no"></meta>
+			<meta name="format-detection" content="telephone=no"/>
 		</>
 	);
 }
