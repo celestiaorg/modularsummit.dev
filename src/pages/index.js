@@ -46,20 +46,20 @@ export function Head({ data }) {
 			{/* Google / Search Engine Tags */}
 			<meta itemProp='name' content={`${siteMeta.title} | ${pageMeta.title}`} />
 			<meta itemProp='description' content={siteMeta.description} />
-			<meta itemProp='image' content={siteMeta.image} />
+			<meta itemProp='image' content={siteMeta.siteUrl + siteMeta.image} />
 
 			{/* Facebook Meta Tags */}
 			<meta property='og:url' content={`${siteMeta.siteUrl}`} />
 			<meta property='og:type' content='website' />
 			<meta property='og:title' content={`${siteMeta.title} | ${pageMeta.title}`} />
 			<meta property='og:description' content={siteMeta.description} />
-			<meta property='og:image' content={siteMeta.image} />
+			<meta property='og:image' content={siteMeta.siteUrl + siteMeta.image} />
 
 			{/* Twitter Meta Tags */}
 			<meta name='twitter:card' content='summary_large_image' />
 			<meta name='twitter:title' content={`${siteMeta.title} | ${pageMeta.title}`} />
 			<meta name='twitter:description' content={siteMeta.description} />
-			<meta name='twitter:image' content={siteMeta.image} />
+			<meta name='twitter:image' content={siteMeta.siteUrl + siteMeta.image} />
 
 			<meta name="format-detection" content="telephone=no"/>
 		</>
