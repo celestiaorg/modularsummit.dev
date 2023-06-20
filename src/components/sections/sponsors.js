@@ -64,7 +64,7 @@ export default function Sponsors() {
 						</div>
 						<div className='flex items-center basis-auto'>
 							<StaticImage
-								className='w-[55px] md:w-[80px]'
+								className='w-[100px] md:w-[140px]'
 								src='../../images/sections/sponsors/avail.png'
 								placeholder='none'
 								quality={100}
