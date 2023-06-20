@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap: https://modularsummit.dev/sitemap-index.xml
+Host: https://modularsummit.dev
