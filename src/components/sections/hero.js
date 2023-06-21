@@ -28,7 +28,7 @@ export default function Hero() {
 							<div className={'basis-auto pl-4'}>
 								<img
 									src={celestiaLabs}
-									className={'md:h-[25px]'}
+									className={'h-[25px]'}
 								/></div>
 							<div className={'basis-auto px-4'}>·</div>
 							<div className={'basis-auto'}>
