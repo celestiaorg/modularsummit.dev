@@ -14,7 +14,7 @@ export const speakersData = {
 			{
 				name: "Mustafa Al-Bassam",
 				title: "Co-Founder",
-				company: "Celestia Labs",
+				company: "Celestia",
 				image: "mustafa_al_bassam.jpg",
 				alt: "Mustafa Al-Bassam - Modular Summit 2023",
 			},
@@ -392,11 +392,11 @@ export const speakersData = {
 				alt: "Nick White - Modular Summit 2023",
 			},
 			{
-				name: "Gabriel Blaut",
+				name: "NashQ",
 				title: "Developer",
 				company: "Rollkit",
-				image: "gabriel_blaut.jpg",
-				alt: "Gabriel Blaut - Modular Summit 2023",
+				image: "nashQ.jpg",
+				alt: "NashQ - Modular Summit 2023",
 			},
 			{
 				name: "Bikem Ozaydin",
@@ -415,7 +415,7 @@ export const speakersData = {
 			{
 				name: "Albert Chon",
 				title: "co-Founder",
-				company: "Injective",
+				company: "Injective Labs",
 				image: "albert_chon.png",
 				alt: "Albert Chon - Modular Summit 2023",
 			},
