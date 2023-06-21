@@ -15,6 +15,12 @@ export default function Footer() {
 							text={footerData.button.text}
 							url={footerData.button.url}
 						/>
+						<Button
+							class={'button primary small mt-2 md:mt-0 md:ml-2'}
+							type={footerData.button.type}
+							text={'Apply to speak'}
+							url={'https://celestia-intake.typeform.com/to/WYRfdoL4'}
+						/>
 					</div>
 					<div className='basis-full md:basis-auto'>
 					</div>
