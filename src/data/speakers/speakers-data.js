@@ -419,6 +419,27 @@ export const speakersData = {
 				image: "albert_chon.png",
 				alt: "Albert Chon - Modular Summit 2023",
 			},
+			{
+				name: "Evan Forbes",
+				title: "Core Developer on Celestia-App",
+				company: "Celestia Labs",
+				image: "evan_forbes.jpg",
+				alt: "Evan Forbes - Modular Summit 2023",
+			},
+			{
+				name: "Jacob Arluck",
+				title: "Head of Strategy",
+				company: "Celestia Labs",
+				image: "jacob_arluck.jpg",
+				alt: "Jacob Arluck - Modular Summit 2023",
+			},
+			{
+				name: "Yaz Khoury",
+				title: "Head of Devrel",
+				company: "Celestia Labs",
+				image: "yaz_khoury.jpg",
+				alt: "Yaz Khoury - Modular Summit 2023",
+			},
 		],
 	},
 };
