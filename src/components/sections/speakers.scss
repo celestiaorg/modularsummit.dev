@@ -114,6 +114,7 @@
 	.speaker-title {
 		font-size: 18px;
 		font-weight: bold;
+		text-align: center;
 		letter-spacing: 0;
 		margin-bottom: 4px;
 		@media (max-width: $md) {
@@ -125,6 +126,7 @@
 		font-size: 18px;
 		color: #494949;
 		letter-spacing: 0;
+		text-align: center;
 		@media (max-width: $md) {
 			font-size: 12px;
 		}
