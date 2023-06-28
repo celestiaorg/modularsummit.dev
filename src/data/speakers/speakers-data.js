@@ -211,7 +211,7 @@ export const speakersData = {
 			},
 			{
 				name: "Kenny Li",
-				title: "co-founder",
+				title: "Co-founder",
 				company: "Manta",
 				image: "kenny_li.jpg",
 				alt: "Kenny Li - Modular Summit 2023",
@@ -407,14 +407,14 @@ export const speakersData = {
 			},
 			{
 				name: "Jim Chang",
-				title: "co-Founder",
+				title: "Co-Founder",
 				company: "Catalyst",
 				image: "jim_chang.jpg",
 				alt: "Jim Chang - Modular Summit 2023",
 			},
 			{
 				name: "Albert Chon",
-				title: "co-Founder",
+				title: "Co-Founder",
 				company: "Injective Labs",
 				image: "albert_chon.png",
 				alt: "Albert Chon - Modular Summit 2023",

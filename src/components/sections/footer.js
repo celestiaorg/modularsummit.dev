@@ -9,12 +9,12 @@ export default function Footer() {
 			<div className='container'>
 				<div className={"flex flex-wrap sm:flex-nowrap items-center max-md:space-y-10 justify-center md:justify-between"}>
 					<div className='basis-auto max-md:mb-4 max-md:w-full'>
-						<Button
+						{/* <Button
 							class={footerData.button.class}
 							type={footerData.button.type}
 							text={footerData.button.text}
 							url={footerData.button.url}
-						/>
+						/> */}
 						<Button
 							class={'button primary small mt-2 md:mt-0 md:ml-2'}
 							type={footerData.button.type}
