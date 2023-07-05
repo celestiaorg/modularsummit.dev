@@ -2,6 +2,7 @@ import * as React from "react";
 import Layout from "../components/layout";
 import Hero from "../components/sections/hero";
 import Sponsors from "../components/sections/sponsors";
+import Partners from "../components/sections/partners";
 import Speakers from "../components/sections/speakers";
 import Agenda from "../components/sections/agenda";
 import Details from "../components/sections/details";
@@ -12,6 +13,7 @@ export default function IndexPage() {
 		<Layout>
 			<Hero />
 			<Sponsors />
+			<Partners />
 			<Speakers />
 			<Agenda />
 			<Details />
