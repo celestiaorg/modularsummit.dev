@@ -3,7 +3,7 @@ import Layout from "../components/layout";
 import Hero from "../components/sections/hero";
 import Sponsors from "../components/sections/sponsors";
 import Speakers from "../components/sections/speakers";
-// import Agenda from "../components/sections/agenda";
+import Agenda from "../components/sections/agenda";
 import Details from "../components/sections/details";
 import { graphql } from "gatsby";
 
@@ -13,7 +13,7 @@ export default function IndexPage() {
 			<Hero />
 			<Sponsors />
 			<Speakers />
-			{/* <Agenda /> */}
+			<Agenda />
 			<Details />
 		</Layout>
 	);
