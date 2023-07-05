@@ -1,39 +1,70 @@
+/**
+ * Configure your Gatsby site with this file.
+ *
+ * See: https://www.gatsbyjs.com/docs/reference/config-files/gatsby-config/
+ */
+
 module.exports = {
-  siteMetadata: {
-    title: `The Modular Summit`,
-    siteUrl: `https://modularsummit.dev`
-  },
-  plugins: ["gatsby-plugin-sass", "gatsby-plugin-image", "gatsby-plugin-react-helmet", "gatsby-plugin-sitemap", {
-    resolve: 'gatsby-plugin-manifest',
-    options: {
-      "icon": "src/images/icon.png"
-    }
-  }, "gatsby-plugin-mdx", "gatsby-transformer-remark", "gatsby-plugin-sharp", {
-    resolve: `gatsby-transformer-sharp`,
-    options: {
-      // The option defaults to true
-      checkSupportedExtensions: false,
-    },
-  }, {
-    resolve: 'gatsby-source-filesystem',
-    options: {
-      "name": "images",
-      "path": "./src/images/"
-    },
-    __key: "images"
-  }, {
-    resolve: 'gatsby-source-filesystem',
-    options: {
-      "name": "pages",
-      "path": "./src/pages/"
-    },
-    __key: "pages"
-  }, {
-    resolve: `gatsby-plugin-plausible`,
-    options: {
-      domain: `modularsummit.dev`,
-      // https://github.com/pixelplicity/gatsby-plugin-plausible/issues/49#issuecomment-716125674
-      customDomain: `plausible.celestia.org/js/plausible.js?original=`,
-    },
-  }]
+	siteMetadata: {
+		title: `Modular Summit`,
+		description: `Join us for a two-day event to learn from the visionary builders at the forefront of the modular blockchain revolution.`,
+		siteUrl: `https://modularsummit.dev`,
+		image: `/modular-summit-og-image.jpg`,
+	},
+	plugins: [
+		`gatsby-plugin-image`,
+		{
+			resolve: `gatsby-source-filesystem`,
+			options: {
+				name: `speakers`,
+				path: `${__dirname}/src/images/sections/speakers`,
+				sourceinstanceName: `speakers`,
+			},
+		},
+		{
+			resolve: 'gatsby-plugin-robots-txt',
+			options: {
+				//host: 'https://www.example.com',
+				//sitemap: 'https://www.example.com/sitemap.xml',
+				policy: [{userAgent: '*', allow: '/'}]
+			}
+		},
+		{
+			resolve: `gatsby-source-filesystem`,
+			options: {
+				name: `brands`,
+				path: `${__dirname}/src/images/sections/brands`,
+				sourceinstanceName: `brands`,
+			},
+		},
+		`gatsby-transformer-sharp`,
+		`gatsby-plugin-sharp`,
+		`gatsby-plugin-postcss`,
+		`gatsby-plugin-sass`,
+		{
+			resolve: `gatsby-plugin-manifest`,
+			options: {
+				name: `modular-summit`,
+				short_name: `modular-summit-home`,
+				start_url: `/`,
+				background_color: `#F2F2F2`,
+				theme_color: `#F2F2F2`,
+				display: `minimal-ui`,
+				icon: `src/images/sections/header/modular-summit-favicon.svg`, // This path is relative to the root of the site.
+			},
+		},
+		{
+			resolve: "gatsby-plugin-react-svg",
+			options: {
+				rule: {
+					include: /\.inline\.svg$/,
+					options: {
+						props: {
+							className: "inline-svg",
+						},
+					},
+				},
+			},
+		},
+	],
 };

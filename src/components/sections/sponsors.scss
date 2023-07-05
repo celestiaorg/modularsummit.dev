@@ -1,0 +1,56 @@
+.sponsors {
+	overflow: visible;
+	padding-top: 70px;
+	padding-bottom: 40px;	
+	@media (min-width: $md) {
+		padding-top: 100px;
+	}
+	.sponsors-list{
+		z-index: 1;
+		position: relative;
+	}
+	.container {
+		position: relative;
+	}
+	.gradient-1 {
+		width: 100%;
+		&::before {
+			content: "";
+			position: absolute;
+			top: -600px;
+			right: 0;
+			width: 1700px;
+			height: 1700px;
+			background-image: url(../images/sections/gradient-1.png);
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: cover;
+			transform: translateX(60%);
+			z-index: 0;
+			@media (max-width: $sm) {
+				transform: translateX(70%);
+			}
+		}
+	}
+	.gradient-2 {
+		width: 100%;
+		&::before {
+			content: "";
+			position: absolute;
+			top: 200px;
+			left: 0;
+			width: 1100px;
+			height: 1700px;
+			background-image: url(../images/sections/gradient-2.png);
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: cover;
+			transform: translateX(-70%);
+			z-index: 0;
+			@media (max-width: $sm) {
+				top: 700px;
+				transform: translateX(-73%);
+			}
+		}
+	}
+}

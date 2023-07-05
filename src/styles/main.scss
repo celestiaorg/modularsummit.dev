@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "fonts";
+@import "variables";
+@import "typo";
+@import "global";
+
+@import "../components/elements/button";
+@import "../components/elements/header-nav";
+@import "../components/sections/header";
+@import "../components/sections/hero";
+@import "../components/sections/brand-slider";
+@import "../components/sections/sponsors";
+@import "../components/sections/speakers";
+@import "../components/sections/agenda";
+@import "../components/sections/details";
+@import "../components/sections/footer";
+@import "../components/sections/not-found";

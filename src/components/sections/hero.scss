@@ -1,0 +1,117 @@
+.hero {
+	padding-top: 100px;
+	// padding-top: 153px; // original padding
+	// height: 1140px; // original height
+	height: 1060px;
+	overflow: hidden;
+	z-index: 1;
+	@media (min-width: $sm) {
+		height: 1185px;
+	}
+	@media (min-width: $md) {
+		height: 1260px;
+	}
+	@media (min-width: $lg) {
+		padding-top: 163px;
+		height: 1050px;
+	}
+	@media (min-width: $xxl) {
+		padding-top: 163px;
+		height: 1160px;
+	}
+
+	.hero-section-bg {
+		position: absolute;
+		z-index: 2;
+		top: unset;
+		bottom: -324px;
+		left: 50%;
+		transform: translateX(-50%);
+		width: 720px;
+		@media (min-width: $sm) {
+			top: unset;
+			bottom: -445px;
+			left: 50%;
+			transform: translateX(-50%);
+			width: 1050px;
+		}
+		@media (min-width: $md) {
+			top: unset;
+			bottom: -470px;
+			left: 50%;
+			transform: translateX(-50%);
+			width: 1100px;
+		}
+		@media (min-width: $lg) {
+			top: unset;
+			bottom: -564px;
+			left: 50%;
+			transform: translateX(-50%);
+			width: 110%;
+		}
+		@media (min-width: $xl) {
+			top: unset;
+			bottom: -590px;
+			left: 50%;
+			transform: translateX(-50%);
+			width: 120%;
+		}
+		@media (min-width: $xxl) {
+			top: unset;
+			bottom: -680px;
+			left: 50%;
+			transform: translateX(-50%);
+			width: 130%;
+		}
+	}
+
+	.container {
+		z-index: 3;
+	}
+
+	.heading-xxl {
+		max-width: 550px;
+		@media (max-width: $lg) {
+			font-size: 170px;
+			line-height: 160px;
+		}
+		@media (max-width: $md) {
+			font-size: 21.5vw;
+			line-height: 21vw;
+		}
+	}
+
+	.text-xl {
+		@media (max-width: $sm) {
+			font-size: 5vw;
+		}
+		@media (max-width: $xs) {
+			font-size: 20px;
+		}
+	}
+
+	.text {
+		font-size: 18px;
+		font-weight: 500;
+		color: #4c4c4c;
+		letter-spacing: 0;
+		line-height: 28px;
+		margin-top: 30px;
+		margin-bottom: 30px;
+		max-width: 548px;
+		@media (max-width: $lg) {
+			margin-bottom: 40px;
+		}
+		@media (max-width: $lg) {
+			margin-top: 0;
+		}
+	}
+
+	.date {
+		display: block;
+		font-weight: bold;
+		font-size: 24px;
+		letter-spacing: 0;
+		margin-bottom: 30px;
+	}
+}

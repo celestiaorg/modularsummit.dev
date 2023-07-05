@@ -1,0 +1,43 @@
+.footer {
+	background: #ffffff;
+	.text {
+		font-size: 22px;
+		font-weight: 500;
+		color: #4c4c4c;
+		letter-spacing: 0;
+		line-height: 28px;
+		margin-top: 30px;
+		margin-bottom: 30px;
+		max-width: 548px;
+		@media (max-width: $lg) {
+			margin-bottom: 0;
+		}
+		@media (max-width: $lg) {
+			margin-top: 0;
+		}
+	}
+	
+	.icon {
+		display: flex;
+		align-items: center;
+		background-color: #f0f0f0;
+		border-radius: 9999px;
+		padding: 8px;
+		height: 40px;
+		width: 40px;
+
+		& path {
+			transition: 300ms fill $easing;
+			fill: #000000;
+		}
+		@media (min-width: $sm) {
+			font-size: 24px;
+		}
+		&:hover {
+			color: rgba(5, 26, 33, 0.6);
+			& path {
+				fill: rgb(67, 67, 67);
+			}
+		}
+	}
+}
