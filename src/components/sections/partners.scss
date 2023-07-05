@@ -1,0 +1,15 @@
+.partners {
+	overflow: visible;
+	padding-top: 70px;
+	padding-bottom: 40px;	
+	@media (min-width: $md) {
+		padding-top: 85px;
+	}
+	.sponsors-list{
+		z-index: 1;
+		position: relative;
+	}
+	.container {
+		position: relative;
+	}
+}
