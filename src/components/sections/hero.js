@@ -29,12 +29,14 @@ export default function Hero() {
 								<img
 									src={celestiaLabs}
 									className={'h-[25px]'}
+									alt=""
 								/></div>
 							<div className={'basis-auto px-4'}>·</div>
 							<div className={'basis-auto'}>
 								<img
 									src={mavenEleven}
 									className={'md:h-[15px]'}
+									alt=""
 								/>
 							</div>
 						</div>
