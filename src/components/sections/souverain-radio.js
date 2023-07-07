@@ -40,7 +40,7 @@ export default function SouverainRadio() {
 									</div>
 									<div className='order-1 md:order-2 w-[62px] overflow-hidden rounded-full border-4 border-[#5500FF]'>
 										<StaticImage
-											src='../../images/sections/souverain/anna_rose.jpg'
+											src='../../images/sections/souverain/chjango_unchained.jpg'
 											placeholder='none'
 											alt='Souverain Radio'
 											quality={100}
