@@ -5,7 +5,6 @@ import Sponsors from "../components/sections/sponsors";
 import Speakers from "../components/sections/speakers";
 // import Agenda from "../components/sections/agenda";
 import SouverainRadio from "../components/sections/souverain-radio";
-import Details from "../components/sections/details";
 import { graphql } from "gatsby";
 
 export default function IndexPage() {

@@ -31,12 +31,12 @@
 		}
 
 		.text-wrapper {
-            padding: 64px 40px;
-            @media (max-width: $md) {
-                padding: 40px 24px;
-            }
-            @media (max-width: $lg) {
-                padding: 80px 64px;
+			padding: 40px 24px;
+			@media (min-width: $sm) {
+				padding: 64px 40px;
+			}
+			@media (min-width: $lg) {
+				padding: 40px;
             }
 
 			.souverain-radio-title {
