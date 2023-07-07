@@ -164,6 +164,7 @@
 
 	.button {
 		background-color: #E0E0E0;
+		border: unset;
 		&.selected {
 			background-color: #fff;
 			.filter {
