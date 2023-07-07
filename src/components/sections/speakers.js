@@ -45,6 +45,7 @@ export default function Speakers() {
 			<div className='container'>
 				<div className='gradient-3' />
 				<div className='gradient-4' />
+				<div className='gradient-6' />
 				<div className='flex justify-center mb-[32px] md:mb-[70px]'>
 					<h2 className='heading-xl'>{speakersData.title}</h2>
 				</div>
