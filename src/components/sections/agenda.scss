@@ -163,8 +163,9 @@
 	}
 
 	.button {
+		background-color: #E0E0E0;
 		&.selected {
-			background-color: #d9d9d9;
+			background-color: #fff;
 			.filter {
 				animation: unset;
 			}
