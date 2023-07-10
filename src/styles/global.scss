@@ -5,7 +5,7 @@
 
 html {
 	scroll-behavior: smooth;
-	background: $light-gray;
+	background: $white;
 	
 	// prevent layout jumps on mobile menu open & close
 	width: 100vw;
@@ -16,7 +16,7 @@ html {
 		font-weight: normal;
 		font-size: 16px;
 		color: #000000;
-		background-color: $light-gray;
+		background-color: $white;
 		-webkit-overflow-scrolling: touch;
 		main {
 			overflow: hidden;

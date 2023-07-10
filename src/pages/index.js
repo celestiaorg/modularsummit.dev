@@ -4,8 +4,8 @@ import Hero from "../components/sections/hero";
 import Sponsors from "../components/sections/sponsors";
 import Partners from "../components/sections/partners";
 import Speakers from "../components/sections/speakers";
-import Agenda from "../components/sections/agenda";
-import Details from "../components/sections/details";
+// import Agenda from "../components/sections/agenda";
+import SouverainRadio from "../components/sections/souverain-radio";
 import { graphql } from "gatsby";
 
 export default function IndexPage() {
@@ -15,8 +15,8 @@ export default function IndexPage() {
 			<Sponsors />
 			<Partners />
 			<Speakers />
-			<Agenda />
-			<Details />
+			{/* <Agenda /> */}
+			<SouverainRadio />
 		</Layout>
 	);
 }
