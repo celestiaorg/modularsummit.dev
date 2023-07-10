@@ -47,8 +47,8 @@ module.exports = {
 				name: `modular-summit`,
 				short_name: `modular-summit-home`,
 				start_url: `/`,
-				background_color: `#F2F2F2`,
-				theme_color: `#F2F2F2`,
+				background_color: `#fff`,
+				theme_color: `#fff`,
 				display: `minimal-ui`,
 				icon: `src/images/sections/header/modular-summit-favicon.svg`, // This path is relative to the root of the site.
 			},

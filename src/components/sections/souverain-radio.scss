@@ -1,0 +1,82 @@
+.souverain-radio {
+    padding-top: 80px;
+    padding-bottom: 90px;
+	// background-color: $white;
+	position: relative;
+
+	
+	.container {
+		max-width: 1220px;
+	}
+
+	.content-wrapper {
+		display: flex;
+		align-items: center;
+		height: 300px;
+		background-color: #e0f3ff;
+		border-radius: 20px;
+		overflow: hidden;
+		z-index: 2;
+		position: relative;
+        @media (max-width: $md) {
+			height: auto;
+            align-items: flex-start;
+			flex-direction: column;
+		}
+		
+		@media (max-width: $lg) {
+			height: auto;
+			align-items: start;
+			flex-direction: column;
+		}
+
+		.text-wrapper {
+			padding: 40px 24px;
+			@media (min-width: $sm) {
+				padding: 64px 40px;
+			}
+			@media (min-width: $lg) {
+				padding: 40px;
+            }
+
+			.souverain-radio-title {
+				font-size: 42px;
+				font-style: normal;
+				line-height: 1em;
+				font-weight: 700;
+				letter-spacing: 0.2px;
+				margin-bottom: 28px;
+                @media (max-width: $sm) {
+                    font-size: 32px;
+                }
+			}
+
+			.souverain-radio-text {
+				font-size: 17px;
+				color: #494949;
+				font-style: normal;
+				font-weight: 500;
+				line-height: normal;
+				letter-spacing: 0.2px;
+				margin-bottom: 25px;
+                @media (max-width: $md) {
+                    margin-bottom: 54px;
+                }
+                @media (max-width: $sm) {
+                    font-size: 15px;
+                    margin-bottom: 25px;
+                }
+			}
+			.souverain-speaker {
+				font-size: 20px;
+				font-style: normal;
+				font-weight: 900;
+				line-height: normal;
+                text-align: center;
+                @media (max-width: $sm) {
+                    font-size: 16px;
+                }
+			}
+		}
+	}
+}

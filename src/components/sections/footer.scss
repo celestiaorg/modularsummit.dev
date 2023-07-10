@@ -1,22 +1,129 @@
 .footer {
-	background: #ffffff;
-	.text {
-		font-size: 22px;
-		font-weight: 500;
-		color: #4c4c4c;
-		letter-spacing: 0;
-		line-height: 28px;
-		margin-top: 30px;
-		margin-bottom: 30px;
-		max-width: 548px;
-		@media (max-width: $lg) {
-			margin-bottom: 0;
+	// padding-top: 80px; //original padding
+	padding-top: 80px;
+	background-color: #ffffff;
+	@media (min-width: $md) {
+		// padding-top: 90px;
+		transform: translateX(0px);
+	}
+
+	.container {
+		padding-bottom: 470px;
+		@media (min-width: $sm) {
+			padding-bottom: 350px;
 		}
-		@media (max-width: $lg) {
-			margin-top: 0;
+		@media (min-width: $md) {
+			padding-bottom: 420px;
+		}
+		@media (min-width: $lg) {
+			padding-bottom: 70px;
+		}
+		@media (min-width: $xl) {
+			padding-bottom: 70px;
+		}
+		@media (min-width: 1980px) {
+			position: relative;
 		}
 	}
-	
+
+	.content {
+		z-index: 1;
+		position: relative;
+	}
+
+	.heading-xl {
+		font-weight: 900;
+		font-size: 60px;
+		letter-spacing: 0;
+		line-height: 66px;
+		max-width: 880px;
+		@media (max-width: $md) {
+			font-size: 40px;
+			line-height: 46px;
+		}
+	}
+	.text-xl {
+		font-size: 24px;
+		font-weight: bold;
+		letter-spacing: 0;
+		line-height: 38px;
+		max-width: 673px;
+		@media (max-width: $sm) {
+			font-size: 20px;
+			line-height: 30px;
+			max-width: 100%;
+		}
+	}
+	.map-link {
+		text-decoration: none;
+		&:hover {
+			text-decoration: underline;
+		}
+	}
+	address {
+		font-size: 26px;
+		font-weight: bold;
+		letter-spacing: 0;
+		font-style: normal;
+		br {
+			display: none;
+		}
+		@media (max-width: $sm) {
+			font-size: 18px;
+			br {
+				display: inline-block;
+			}
+		}
+	}
+	.text {
+		@media (min-width: $sm) {
+			max-width: 318px;
+		}
+		@media (min-width: $md) {
+			max-width: 418px;
+		}
+		@media (min-width: $lg) {
+			max-width: 518px;
+		}
+	}
+
+	.details-section-bg {
+		position: absolute;
+		z-index: 1;
+		bottom: 0;
+		right: 0;
+		height: auto;
+		width: 400px;
+		@media (min-width: $sm) {
+			width: 420px;
+		}
+		@media (min-width: $md) {
+			width: 480px;
+		}
+		@media (min-width: $lg) {
+			width: 540px;
+		}
+		@media (min-width: $xl) {
+			width: 640px;
+		}
+		@media (min-width: $xxl) {
+			width: 580px;
+		}
+		@media (min-width: 1980px) {
+			transform: translateX(80px);
+		}
+	}
+	.text {
+		font-size: 18px;
+		font-style: normal;
+		font-weight: 500;
+		line-height: 28px;
+		color: #4c4c4c;
+		letter-spacing: 0;
+		margin-top: 30px;
+		max-width: 548px;
+	}
+
 	.icon {
 		display: flex;
 		align-items: center;
