@@ -20,7 +20,7 @@ export default function Agenda() {
 	};
 
 	return (
-		<section className='agenda'>
+		<section id="agenda" className='agenda'>
 			<div className='container'>
 				<div className='content-wrapper'>
 					<div className='flex flex-col items-center justify-between pb-8 md:flex-row md:pb-16'>

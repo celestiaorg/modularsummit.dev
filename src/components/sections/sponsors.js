@@ -3,7 +3,7 @@ import { StaticImage } from "gatsby-plugin-image";
 
 export default function Sponsors() {
 	return (
-		<section className='sponsors'>
+		<section id="sponsors" className='sponsors'>
 			<div className='container'>
 				<div className='gradient-1' />
 				<div className='gradient-2' />

@@ -3,7 +3,7 @@ import Layout from "../components/layout";
 import Agenda from "../components/sections/agenda";
 import { graphql } from "gatsby";
 
-export default function IndexPage() {
+export default function Day1() {
 	return (
 		<Layout>
 			<Agenda />
@@ -27,7 +27,7 @@ export const query = graphql`
 export function Head({ data }) {
 	const siteMeta = data.site.siteMetadata;
 	const pageMeta = {
-		title: "Agenda",
+		title: "Day 1",
 	};
 
 	return (

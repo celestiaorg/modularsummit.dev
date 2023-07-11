@@ -7,7 +7,7 @@ import { Twitter } from "../elements/icons.js";
 
 export default function Hero() {
 	return (
-		<section className='footer'>
+		<section id="venue" className='footer'>
 			<div className='container'>
 				<div className='details-section-bg'>
 					<StaticImage
