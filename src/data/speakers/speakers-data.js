@@ -116,6 +116,13 @@ export const speakersData = {
 				image: "anurag_arjun.jpg",
 				alt: "Anurag Arjun - Modular Summit 2023",
 			},
+			{
+				name: "Sunny Aggarwal",
+				title: "Founder",
+				company: "Osmosis",
+				image: "sunny_aggarwal.jpg",
+				alt: "Sunny Aggarwal - Modular Summit 2023",
+			},
 		],
 		rest: [
 			{
@@ -208,13 +215,6 @@ export const speakersData = {
 				company: "Blockworks",
 				image: "michael_ippolito.jpg",
 				alt: "Michael Ippolito - Modular Summit 2023",
-			},
-			{
-				name: "Sunny Aggarwal",
-				title: "Founder",
-				company: "Osmosis",
-				image: "sunny_aggarwal.jpg",
-				alt: "Sunny Aggarwal - Modular Summit 2023",
 			},
 			{
 				name: "Neel Somani",
