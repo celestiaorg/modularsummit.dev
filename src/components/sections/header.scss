@@ -5,11 +5,11 @@
 	top: 0;
 	left: 0;
 	right: 0;
-	background: #f2f2f2d0;
+	background: inherit;
 	backdrop-filter: blur(18px);
 	transition: all 500ms cubic-bezier(0.85, 0, 0.15, 1) 200ms;
 	will-change: all;
-	z-index: 3;
+	z-index: 10;
 	@media (min-width: $sm) {
 		padding: 40px 0 40px 0px;
 		height: 112px;
