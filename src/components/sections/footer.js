@@ -5,7 +5,7 @@ import { footerData } from "../../data/footer/footer-data";
 import { Button } from "../elements/button";
 import { Twitter } from "../elements/icons.js";
 
-export default function Hero() {
+export default function Footer() {
 	return (
 		<section id="venue" className='footer'>
 			<div className='container'>

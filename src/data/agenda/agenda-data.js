@@ -20,6 +20,18 @@ export const agendaData = {
 		},
 	},
 	day1: {
+		title: "Day 1",
+		subtitle: "Modularism > Maximalism",
+		zkText: "ZK Track is curated by ZK Validator",
+		text: "Join us for a two-day event to learn from the visionary builders at the forefront of the modular blockchain revolution.",
+		date: "Paris | July 21 2023",
+		buttons: {
+			text: "Get your tickets",
+			class: "primary",
+			type: "external",
+			url: "https://lu.ma/79ay90fe",
+		},
+
 		stage1: [
 			{
 				title: "Day 1, Stage 1, Event",
@@ -100,6 +112,17 @@ export const agendaData = {
 		],
 	},
 	day2: {
+		title: "Day 2",
+		subtitle: "Modularism > Maximalism",
+		zkText: "ZK Track is curated by ZK Validator",
+		text: "Join us for a two-day event to learn from the visionary builders at the forefront of the modular blockchain revolution.",
+		date: "Paris | July 22 2023",
+		buttons: {
+			text: "Get your tickets",
+			class: "primary",
+			type: "external",
+			url: "https://lu.ma/79ay90fe",
+		},
 		stage1: [
 			{
 				title: "Day 2, Stage 1, Event",
@@ -178,5 +201,5 @@ export const agendaData = {
 				speakers: "Haseeb Qureshi, John Doe, Eve",
 			},
 		],
-	}
+	},
 };
