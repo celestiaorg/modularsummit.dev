@@ -12,27 +12,6 @@ export const speakersData = {
 	speakers: {
 		featured: [
 			{
-				name: "Vitalik Buterin",
-				title: "Founder",
-				company: "Ethereum Foundation",
-				image: "vitalik_buterin.jpg",
-				alt: "Vitalik Buterin - Modular Summit 2023",
-			},
-			{
-				name: "Georgios Vlachos",
-				title: "Co-Founder",
-				company: "Axelar",
-				image: "georgios_vlachos_.jpg",
-				alt: "Georgios Vlachos - Modular Summit 2023",
-			},
-			{
-				name: "Tina Zhen",
-				title: "Co-founder",
-				company: "Flashbots",
-				image: "tina_zhen.jpg",
-				alt: "Adriana Hamacher - Modular Summit 2023",
-			},
-			{
 				name: "Mustafa Al-Bassam",
 				title: "Co-Founder",
 				company: "Celestia",
@@ -47,11 +26,11 @@ export const speakersData = {
 				alt: "Sandeep Nailwal - Modular Summit 2023",
 			},
 			{
-				name: "Alex Gluchowski",
-				title: "Co-Inventor of zkSync",
-				company: "Matter Labs",
-				image: "alex_gluchowski.jpg",
-				alt: "Alex Gluchowski - Modular Summit 2023",
+				name: "Vitalik Buterin",
+				title: "Founder",
+				company: "Ethereum Foundation",
+				image: "vitalik_buterin.jpg",
+				alt: "Vitalik Buterin - Modular Summit 2023",
 			},
 			{
 				name: "Chris Goes",
@@ -59,6 +38,27 @@ export const speakersData = {
 				company: "Anoma",
 				image: "chris_goes.jpg",
 				alt: "Chris Goes - Modular Summit 2023",
+			},
+			{
+				name: "Georgios Konstantopoulos",
+				title: "CTO & Researcher",
+				company: "Paradigm",
+				image: "georgios_k.jpg",
+				alt: "Georgios Konstantopoulos - Modular Summit 2023",
+			},
+			{
+				name: "Tina Zhen",
+				title: "Stewards",
+				company: "Flashbots",
+				image: "tina_zhen.jpg",
+				alt: "Adriana Hamacher - Modular Summit 2023",
+			},
+			{
+				name: "Alex Gluchowski",
+				title: "Co-Inventor of zkSync",
+				company: "Matter Labs",
+				image: "alex_gluchowski.jpg",
+				alt: "Alex Gluchowski - Modular Summit 2023",
 			},
 			{
 				name: "Jill Gunter",
@@ -539,15 +539,15 @@ export const speakersData = {
 				alt: "Hasu - Modular Summit 2023",
 			},
 			{
-				name: "Georgios Konstantopoulos",
-				title: "CTO & Researcher",
-				company: "Paradigm",
-				image: "georgios_k.jpg",
-				alt: "Georgios Konstantopoulos - Modular Summit 2023",
+				name: "Georgios Vlachos",
+				title: "Co-Founder",
+				company: "Axelar",
+				image: "georgios_vlachos_.jpg",
+				alt: "Georgios Vlachos - Modular Summit 2023",
 			},
 			{
 				name: "Tomasz Stanczak",
-				title: "CEO",
+				title: "CEO / Mate",
 				company: "Flashbots / Nethermind",
 				image: "tomasz_stanczak.jpg",
 				alt: "Tomasz Stanczak - Modular Summit 2023",
@@ -561,7 +561,7 @@ export const speakersData = {
 			},
 			{
 				name: "Robert Miller",
-				title: "",
+				title: "Stewards",
 				company: "Flashbots",
 				image: "robert_miller.jpg",
 				alt: "Robert Miller - Modular Summit 2023",
@@ -668,7 +668,7 @@ export const speakersData = {
 				name: "Yishay",
 				title: "Co-founder",
 				company: "dYmension",
-				image: "yishay-2.jpg",
+				image: "yishay.jpg",
 				alt: "Yishay - Modular Summit 2023",
 			},
 			{
