@@ -605,7 +605,7 @@ export const speakersData = {
 				name: "Joe Coll",
 				title: "Researcher",
 				company: "",
-				image: "placeholder-image.png",
+				image: "joe_coll.jpg",
 				alt: "Joe Coll - Modular Summit 2023",
 			},
 			{
@@ -717,7 +717,7 @@ export const speakersData = {
 				name: "Ismael Hishon-Rezaizadeh",
 				title: "Co-founder",
 				company: "Lagrange",
-				image: "placeholder-image.png",
+				image: "ismael_hishon_rezaizadeh.jpg",
 				alt: "Ismael Hishon-Rezaizadeh - Modular Summit 2023",
 			},
 			{
