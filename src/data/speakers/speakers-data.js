@@ -12,6 +12,27 @@ export const speakersData = {
 	speakers: {
 		featured: [
 			{
+				name: "Vitalik Buterin",
+				title: "Founder",
+				company: "Ethereum Foundation",
+				image: "vitalik_buterin.jpg",
+				alt: "Vitalik Buterin - Modular Summit 2023",
+			},
+			{
+				name: "Georgios Vlachos",
+				title: "Co-Founder",
+				company: "Axelar",
+				image: "georgios_vlachos_.jpg",
+				alt: "Georgios Vlachos - Modular Summit 2023",
+			},
+			{
+				name: "Tina Zhen",
+				title: "Co-founder",
+				company: "Flashbots",
+				image: "tina_zhen.jpg",
+				alt: "Adriana Hamacher - Modular Summit 2023",
+			},
+			{
 				name: "Mustafa Al-Bassam",
 				title: "Co-Founder",
 				company: "Celestia",
@@ -103,13 +124,6 @@ export const speakersData = {
 				company: "Penumbra Labs",
 				image: "henry_de_valence.jpg",
 				alt: "Henry de Valence - Modular Summit 2023",
-			},
-			{
-				name: "Georgios Vlachos",
-				title: "Co-Founder",
-				company: "Axelar",
-				image: "georgios_vlachos_.jpg",
-				alt: "Georgios Vlachos - Modular Summit 2023",
 			},
 			{
 				name: "Brian Retford",
@@ -502,20 +516,6 @@ export const speakersData = {
 				company: "Decrypt",
 				image: "adriana_hamacher.jpg",
 				alt: "Adriana Hamacher - Modular Summit 2023",
-			},
-			{
-				name: "Tina Zhen",
-				title: "Co-founder",
-				company: "Flashbots",
-				image: "tina_zhen.jpg",
-				alt: "Adriana Hamacher - Modular Summit 2023",
-			},
-			{
-				name: "Vitalik Buterin",
-				title: "Founder",
-				company: "Ethereum Foundation",
-				image: "vitalik_buterin.jpg",
-				alt: "Vitalik Buterin - Modular Summit 2023",
 			},
 			{
 				name: "Mike Neuder",
