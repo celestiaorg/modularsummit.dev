@@ -11,7 +11,7 @@ export default function HeaderNav(props) {
 		{
 			id: 2,
 			title: "Agenda",
-			path: "/",
+			path: "/agenda",
 		},
 		{
 			id: 3,
