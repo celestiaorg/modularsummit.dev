@@ -15,8 +15,8 @@ export default function IndexPage() {
 			<Sponsors />
 			<Partners />
 			<Speakers />
-			{/* <Agenda /> */}
 			<SouverainRadio />
+			{/* <Agenda /> */}
 		</Layout>
 	);
 }
