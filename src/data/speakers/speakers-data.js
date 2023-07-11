@@ -451,7 +451,7 @@ export const speakersData = {
 				name: "Mo",
 				title: "",
 				company: "Code4Arena",
-				image: "placeholder-image.png",
+				image: "mo.jpg",
 				alt: "Mo - Modular Summit 2023",
 			},
 			{
@@ -668,7 +668,7 @@ export const speakersData = {
 				name: "Yishay",
 				title: "Co-founder",
 				company: "dYmension",
-				image: "yishay.jpg",
+				image: "yishay-2.jpg",
 				alt: "Yishay - Modular Summit 2023",
 			},
 			{
