@@ -1,21 +1,11 @@
 import * as React from "react";
 import Layout from "../components/layout";
-import Hero from "../components/sections/hero";
-import Sponsors from "../components/sections/sponsors";
-import Partners from "../components/sections/partners";
-import Speakers from "../components/sections/speakers";
 import Agenda from "../components/sections/agenda";
-import SouverainRadio from "../components/sections/souverain-radio";
 import { graphql } from "gatsby";
 
 export default function IndexPage() {
 	return (
 		<Layout>
-			<Hero />
-			<Sponsors />
-			<Partners />
-			<Speakers />
-			<SouverainRadio />
 			<Agenda />
 		</Layout>
 	);
@@ -37,7 +27,7 @@ export const query = graphql`
 export function Head({ data }) {
 	const siteMeta = data.site.siteMetadata;
 	const pageMeta = {
-		title: "Homepage",
+		title: "Agenda",
 	};
 
 	return (
