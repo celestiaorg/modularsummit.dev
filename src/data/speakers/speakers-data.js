@@ -547,8 +547,8 @@ export const speakersData = {
 			},
 			{
 				name: "Tomasz Stanczak",
-				title: "CEO / Mate",
-				company: "Flashbots / Nethermind",
+				title: "CEO",
+				company: "Nethermind",
 				image: "tomasz_stanczak.jpg",
 				alt: "Tomasz Stanczak - Modular Summit 2023",
 			},
