@@ -117,8 +117,86 @@ export default function Sponsors() {
 							</div>
 						</div>
 					</div>
-					<div className='max-w-[150px] sm:max-w-[450px] md:max-w-[674px] space-y-4 md:space-y-6'>
-						<div className='flex flex-col items-center justify-center max-md:space-y-10 md:space-x-16 md:flex-row'>
+					<div className='max-w-[150px] sm:max-w-[450px] md:max-w-[674px] space-y-4 md:space-y-6 mb-14 md:mb-[80px]'>
+						<div className='flex flex-col items-center justify-center max-md:space-y-8 md:space-x-16 md:flex-row'>
+							<div className='flex flex-col items-center justify-center max-md:space-y-10 md:space-x-16 md:flex-row'>
+								<StaticImage
+									className='w-[120px] md:w-[150px]'
+									src='../../images/sections/sponsors/altlayer.png'
+									placeholder='none'
+									quality={100}
+									alt='Lambda Class'
+								/>
+							</div>
+							<div className='flex flex-col items-center justify-center max-md:space-y-10 md:space-x-16 md:flex-row'>
+								<StaticImage
+									className='w-[120px] md:w-[140px]'
+									src='../../images/sections/sponsors/galaxy.png'
+									placeholder='none'
+									quality={100}
+									alt='Lambda Class'
+								/>
+							</div>
+							<div className='flex flex-col items-center justify-center max-md:space-y-10 md:space-x-16 md:flex-row'>
+								<StaticImage
+									className='w-[80px] md:w-[100px]'
+									src='../../images/sections/sponsors/kr1.png'
+									placeholder='none'
+									quality={100}
+									alt='Lambda Class'
+								/>
+							</div>
+							<div className='flex flex-col items-center justify-center max-md:space-y-10 md:space-x-16 md:flex-row'>
+								<StaticImage
+									className='w-[90px] md:w-[90px]'
+									src='../../images/sections/sponsors/modular-cloud.png'
+									placeholder='none'
+									quality={100}
+									alt='Lambda Class'
+								/>
+							</div>
+						</div>
+						<div className='flex flex-col items-center justify-center max-md:space-y-8 md:space-x-16 md:flex-row'>
+							<div className='flex flex-col items-center justify-center max-md:space-y-10 md:space-x-16 md:flex-row'>
+								<StaticImage
+									className='w-[100px] md:w-[120px]'
+									src='../../images/sections/sponsors/informal.png'
+									placeholder='none'
+									quality={100}
+									alt='Lambda Class'
+								/>
+							</div>
+							<div className='flex flex-col items-center justify-center max-md:space-y-10 md:space-x-16 md:flex-row'>
+								<StaticImage
+									className='w-[100px] md:w-[120px]'
+									src='../../images/sections/sponsors/avail.png'
+									placeholder='none'
+									quality={100}
+									alt='Lambda Class'
+								/>
+							</div>
+							<div className='flex flex-col items-center justify-center max-md:space-y-10 md:space-x-16 md:flex-row'>
+								<StaticImage
+									className='w-[100px] md:w-[120px]'
+									src='../../images/sections/sponsors/lambda.png'
+									placeholder='none'
+									quality={100}
+									alt='Lambda Class'
+								/>
+							</div>
+							<div className='flex flex-col items-center justify-center max-md:space-y-10 md:space-x-16 md:flex-row'>
+								<StaticImage
+									className='w-[140px] md:w-[150px]'
+									src='../../images/sections/sponsors/manta.png'
+									placeholder='none'
+									quality={100}
+									alt='Lambda Class'
+								/>
+							</div>
+						</div>
+					</div>
+					<div className='max-w-[150px] sm:max-w-[450px] md:max-w-[674px] space-y-8 md:space-y-6'>
+						<div className='flex flex-col items-center justify-center max-md:space-y-8 md:space-x-16 md:flex-row'>
 							<StaticImage
 								className='w-[170px] md:w-[220px]'
 								src='../../images/sections/sponsors/foresight.png'
