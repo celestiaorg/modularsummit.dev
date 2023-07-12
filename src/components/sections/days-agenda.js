@@ -37,7 +37,7 @@ export default function DaysAgenda({ data }) {
 												fill='#4F02EC'
 											/>
 										</svg>
-										<div className="button-label">Link is comming soon</div>
+										<div className="button-label">Link is coming soon</div>
 									</div>
 								</div>
 							</div>
