@@ -5,7 +5,7 @@ import { Button } from "../elements/button";
 import celestiaLabs from "../../images/celestia-lab.svg";
 import mavenEleven from "../../images/maven11.svg";
 
-export default function AgendaHeader({ data }) {
+export default function AgendaHeroDay1({ data }) {
 	return (
 		<section id='agenda-hero' className='agenda-hero'>
 			<div className='container'>
@@ -38,7 +38,7 @@ export default function AgendaHeader({ data }) {
 						<div className='flex flex-wrap items-center'>
 							<div className='basis-full md:basis-auto'>
 								<StaticImage
-									className='w-[72px] md:w-[89px] h-full mr-4'
+									className='w-[100px] md:w-[120px] h-full mr-4'
 									placeholder='none'
 									quality={100}
 									alt=''
@@ -49,7 +49,7 @@ export default function AgendaHeader({ data }) {
 						</div>
 						<div className='basis-full lg:basis-1/2'></div>
 						<div className='basis-full lg:basis-1/2'>
-							<p className='text'>{data.text}</p>
+							<p className='text mb-[50px]'>{data.text}</p>
 							<div className='flex flex-col sm:items-center sm:flex-row'>
 								<div className='mr-8 basis-auto'>
 									<div className='date'>{data.date}</div>
