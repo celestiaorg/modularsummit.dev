@@ -14,8 +14,8 @@ export default function DaysAgenda({ data }) {
 		<section className='days-agenda'>
 			<div className='container'>
 				<div className='content-wrapper'>
-					<div className='flex flex-col items-center justify-between pb-8 md:flex-row md:pb-16'>
-						<div className='max-md:mb-10'>
+					<div className='flex flex-col items-center justify-between pb-10 md:flex-row md:pb-16'>
+						<div className=''>
 							<h2 className='heading-xl'>Agenda</h2>
 						</div>
 					</div>
@@ -26,7 +26,20 @@ export default function DaysAgenda({ data }) {
 
 						<div className='basis-auto md:basis-3/4'>
 							<div className='w-full mt-8 md:w-auto livestream-banner'>
-								<div className='flex px-2 space-x-4 livestream-text'>Watch our livestream on Youtube</div>
+								<div className='flex flex-col items-start justify-between px-2 lg:space-x-4 max-lg:space-y-2 lg:items-center lg:flex-row'>
+
+									<div className='livestream-text'>Watch our livestream on Youtube</div>
+									<div className='flex items-center space-x-3'>
+										<svg xmlns='http://www.w3.org/2000/svg' width='25' height='25' viewBox='0 0 25 25' fill='none'>
+											<circle cx='12.5' cy='12.5' r='12.5' fill='white' />
+											<path
+												d='M10.3334 14.8209V12.6969V10.5729C10.3334 9.76671 11.2385 9.29198 11.9018 9.75027L14.9759 11.8742C15.5513 12.2718 15.5513 13.1221 14.9759 13.5197L11.9018 15.6436C11.2385 16.1019 10.3334 15.6271 10.3334 14.8209Z'
+												fill='#4F02EC'
+											/>
+										</svg>
+										<div className="button-label">Link is comming soon</div>
+									</div>
+								</div>
 							</div>
 							<EventList activeTab={activeTab} day={data} />
 						</div>
