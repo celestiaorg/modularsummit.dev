@@ -48,7 +48,7 @@ export default function Speakers() {
 					<h2 className='heading-xl'>{speakersData.title}</h2>
 				</div>
 
-				<div className={`three-col-grid mb-[40px] sm:mb-[90px]`}>
+				<div className={`three-col-grid`}>
 					{speakersData?.speakers.featured.map((item, index) => {
 						const speakersImage = data.allFile.nodes.find((element) => element.name === item.image);
 						return (
@@ -86,7 +86,7 @@ export default function Speakers() {
 					})}
 				</div>
 
-				<div className='flex justify-center mt-10'>
+				<div className='flex justify-center mt-1'>
 					<Button
 						class={speakersData.buttons.class}
 						type={speakersData.buttons.type}
