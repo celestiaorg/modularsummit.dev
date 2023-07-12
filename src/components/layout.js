@@ -3,8 +3,9 @@ import { useStaticQuery, graphql } from "gatsby"
 
 import Header from "./sections/header"
 import Footer from "./sections/footer"
+import AgendaFooter from "./sections/agenda-footer"
 
-const Layout = ({ children }) => {
+const Layout = ({ children, footerType }) => {
   const data = useStaticQuery(graphql`
     query SiteTitleQuery {
       site {
@@ -18,10 +19,8 @@ const Layout = ({ children }) => {
   return (
     <>
       <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
-      <div>
         <main>{children}</main>
-      </div>
-      <Footer/>
+        {footerType === "agenda" ? <AgendaFooter/> : <Footer/> }
     </>
   )
 }

@@ -7,7 +7,7 @@ import { agendaData } from "../data/agenda/agenda-data";
 
 export default function Day2() {
 	return (
-		<Layout>
+		<Layout footerType="agenda">
 			<AgendaHeader data={agendaData.day2} />
 			<DaysAgenda data={agendaData.day2}/>
 		</Layout>
