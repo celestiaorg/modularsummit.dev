@@ -38,11 +38,11 @@ export default function AgendaHeroDay2({ data }) {
 						<div className='flex flex-wrap items-center'>
 							<div className='basis-full md:basis-auto'>
 								<StaticImage
-									className='w-[100px] md:w-[120px] h-full mr-4'
+									className='w-[90px] md:w-[110px] h-full mr-4'
 									placeholder='none'
 									quality={100}
 									alt=''
-									src={"../../images/sections/agenda/zktrack.png"}
+									src={"../../images/sections/agenda/flashbot.png"}
 								/>
 							</div>
 							<div className='zk-track basis-full md:basis-1/2'>{data.zkText}</div>
