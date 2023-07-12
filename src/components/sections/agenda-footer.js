@@ -1,5 +1,4 @@
 import * as React from "react";
-import { StaticImage } from "gatsby-plugin-image";
 import { Pin } from "../elements/icons";
 import { footerData } from "../../data/footer/footer-data";
 import { Button } from "../elements/button";

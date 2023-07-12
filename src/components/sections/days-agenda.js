@@ -18,16 +18,16 @@ export default function DaysAgenda({ data }) {
 						<div className='max-md:mb-10'>
 							<h2 className='heading-xl'>Agenda</h2>
 						</div>
-						<div className='w-full md:w-auto'>
-							<div className='flex justify-center px-2 space-x-4 text-white bg-blue-600'>Live Stream</div>
-						</div>
 					</div>
 					<div className='flex flex-col md:flex-row md:space-x-20'>
 						<div className='basis-1/4'>
 							<TabList activeTab={activeTab} toggleTabs={toggleTabs} />
 						</div>
 
-						<div className='basis-auto'>
+						<div className='basis-auto md:basis-3/4'>
+							<div className='w-full mt-8 md:w-auto livestream-banner'>
+								<div className='flex px-2 space-x-4 livestream-text'>Watch our livestream on Youtube</div>
+							</div>
 							<EventList activeTab={activeTab} day={data} />
 						</div>
 					</div>
