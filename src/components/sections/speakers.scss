@@ -1,9 +1,7 @@
 .speakers {
 	padding-top: 40px;
-	// padding-bottom: 40px;
 	@media (min-width: $md) {
 		padding-top: 80px;
-		padding-bottom: 80px;
 	}
 	.container {
 		position: relative;
@@ -57,30 +55,30 @@
 		&::before {
 			content: "";
 			position: absolute;
-			top: 7000px;
+			top: 13400px;
 			left: 0;
-			width: 2000px;
+			width: 3000px;
 			height: 2000px;
 			background-image: url(../images/sections/gradient-6.png);
 			background-position: center;
 			background-repeat: no-repeat;
 			background-size: cover;
-			transform: translateX(-10%);
+			transform: translateX(-20%);
 			z-index: 1;
 			@media (max-width: $xl) {
-				top: 9200px;
-				transform: translateX(-20%);
-				width: 2000px;
-				height: 2000px;
+				top: 17300px;
+				transform: translateX(-10%);
+				width: 1600px;
+				height: 1600px;
 			}
-			@media (max-width: $lg) {
-				top: 7000px;
-				transform: translateX(-20%);
-				width: 1500px;
-				height: 1500px;
+			@media (max-width: $md) {
+				top: 17300px;
+				transform: translateX(-10%);
+				width: 1600px;
+				height: 1600px;
 			}
 			@media (max-width: $sm) {
-				top: 8900px;
+				top: 17200px;
 				transform: translateX(-20%);
 				width: 1000px;
 				height: 1000px;

@@ -93,13 +93,6 @@
 .header.menu-opened {
 	.header-nav {
 		transform: translateY(0);
-		padding-top: 92px;
-		@media (min-width: $sm) {
-			padding-top: 112px;
-		}
-		@media (min-width: $sm) {
-			padding-top: 112px;
-		}
 		@media (max-width: $lg) {
 			ul {
 				transition: opacity 300ms ease-in-out 450ms;

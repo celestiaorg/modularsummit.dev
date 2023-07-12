@@ -1,0 +1,133 @@
+.agenda-hero {
+	padding-top: 155px;
+	background-color: #ffffff;
+	@media (min-width: $md) {
+		padding-top: 163px;
+		transform: translateX(0px);
+	}
+
+	.container {
+		border-bottom: 2px solid #e3e3e3;
+		padding-bottom: 360px;
+		@media (min-width: $xs) {
+			padding-bottom: 380px;
+		}
+		@media (min-width: $sm) {
+			padding-bottom: 490px;
+		}
+		@media (min-width: $md) {
+			padding-bottom: 70px;
+		}
+		@media (min-width: $lg) {
+			padding-bottom: 70px;
+		}
+		@media (min-width: $xl) {
+			padding-bottom: 70px;
+		}
+		@media (min-width: 1980px) {
+			position: relative;
+		}
+	}
+
+	.content {
+		z-index: 1;
+		position: relative;
+	}
+
+	.title-label {
+		font-size: 20px;
+		font-style: normal;
+		font-weight: 900;
+		line-height: 1em;
+		text-transform: uppercase;
+		margin-bottom: 8px;
+		@media (max-width: $sm) {
+			font-size: 18px;
+			margin-bottom: 4px;
+		}
+	}
+
+	.zk-track {
+		font-size: 24px;
+		line-height: 1em;
+		font-style: normal;
+		font-weight: 700;
+		line-height: normal;
+		@media (max-width: $sm) {
+			font-size: 20px;
+			margin-top: 20px;
+		}
+	}
+
+	.heading-xxl {
+		text-transform: uppercase;
+		transform: translateX(-7px);
+	}
+
+	.text-xl {
+		font-size: 24px;
+		font-weight: bold;
+		letter-spacing: 0;
+		line-height: 38px;
+		max-width: 673px;
+		@media (max-width: $sm) {
+			font-size: 20px;
+			line-height: 30px;
+			max-width: 100%;
+		}
+	}
+
+	.details-section-bg {
+		position: absolute;
+		z-index: 1;
+		bottom: 0px;
+		right: 0;
+		height: auto;
+		width: 90%;
+		min-width: 350px;
+		max-width: 410px;
+		@media (min-width: $sm) {
+			bottom: -1px;
+			width: 520px;
+			max-width: 100%;
+		}
+		@media (min-width: $md) {
+			width: 600px;
+			transform: translateX(180px);
+		}
+		@media (min-width: $lg) {
+			width: 620px;
+			transform: translateX(160px);
+		}
+		@media (min-width: $xl) {
+			width: 700px;
+			transform: translateX(20px);
+		}
+		@media (min-width: $xxl) {
+			width: 750px;
+			transform: translateX(0px);
+		}
+		@media (min-width: 1980px) {
+			transform: translateX(80px);
+		}
+	}
+	.text {
+		font-size: 18px;
+		font-style: normal;
+		font-weight: 500;
+		line-height: 28px;
+		color: #4c4c4c;
+		letter-spacing: 0;
+		margin-top: 40px;
+		max-width: 548px;
+		@media (max-width: $sm) {
+		}
+	}
+
+	.date {
+		display: block;
+		font-weight: bold;
+		font-size: 24px;
+		letter-spacing: 0;
+	}
+}

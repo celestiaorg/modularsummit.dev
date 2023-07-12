@@ -1,0 +1,105 @@
+.agenda-footer {
+	padding-top: 80px;
+	padding-bottom: 40px;
+	background-color: #ffffff;
+	@media (min-width: $md) {
+		padding-bottom: 80px;
+		transform: translateX(0px);
+	}
+
+	.content {
+		z-index: 1;
+		position: relative;
+	}
+
+	.heading-xl {
+		font-weight: 900;
+		font-size: 42px;
+		letter-spacing: 0;
+		line-height: 52px;
+		max-width: 880px;
+		@media (max-width: $md) {
+			font-size: 40px;
+			line-height: 46px;
+		}
+	}
+	.text-xl {
+		font-size: 18px;
+		font-style: normal;
+		line-height: 28px;
+		font-weight: bold;
+		letter-spacing: 0;
+		max-width: 673px;
+		@media (max-width: $sm) {
+			font-size: 18px;
+			line-height: 28px;
+			max-width: 100%;
+		}
+	}
+	.map-link {
+		text-decoration: none;
+		&:hover {
+			text-decoration: underline;
+		}
+	}
+	address {
+		font-size: 18px;
+		font-weight: bold;
+		letter-spacing: 0;
+		font-style: normal;
+		br {
+			display: none;
+		}
+		@media (max-width: $sm) {
+			font-size: 18px;
+			br {
+				display: inline-block;
+			}
+		}
+	}
+	.text {
+		@media (min-width: $sm) {
+			max-width: 318px;
+		}
+		@media (min-width: $md) {
+			max-width: 418px;
+		}
+		@media (min-width: $lg) {
+			max-width: 518px;
+		}
+	}
+
+	.text {
+		font-size: 14px;
+		font-style: normal;
+		font-weight: 500;
+		line-height: 22px;
+		color: #4c4c4c;
+		letter-spacing: 0;
+		max-width: 548px;
+	}
+
+	.icon {
+		display: flex;
+		align-items: center;
+		background-color: #f0f0f0;
+		border-radius: 9999px;
+		padding: 8px;
+		height: 40px;
+		width: 40px;
+
+		& path {
+			transition: 300ms fill $easing;
+			fill: #000000;
+		}
+		@media (min-width: $sm) {
+			font-size: 24px;
+		}
+		&:hover {
+			color: rgba(5, 26, 33, 0.6);
+			& path {
+				fill: rgb(67, 67, 67);
+			}
+		}
+	}
+}

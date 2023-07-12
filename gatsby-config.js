@@ -18,23 +18,21 @@ module.exports = {
 			options: {
 				name: `speakers`,
 				path: `${__dirname}/src/images/sections/speakers`,
-				sourceinstanceName: `speakers`,
 			},
 		},
 		{
-			resolve: 'gatsby-plugin-robots-txt',
+			resolve: "gatsby-plugin-robots-txt",
 			options: {
 				//host: 'https://www.example.com',
 				//sitemap: 'https://www.example.com/sitemap.xml',
-				policy: [{userAgent: '*', allow: '/'}]
-			}
+				policy: [{ userAgent: "*", allow: "/" }],
+			},
 		},
 		{
 			resolve: `gatsby-source-filesystem`,
 			options: {
 				name: `brands`,
 				path: `${__dirname}/src/images/sections/brands`,
-				sourceinstanceName: `brands`,
 			},
 		},
 		`gatsby-transformer-sharp`,
@@ -64,6 +62,12 @@ module.exports = {
 						},
 					},
 				},
+			},
+		},
+		{
+			resolve: "gatsby-plugin-anchor-links",
+			options: {
+				offset: -50,
 			},
 		},
 	],

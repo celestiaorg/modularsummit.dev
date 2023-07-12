@@ -29,11 +29,9 @@ export default function Speakers() {
 			allFile(filter: { sourceInstanceName: { eq: "speakers" } }) {
 				nodes {
 					childImageSharp {
-						fluid {
-							originalName
-						}
-						gatsbyImageData(width: 300, height: 300, placeholder: NONE, formats: [AUTO, WEBP, AVIF])
+						gatsbyImageData(layout:CONSTRAINED, width: 300, height: 300, placeholder: NONE, formats: [AUTO, WEBP, AVIF])
 					}
+					name
 				}
 			}
 		}
@@ -50,9 +48,9 @@ export default function Speakers() {
 					<h2 className='heading-xl'>{speakersData.title}</h2>
 				</div>
 
-				<div className={`three-col-grid mb-[40px] sm:mb-[90px]`}>
+				<div className={`three-col-grid mb-[40px] sm:mb-0`}>
 					{speakersData?.speakers.featured.map((item, index) => {
-						const speakersImage = data.allFile.nodes.find((element) => element.childImageSharp.fluid.originalName === item.image);
+						const speakersImage = data.allFile.nodes.find((element) => element.name === item.image);
 						return (
 							<div key={index} className='flex flex-col items-center'>
 								<GatsbyImage
@@ -71,7 +69,7 @@ export default function Speakers() {
 
 				<div className={`three-col-grid ${show ? "show-rest" : "hide-rest"}`}>
 					{speakersData?.speakers.rest.map((item, index) => {
-						const speakersImage = data.allFile.nodes.find((element) => element.childImageSharp.fluid.originalName === item.image);
+						const speakersImage = data.allFile.nodes.find((element) => element.name === item.image);
 						return (
 							<div key={index} className='flex flex-col items-center'>
 								<GatsbyImage
@@ -88,7 +86,7 @@ export default function Speakers() {
 					})}
 				</div>
 
-				<div className='flex justify-center mt-10'>
+				<div className='flex justify-center mt-1'>
 					<Button
 						class={speakersData.buttons.class}
 						type={speakersData.buttons.type}

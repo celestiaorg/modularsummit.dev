@@ -3,7 +3,7 @@ import { StaticImage } from "gatsby-plugin-image";
 
 export default function Sponsors() {
 	return (
-		<section className='partners'>
+		<section id="partners" className='partners'>
 			<div className='container'>
 				<div className='flex flex-col items-center sponsors-list'>
 					<h2 className='mb-[60px] heading-xl'>Partners</h2>

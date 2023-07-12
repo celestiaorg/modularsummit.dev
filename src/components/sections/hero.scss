@@ -1,7 +1,6 @@
 .hero {
-	padding-top: 100px;
-	// padding-top: 153px; // original padding
-	// height: 1140px; // original height
+
+	padding-top: 155px; 
 	height: 1060px;
 	overflow: hidden;
 	z-index: 1;
@@ -80,6 +79,7 @@
 			line-height: 21vw;
 		}
 	}
+
 
 	.text-xl {
 		@media (max-width: $sm) {
