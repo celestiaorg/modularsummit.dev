@@ -19,12 +19,12 @@ export default function DaysAgenda({ data }) {
 							<h2 className='heading-xl'>Agenda</h2>
 						</div>
 					</div>
-					<div className='flex flex-col md:flex-row md:space-x-20'>
-						<div className='basis-1/4'>
+					<div className='flex flex-col lg:flex-row lg:space-x-20'>
+						<div className='basis-full sm:basis-1/4'>
 							<TabList activeTab={activeTab} toggleTabs={toggleTabs} />
 						</div>
 
-						<div className='basis-auto md:basis-3/4'>
+						<div className='basis-full lg:basis-3/4'>
 							<div className='w-full mt-8 md:w-auto livestream-banner'>
 								<div className='flex flex-col items-start justify-between px-2 lg:space-x-4 max-lg:space-y-2 lg:items-center lg:flex-row'>
 
