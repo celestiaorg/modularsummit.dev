@@ -1,11 +1,8 @@
 import * as React from "react";
 import { useState } from "react";
-import { agendaData } from "../../data/agenda/agenda-data";
-import { Button } from "../elements/button";
 
-export default function Agenda() {
+export default function DaysAgenda({ data }) {
 	const [activeTab, setActiveTab] = useState("Tab1");
-	const [activeDay, setActiveDay] = useState("Day1");
 
 	const toggleTabs = (tab) => {
 		if (activeTab !== tab) {
@@ -13,14 +10,8 @@ export default function Agenda() {
 		}
 	};
 
-	const toggleDay = (tab) => {
-		if (activeDay !== tab) {
-			setActiveDay(tab);
-		}
-	};
-
 	return (
-		<section id="agenda" className='agenda'>
+		<section className='days-agenda'>
 			<div className='container'>
 				<div className='content-wrapper'>
 					<div className='flex flex-col items-center justify-between pb-8 md:flex-row md:pb-16'>
@@ -28,22 +19,7 @@ export default function Agenda() {
 							<h2 className='heading-xl'>Agenda</h2>
 						</div>
 						<div className='w-full md:w-auto'>
-							<div className='flex justify-center space-x-4'>
-								<Button
-									class={agendaData.buttons.day1.class + (activeDay === "Day1" ? " selected" : "")}
-									type={agendaData.buttons.day1.type}
-									text={agendaData.buttons.day1.text}
-									url={agendaData.buttons.day1.url}
-									onClick={() => toggleDay("Day1")}
-								/>
-								<Button
-									class={agendaData.buttons.day2.class + (activeDay === "Day2" ? " selected" : "")}
-									type={agendaData.buttons.day2.type}
-									text={agendaData.buttons.day2.text}
-									url={agendaData.buttons.day2.url}
-									onClick={() => toggleDay("Day2")}
-								/>
-							</div>
+							<div className='flex justify-center px-2 space-x-4 text-white bg-blue-600'>Live Stream</div>
 						</div>
 					</div>
 					<div className='flex flex-col md:flex-row md:space-x-20'>
@@ -51,16 +27,9 @@ export default function Agenda() {
 							<TabList activeTab={activeTab} toggleTabs={toggleTabs} />
 						</div>
 
-						{activeDay === "Day1" && (
-							<div className='basis-3/4'>
-								<EventList activeTab={activeTab} day={agendaData.day1} />
-							</div>
-						)}
-						{activeDay === "Day2" && (
-							<div className='basis-3/4'>
-								<EventList activeTab={activeTab} day={agendaData.day2} />
-							</div>
-						)}
+						<div className='basis-auto'>
+							<EventList activeTab={activeTab} day={data} />
+						</div>
 					</div>
 				</div>
 			</div>
@@ -68,35 +37,28 @@ export default function Agenda() {
 	);
 }
 
-
 function EventList({ activeTab, day }) {
 	return (
 		<div className=''>
-			<div className="event-list-border"/>
+			<div className='event-list-border' />
 			{activeTab === "Tab1" && (
 				<ul className=''>
 					{day.stage1.map((item, index) => {
-						return (
-							<EventItem index={index} item={item}/>
-						);
+						return <EventItem index={index} item={item} />;
 					})}
 				</ul>
 			)}
 			{activeTab === "Tab2" && (
 				<ul className=''>
 					{day.stage2.map((item, index) => {
-						return (
-							<EventItem index={index} item={item}/>
-						);
+						return <EventItem index={index} item={item} />;
 					})}
 				</ul>
 			)}
 			{activeTab === "Tab3" && (
 				<ul className=''>
 					{day.stage3.map((item, index) => {
-						return (
-							<EventItem index={index} item={item}/>
-						);
+						return <EventItem index={index} item={item} />;
 					})}
 				</ul>
 			)}
@@ -104,8 +66,7 @@ function EventList({ activeTab, day }) {
 	);
 }
 
-
-function EventItem({index, item }) {
+function EventItem({ index, item }) {
 	return (
 		<li key={index} className='py-8 md:pl-10'>
 			<div className='mb-3.5 event-title element-spacing'>{item.title}</div>
@@ -128,7 +89,6 @@ function EventItem({index, item }) {
 		</li>
 	);
 }
-
 
 function TabList({ activeTab, toggleTabs }) {
 	return (
