@@ -87,7 +87,7 @@ export const agendaData = {
 				speakers: "Nick White",
 			},
       {
-        title: "Lunch Break"
+        title: "Lunch Break",
 				date: "2023. July 21",
 				time: "13:30",
         speakers: ""
