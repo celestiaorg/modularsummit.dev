@@ -139,7 +139,7 @@ function TabList({ activeTab, toggleTabs }) {
 			>
 				<div className='stage-card-arrow' />
 				<div className='stage-card-container'>
-					<div className='tabe-title'>Main Stage</div>
+					<div className='tabe-title'>Galois Stage</div>
 					<div className='flex md:mt-[8px] space-x-2 md:space-x-4'>
 						<div className='tab-tag-1'>ZK Track</div>
 						<div className='tab-tag-2'>Modular track</div>
@@ -153,7 +153,7 @@ function TabList({ activeTab, toggleTabs }) {
 			>
 				<div className='stage-card-arrow' />
 				<div className='stage-card-container'>
-					<div className='tabe-title'>Side Stage</div>
+					<div className='tabe-title'>Fourier Stage</div>
 					<div className='flex md:mt-[8px] space-x-2 md:space-x-4'>
 						<div className='tab-tag-3'>Gaming</div>
 					</div>
@@ -163,7 +163,7 @@ function TabList({ activeTab, toggleTabs }) {
 			<button className={`stage-card ${activeTab === "Tab3" && "selected"}`} onClick={() => toggleTabs("Tab3")}>
 				<div className='stage-card-arrow' />
 				<div className='stage-card-container'>
-					<div className='tabe-title'>Workshop Room</div>
+					<div className='tabe-title'>Cauchy Stage</div>
 				</div>
 			</button>
 		</div>
