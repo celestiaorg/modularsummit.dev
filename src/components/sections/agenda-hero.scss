@@ -7,12 +7,15 @@
 	}
 
 	.container {
-		padding-bottom: 470px;
+		padding-bottom: 360px;
+		@media (min-width: $xs) {
+			padding-bottom: 380px;
+		}
 		@media (min-width: $sm) {
-			padding-bottom: 350px;
+			padding-bottom: 490px;
 		}
 		@media (min-width: $md) {
-			padding-bottom: 420px;
+			padding-bottom: 70px;
 		}
 		@media (min-width: $lg) {
 			padding-bottom: 70px;
@@ -30,17 +33,36 @@
 		position: relative;
 	}
 
-	.heading-xl {
+	.title-label {
+		font-size: 20px;
+		font-style: normal;
 		font-weight: 900;
-		font-size: 60px;
-		letter-spacing: 0;
-		line-height: 66px;
-		max-width: 880px;
-		@media (max-width: $md) {
-			font-size: 40px;
-			line-height: 46px;
+		line-height: 1em;
+		text-transform: uppercase;
+		margin-bottom: 8px;
+		@media (max-width: $sm) {
+			font-size: 18px;
+			margin-bottom: 4px;
 		}
 	}
+
+	.zk-track {
+		font-size: 24px;
+		line-height: 1em;
+		font-style: normal;
+		font-weight: 700;
+		line-height: normal;
+		@media (max-width: $sm) {
+			font-size: 20px;
+			margin-top: 20px;
+		}
+	}
+
+	.heading-xxl {
+		text-transform: uppercase;
+		transform: translateX(-7px);
+	}
+
 	.text-xl {
 		font-size: 24px;
 		font-weight: bold;
@@ -53,38 +75,6 @@
 			max-width: 100%;
 		}
 	}
-	.map-link {
-		text-decoration: none;
-		&:hover {
-			text-decoration: underline;
-		}
-	}
-	address {
-		font-size: 26px;
-		font-weight: bold;
-		letter-spacing: 0;
-		font-style: normal;
-		br {
-			display: none;
-		}
-		@media (max-width: $sm) {
-			font-size: 18px;
-			br {
-				display: inline-block;
-			}
-		}
-	}
-	.text {
-		@media (min-width: $sm) {
-			max-width: 318px;
-		}
-		@media (min-width: $md) {
-			max-width: 418px;
-		}
-		@media (min-width: $lg) {
-			max-width: 518px;
-		}
-	}
 
 	.details-section-bg {
 		position: absolute;
@@ -92,21 +82,28 @@
 		bottom: 0;
 		right: 0;
 		height: auto;
-		width: 400px;
+		width: 90%;
+		min-width: 350px;
+		max-width: 410px;
 		@media (min-width: $sm) {
-			width: 420px;
+			width: 520px;
+			max-width: 100%;
 		}
 		@media (min-width: $md) {
-			width: 480px;
+			width: 600px;
+			transform: translateX(180px);
 		}
 		@media (min-width: $lg) {
-			width: 540px;
+			width: 620px;
+			transform: translateX(160px);
 		}
 		@media (min-width: $xl) {
-			width: 640px;
+			width: 700px;
+			transform: translateX(20px);
 		}
 		@media (min-width: $xxl) {
-			width: 580px;
+			width: 750px;
+			transform: translateX(0px);
 		}
 		@media (min-width: 1980px) {
 			transform: translateX(80px);
@@ -120,30 +117,17 @@
 		color: #4c4c4c;
 		letter-spacing: 0;
 		margin-top: 30px;
+		margin-bottom: 50px;
 		max-width: 548px;
+		@media (max-width: $sm) {
+
+		}
 	}
 
-	.icon {
-		display: flex;
-		align-items: center;
-		background-color: #f0f0f0;
-		border-radius: 9999px;
-		padding: 8px;
-		height: 40px;
-		width: 40px;
-
-		& path {
-			transition: 300ms fill $easing;
-			fill: #000000;
-		}
-		@media (min-width: $sm) {
-			font-size: 24px;
-		}
-		&:hover {
-			color: rgba(5, 26, 33, 0.6);
-			& path {
-				fill: rgb(67, 67, 67);
-			}
-		}
+	.date {
+		display: block;
+		font-weight: bold;
+		font-size: 24px;
+		letter-spacing: 0;
 	}
 }

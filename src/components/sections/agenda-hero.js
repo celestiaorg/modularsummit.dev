@@ -15,45 +15,46 @@ export default function AgendaHeader({ data }) {
 						placeholder='none'
 						quality={100}
 						alt=''
-						src={"../../images/sections/footer/footer-bg-image.png"}
+						src={"../../images/sections/agenda/agenda-hero-image.png"}
 					/>
 				</div>
 				<div className='flex flex-wrap content'>
 					<div className='basis-full lg:basis-9/12'>
-						<h1 className='mb-6 lg:mb-5 heading-xxl xs:mb-8 sm:mb-10'>{data.title}</h1>
-						<p className='text-xl max-w-[525px] mb-2'>{data.subtitle}</p>
+						<div className="title-label">MODULAR SUMMIT</div>
+						<h1 className='mb-8 md:mb-10 heading-xxl'>{data.title}</h1>
+						<p className='text-xl max-w-[525px] mb-4 md:mb-6'>{data.subtitle}</p>
 
-						<div className={"flex items-center mb-10 xs:mb-12 md:mb-16 lg:mb-5"}>
+						<div className={"flex items-center mb-12 md:mb-14"}>
 							<div className={"basis-auto text-[12px] font-medium"}>hosted by</div>
 							<div className={"basis-auto pl-4"}>
-								<img src={celestiaLabs} className={"h-[25px]"} alt='' />
+								<img src={celestiaLabs} className={"h-[24px]"} alt='' />
 							</div>
 							<div className={"basis-auto px-4"}>·</div>
 							<div className={"basis-auto"}>
-								<img src={mavenEleven} className={"md:h-[15px]"} alt='' />
+								<img src={mavenEleven} className={"md:h-[14px]"} alt='' />
 							</div>
 						</div>
 
 						<div className='flex flex-wrap items-center'>
 							<div className='basis-full md:basis-auto'>
 								<StaticImage
-									className='w-[89px] h-full mr-4'
+									className='w-[72px] md:w-[89px] h-full mr-4'
 									placeholder='none'
 									quality={100}
 									alt=''
 									src={"../../images/sections/agenda/zktrack.png"}
 								/>
 							</div>
-							<div className='basis-full md:basis-1/2'>{data.zkText}</div>
+							<div className='zk-track basis-full md:basis-1/2'>{data.zkText}</div>
 						</div>
 						<div className='basis-full lg:basis-1/2'></div>
 						<div className='basis-full lg:basis-1/2'>
 							<p className='text'>{data.text}</p>
-							<div className='flex items-center space-x-8'>
-								<div className='basis-auto'>
+							<div className='flex flex-col sm:items-center sm:flex-row'>
+								<div className='mr-8 basis-auto'>
 									<div className='date'>{data.date}</div>
 								</div>
-								<div className='basis-auto'>
+								<div className='max-sm:mt-4 basis-auto'>
 									<Button
 										class={data.buttons.class}
 										type={data.buttons.type}
@@ -65,7 +66,6 @@ export default function AgendaHeader({ data }) {
 						</div>
 					</div>
 				</div>
-				<hr className='border-#DFDFDF] my-[50px] sm:w-1/2 w-full' />
 			</div>
 		</section>
 	);
