@@ -7,6 +7,7 @@
 	}
 
 	.container {
+		border-bottom: 2px solid #e3e3e3;
 		padding-bottom: 360px;
 		@media (min-width: $xs) {
 			padding-bottom: 380px;
@@ -79,13 +80,14 @@
 	.details-section-bg {
 		position: absolute;
 		z-index: 1;
-		bottom: 0;
+		bottom: 0px;
 		right: 0;
 		height: auto;
 		width: 90%;
 		min-width: 350px;
 		max-width: 410px;
 		@media (min-width: $sm) {
+			bottom: -1px;
 			width: 520px;
 			max-width: 100%;
 		}
@@ -120,7 +122,6 @@
 		margin-bottom: 50px;
 		max-width: 548px;
 		@media (max-width: $sm) {
-
 		}
 	}
 
