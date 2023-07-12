@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "gatsby";
+import { AnchorLink } from "gatsby-plugin-anchor-links";
 
 export default function HeaderNav(props) {
 	const pathsArray = [
@@ -7,26 +8,49 @@ export default function HeaderNav(props) {
 			id: 1,
 			title: "Home",
 			path: "/",
+			type: "internal",
 		},
 		{
 			id: 2,
-			title: "Agenda",
-			path: "/agenda",
+			title: "Speakers",
+			path: "/#agenda",
+			type: "anchor",
 		},
 		{
 			id: 3,
-			title: "Speakers",
-			path: "/",
+			title: "Agenda",
+			path: "/#agenda",
+			type: "anchor",
 		},
 		{
 			id: 4,
-			title: "Sponsors",
-			path: "/",
+			title: "Day 1",
+			path: "/day-1",
+			type: "internal",
 		},
 		{
 			id: 5,
-			title: "Live Stream",
-			path: "/",
+			title: "Day 2",
+			path: "/day-2",
+			type: "internal",
+		},
+		{
+			id: 6,
+			title: "Sponsors",
+			path: "/#sponsors",
+			type: "anchor",
+		},
+		{
+			id: 7,
+			title: "Partners",
+			path: "/#partners",
+			type: "anchor",
+		},
+		{
+			id: 8,
+			title: "Venue",
+			path: "/#venue",
+			type: "anchor",
 		},
 	];
 
@@ -39,9 +63,13 @@ export default function HeaderNav(props) {
 							{pathsArray.map((item) => {
 								return (
 									<li key={item.id}>
-										<Link onClick={props.event} to={item.path} className='link nav-link' target="_blank" rel="noopener noreferrer">
-											{item.title}
-										</Link>
+										{item.type === "internal" ? (
+											<Link onClick={props.event} to={item.path} className='link nav-link' target="_blank" rel="noopener noreferrer">
+												{item.title}
+											</Link>
+										) : (
+											<AnchorLink onAnchorLinkClick={props.event} stripHash to={item.path} title={item.title} className='link nav-link' target="_blank" rel="noopener noreferrer" />
+										)}
 									</li>
 								);
 							})}

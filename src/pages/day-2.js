@@ -1,11 +1,14 @@
 import * as React from "react";
 import Layout from "../components/layout";
+import AgendaHeader from "../components/sections/agenda-hero";
 import Agenda from "../components/sections/agenda";
 import { graphql } from "gatsby";
+import { agendaData } from "../data/agenda/agenda-data";
 
-export default function IndexPage() {
+export default function Day2() {
 	return (
 		<Layout>
+			<AgendaHeader data={agendaData.day2} />
 			<Agenda />
 		</Layout>
 	);
@@ -27,7 +30,7 @@ export const query = graphql`
 export function Head({ data }) {
 	const siteMeta = data.site.siteMetadata;
 	const pageMeta = {
-		title: "Agenda",
+		title: "Day 2",
 	};
 
 	return (

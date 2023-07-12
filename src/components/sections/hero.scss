@@ -68,18 +68,6 @@
 		z-index: 3;
 	}
 
-	.heading-xxl {
-		max-width: 550px;
-		@media (max-width: $lg) {
-			font-size: 170px;
-			line-height: 160px;
-		}
-		@media (max-width: $md) {
-			font-size: 21.5vw;
-			line-height: 21vw;
-		}
-	}
-
 	.text-xl {
 		@media (max-width: $sm) {
 			font-size: 5vw;
