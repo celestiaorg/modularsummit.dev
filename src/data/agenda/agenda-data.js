@@ -86,12 +86,12 @@ export const agendaData = {
 				time: "13:05",
 				speakers: "Nick White",
 			},
-      {
-        title: "Lunch Break",
+			{
+				title: "Lunch Break",
 				date: "2023. July 21",
 				time: "13:30",
-        speakers: ""
-      }
+				speakers: "",
+			},
 			{
 				title: "ZKPOLITIK: Coprocessing & Collaboration",
 				date: "2023. July 21",
@@ -147,11 +147,11 @@ export const agendaData = {
 				speakers: "Mustafa Al-Bassam, Mike Ippolito",
 			},
 			{
-			 	title: "Happy Hour",
+				title: "Happy Hour",
 				date: "2023. July 21",
 				time: "18:30",
-			 	speakers: "",
-			 },
+				speakers: "",
+			},
 		],
 		stage2: [
 			{
@@ -202,12 +202,12 @@ export const agendaData = {
 				time: "13:10",
 				speakers: "Arjun Kalsy",
 			},
-      {
-        title: "Lunch Break",
-        date: "2023. July 21",
-        time: "13:30",
-        speakers: ""
-      }
+			{
+				title: "Lunch Break",
+				date: "2023. July 21",
+				time: "13:30",
+				speakers: "",
+			},
 			{
 				title: "Dumb blockchains require smart solutions (shared sequencing in the modular stack)",
 				date: "2023. July 21",
@@ -263,10 +263,10 @@ export const agendaData = {
 				speakers: "Moderator: Mads Mathiessen | Panelists: Georgios Vlachos, Fig, Bo Du, Richard Adjei",
 			},
 			{
-			 	title: "Happy Hour",
-			 	date: "2023. July 21",
-			 	time: "18:30",
-			 	speakers: "speaker",
+				title: "Happy Hour",
+				date: "2023. July 21",
+				time: "18:30",
+				speakers: "speaker",
 			},
 		],
 		stage3: [
@@ -301,7 +301,7 @@ export const agendaData = {
 		subtitle: "Modularism > Maximalism",
 		zkText: "PBS.day is co-created with ZK Flashbots",
 		text: "Modular Summit's PBS.day: Keeping Crypto Decentralized is co-created by Flashbots, bringing together leading researchers such as Vitalik Buterin, Jon Charbonneau, Tarun Chitra, and more. Join us on July 21 at 2:00pm at Modular Summit as we navigate through the PBS design space from the elegant PEPC proposal to the latest version of the enshrined PBS (ePBS) design PTC.",
-    gameText: "Gaming track is curated by Argus",
+		gameText: "Gaming track is curated by Argus",
 		date: "Paris | July 22 2023",
 		buttons: {
 			text: "Get your tickets",
@@ -436,11 +436,11 @@ export const agendaData = {
 				time: "17:45",
 				speakers: "Robert Miller",
 			},
-      {
+			{
 				title: "Programmable PBS",
 				date: "2023. July 22",
 				time: "17:30",
-				speakers: "Evan Forbes"
+				speakers: "Evan Forbes",
 			},
 			{
 				title: "Reminscences of a Rollup Operator",
@@ -448,12 +448,12 @@ export const agendaData = {
 				time: "17:45",
 				speakers: "Jon Charbonneau",
 			},
-      {
-        title: "SUAVE and PBS",
-        date: "2023. July 22",
-        time: "18:00",
-        speakers: "Hasu"
-      }
+			{
+				title: "SUAVE and PBS",
+				date: "2023. July 22",
+				time: "18:00",
+				speakers: "Hasu",
+			},
 			{
 				title: "The End Game",
 				date: "2023. July 22",
@@ -461,10 +461,10 @@ export const agendaData = {
 				speakers: "Mustafa Al-Bassam, Anatoly Yakovenko, Tarun Chitra",
 			},
 			{
-			 	title: "Happy Hour",
-			 	date: "2023. July 22",
-			 	time: "19:00",
-			 	speakers: "speaker",
+				title: "Happy Hour",
+				date: "2023. July 22",
+				time: "19:00",
+				speakers: "speaker",
 			},
 		],
 		stage2: [
@@ -504,12 +504,12 @@ export const agendaData = {
 				time: "12:40",
 				speakers: "Yijia Chen",
 			},
-      {
-        title: "Lunch",
-        date: "2023. July 22",
-        time: "13:00",
-        speakers: ""
-      },
+			{
+				title: "Lunch",
+				date: "2023. July 22",
+				time: "13:00",
+				speakers: "",
+			},
 			{
 				title: "Fireside chat with zk Sync",
 				date: "2023. July 22",
@@ -571,10 +571,10 @@ export const agendaData = {
 				speakers: "Moderator: Zion Thomas | Panelists: Albert Chon, Yeongin Lee, Jelena Djuric, Berachain, Mars",
 			},
 			{
-			 	title: "Happy Hour",
-			 	date: "2023. July 22",
-			 	time: "19:00",
-			 	speakers: "",
+				title: "Happy Hour",
+				date: "2023. July 22",
+				time: "19:00",
+				speakers: "",
 			},
 		],
 		stage3: [
