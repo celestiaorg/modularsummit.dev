@@ -26,10 +26,10 @@
 	}
 
 	.event-title {
-		font-size: 24px;
+		font-size: 26px;
 		font-weight: bold;
 		letter-spacing: 0;
-		line-height: 1;
+		line-height: 1.2;
 		@media (max-width: $md) {
 			font-size: 18px;
 		}
@@ -41,6 +41,7 @@
 		font-weight: 700;
 		line-height: normal;
 		letter-spacing: -0.412px;
+		max-width: 300px;
 		@media (max-width: $md) {
 			font-size: 13px;
 		}
