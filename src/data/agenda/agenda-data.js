@@ -299,7 +299,7 @@ export const agendaData = {
 	day2: {
 		title: "Day 2",
 		subtitle: "Modularism > Maximalism",
-		zkText: "PBS.day is co-created with ZK Flashbots",
+		zkText: "PBS.day is co-created with Flashbots",
 		text: "Modular Summit's PBS.day: Keeping Crypto Decentralized is co-created by Flashbots, bringing together leading researchers such as Vitalik Buterin, Jon Charbonneau, Tarun Chitra, and more. Join us on July 21 at 2:00pm at Modular Summit as we navigate through the PBS design space from the elegant PEPC proposal to the latest version of the enshrined PBS (ePBS) design PTC.",
 		gameText: "Gaming track is curated by Argus",
 		date: "Paris | July 22 2023",
