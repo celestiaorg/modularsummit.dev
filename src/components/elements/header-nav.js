@@ -13,7 +13,7 @@ export default function HeaderNav(props) {
 		{
 			id: 2,
 			title: "Speakers",
-			path: "/#agenda",
+			path: "/#speakers",
 			type: "anchor",
 		},
 		{
