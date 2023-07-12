@@ -1,6 +1,5 @@
 import * as React from "react";
 import { StaticImage } from "gatsby-plugin-image";
-import { agendaData } from "../../data/agenda/agenda-data";
 import { Button } from "../elements/button";
 
 import celestiaLabs from "../../images/celestia-lab.svg";
