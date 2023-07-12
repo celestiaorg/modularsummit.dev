@@ -359,7 +359,7 @@ export const agendaData = {
 				speakers: "",
 			},
 			{
-				title: "Modularity, PBS and MEV - Freedom from the bitcoin mind prison",
+				title: "Modularity, PBS and MEV - Freedom from the Bitcoin Mind Prison",
 				date: "2023. July 22",
 				time: "14:00",
 				speakers: "Zaki Manian",
@@ -377,7 +377,7 @@ export const agendaData = {
 				speakers: "Robert Miller",
 			},
 			{
-				title: "Current State on Order Flow, Block Building & Latency Game",
+				title: "Current State on Orderflow, Block Building & the Latency Game",
 				date: "2023. July 22",
 				time: "15:00",
 				speakers: "Danning Sui",
@@ -395,28 +395,28 @@ export const agendaData = {
 				speakers: "Mike Neuder",
 			},
 			{
-				title: "PBS on L2",
+				title: "PBS on L2s",
 				date: "2023. July 22",
 				time: "16:00",
 				speakers: "Georgios Konstantopoulos",
 			},
 			{
-				title: "PBS across the layers - from L1 to L1000",
+				title: "PBS-ifying Rollups: Prover-Sequencer Separation",
 				date: "2023. July 22",
 				time: "16:15",
+				speakers: "Toghrul Maharramov",
+			},
+			{
+				title: "PBS across the layers - from L1 to L1000",
+				date: "2023. July 22",
+				time: "16:30",
 				speakers: "Patrick McCorrey",
 			},
 			{
-				title: "MEV-Garden and PBS on OP-Stack",
-				date: "2023. July 22",
-				time: "16:30",
-				speakers: "Tomasz Stanczak",
-			},
-			{
-				title: "PBS on Scroll",
+				title: "MEV-Garden: Cross-domain Markets with PBS and SUAVE",
 				date: "2023. July 22",
 				time: "16:45",
-				speakers: "Toghrul Maharramov",
+				speakers: "Tomasz Stanczak",
 			},
 			{
 				title: "Design Trade-offs in Proposals for Sequencer Decentralization",
@@ -425,19 +425,13 @@ export const agendaData = {
 				speakers: "Joe Andrews",
 			},
 			{
-				title: "PBS on Shared Sequencing Layer",
+				title: "PBS on Shared Sequencing Layers and PBS design for Responsive Consensus Protocol",
 				date: "2023. July 22",
 				time: "17:15",
 				speakers: "Ben Fisch",
 			},
 			{
-				title: "SUAVE - Turning Zero-sum to Positive Sum",
-				date: "2023. July 22",
-				time: "17:45",
-				speakers: "Robert Miller",
-			},
-			{
-				title: "Programmable PBS",
+				title: "Exploring MEV Capture in Modular Systems",
 				date: "2023. July 22",
 				time: "17:30",
 				speakers: "Evan Forbes",
@@ -449,10 +443,10 @@ export const agendaData = {
 				speakers: "Jon Charbonneau",
 			},
 			{
-				title: "SUAVE and PBS",
+				title: "PBS Guild: An Open Treasure Map to Keep Crypto Decentralized",
 				date: "2023. July 22",
 				time: "18:00",
-				speakers: "Hasu",
+				speakers: "Tina",
 			},
 			{
 				title: "The End Game",
@@ -464,7 +458,7 @@ export const agendaData = {
 				title: "Happy Hour",
 				date: "2023. July 22",
 				time: "19:00",
-				speakers: "speaker",
+				speakers: "",
 			},
 		],
 		stage2: [
