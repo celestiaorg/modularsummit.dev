@@ -20,7 +20,7 @@ export default function Sponsors() {
 					<div className='flex flex-col items-center justify-center mb-20 md:mb-[80px] max-md:space-y-12 md:space-x-16 md:flex-row'>
 						<div className='flex items-center basis-auto'>
 							<StaticImage
-								className='w-[200px] md:w-[230px]'
+								className='w-[210px] md:w-[230px]'
 								src='../../images/sections/sponsors/celestia-labs.png'
 								placeholder='none'
 								quality={100}
@@ -29,7 +29,7 @@ export default function Sponsors() {
 						</div>
 						<div className='flex items-center basis-auto'>
 							<StaticImage
-								className='w-[180px] md:w-[230px]'
+								className='w-[190px] md:w-[230px]'
 								src='../../images/sections/sponsors/maven11.png'
 								placeholder='none'
 								quality={100}
