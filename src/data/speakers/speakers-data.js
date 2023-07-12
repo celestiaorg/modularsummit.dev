@@ -525,13 +525,6 @@ export const speakersData = {
 				alt: "Danning Sui - Modular Summit 2023",
 			},
 			{
-				name: "Hasu",
-				title: "Strategy Lead",
-				company: "Flashbots",
-				image: "hasu",
-				alt: "Hasu - Modular Summit 2023",
-			},
-			{
 				name: "Georgios Vlachos",
 				title: "Co-Founder",
 				company: "Axelar",
