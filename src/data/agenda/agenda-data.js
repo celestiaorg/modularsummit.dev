@@ -385,7 +385,7 @@ export const agendaData = {
 			{
 				title: "Builders and More Advanced Forms of Aggregation",
 				date: "2023. July 22",
-				time: "15:30",
+				time: "15:15",
 				speakers: "Vitalik Buterin",
 			},
 			{
