@@ -483,11 +483,11 @@ export const speakersData = {
 				alt: "Benedikt Bünz - Modular Summit 2023",
 			},
 			{
-				name: "Connor",
+				name: "Connor O’Hara",
 				title: "Researcher",
 				company: "Rollkit",
 				image: "connor_ohara",
-				alt: "Connor - Modular Summit 2023",
+				alt: "Connor O’Hara - Modular Summit 2023",
 			},
 			{
 				name: "Ethan Buchmann",
