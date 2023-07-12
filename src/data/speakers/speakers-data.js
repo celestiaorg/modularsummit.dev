@@ -610,8 +610,8 @@ export const speakersData = {
 			},
 			{
 				name: "Juri Stricker",
-				title: "Tech Partner at Signature Ventures. Backing Celestia from day one.",
-				company: "Signature",
+				title: "Tech Partner",
+				company: "Signature Ventures",
 				image: "juri_stricker",
 				alt: "Juri Stricker - Modular Summit 2023",
 			},
