@@ -142,7 +142,6 @@ function TabList({ activeTab, toggleTabs }) {
 					<div className='tabe-title'>Galois Stage</div>
 					<div className='flex md:mt-[8px] space-x-2 md:space-x-4'>
 						<div className='tab-tag-1'>ZK Track</div>
-						<div className='tab-tag-2'>Modular track</div>
 					</div>
 				</div>
 			</button>
