@@ -14,7 +14,7 @@ export const speakersData = {
 			{
 				name: "Mustafa Al-Bassam",
 				title: "Co-Founder",
-				company: "Celestia",
+				company: "Celestia Labs",
 				image: "mustafa_al_bassam",
 				alt: "Mustafa Al-Bassam - Modular Summit 2023",
 			},
@@ -428,7 +428,7 @@ export const speakersData = {
 			},
 			{
 				name: "Albert Chon",
-				title: "Co-Founder",
+				title: "Co-founder and CTO",
 				company: "Injective Labs",
 				image: "albert_chon",
 				alt: "Albert Chon - Modular Summit 2023",
