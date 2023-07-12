@@ -168,13 +168,6 @@ export const speakersData = {
 				alt: "Norswap - Modular Summit 2023",
 			},
 			{
-				name: "Josh Lee",
-				title: "Co-founder of Keplr & Osmosis",
-				company: "Chainapsis",
-				image: "josh_lee",
-				alt: "Josh Lee - Modular Summit 2023",
-			},
-			{
 				name: "Zac Williamson",
 				title: "Co-Founder",
 				company: "Aztec",
