@@ -1,5 +1,4 @@
 export const agendaData = {
-	title: "Agenda",
 	buttons: {
 		day1: {
 			text: "Day 1",
