@@ -266,7 +266,7 @@ export const agendaData = {
 				title: "Happy Hour",
 				date: "2023. July 21",
 				time: "18:30",
-				speakers: "speaker",
+				speakers: "",
 			},
 		],
 		stage3: [
@@ -531,8 +531,8 @@ export const agendaData = {
 			{
 				title: "eIBC: IBC in a new Dymension",
 				date: "2023. July 22",
-				time: "Yishay",
-				speakers: "15:40",
+				speakers: "Yishay",
+				time: "15:40",
 			},
 			{
 				title: "Modular IBC Patterns",
@@ -555,8 +555,8 @@ export const agendaData = {
 			{
 				title: "Securing Connected Liquidity for Modular Blockchains",
 				date: "2023. July 22",
-				time: "Yeongin Lee",
-				speakers: "17:20",
+				speakers: "Yeongin Lee",
+				time: "17:20",
 			},
 			{
 				title: "Cosmos Panel: Applications",
