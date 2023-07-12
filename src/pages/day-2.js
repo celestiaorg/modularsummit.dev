@@ -1,6 +1,6 @@
 import * as React from "react";
 import Layout from "../components/layout";
-import AgendaHeader from "../components/sections/agenda-hero";
+import AgendaHeroDay2 from "../components/sections/agenda-hero-day2";
 import DaysAgenda from "../components/sections/days-agenda";
 import { graphql } from "gatsby";
 import { agendaData } from "../data/agenda/agenda-data";
@@ -8,7 +8,7 @@ import { agendaData } from "../data/agenda/agenda-data";
 export default function Day2() {
 	return (
 		<Layout footerType="agenda">
-			<AgendaHeader data={agendaData.day2} />
+			<AgendaHeroDay2 data={agendaData.day2} />
 			<DaysAgenda data={agendaData.day2}/>
 		</Layout>
 	);
