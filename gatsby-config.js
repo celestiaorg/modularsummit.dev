@@ -18,7 +18,6 @@ module.exports = {
 			options: {
 				name: `speakers`,
 				path: `${__dirname}/src/images/sections/speakers`,
-				sourceinstanceName: `speakers`,
 			},
 		},
 		{
@@ -34,7 +33,6 @@ module.exports = {
 			options: {
 				name: `brands`,
 				path: `${__dirname}/src/images/sections/brands`,
-				sourceinstanceName: `brands`,
 			},
 		},
 		`gatsby-transformer-sharp`,
