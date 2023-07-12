@@ -769,6 +769,20 @@ export const speakersData = {
 				image: "henri_lieutaud",
 				alt: "Henri Lieutaud - Modular Summit 2023",
 			},
+			{
+				name: "Tracy | devloper",
+				title: "Co-founder",
+				company: "Pluto",
+				image: "tracy",
+				alt: "Tracy | devloper - Modular Summit 2023",
+			},
+			{
+				name: "Tina Haibodi",
+				title: "Product and Governance Lead",
+				company: "Eigenlayer",
+				image: "tina_haibodi",
+				alt: "Tina Haibodi - Modular Summit 2023",
+			},
 		],
 	},
 };
