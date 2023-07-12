@@ -92,10 +92,10 @@ function EventItem({ index, item }) {
 							<rect width='5' height='5' x='60' y='13' fill='#000' fill-rule='evenodd' rx='2.5' transform='translate(-60 -13)' />
 						</svg>
 					</div>
-					<div className='event-text w-[180px]'>{item.time}</div>
+					<div className='event-text w-[100px]'>{item.time}</div>
 				</div>
 				<div className='flex items-start basis-full md:basis-auto'>
-					<div className='min-w-[100px] md:min-w-[135px] event-text'>Speakers:</div>
+					<div className='min-w-[100px] md:min-w-[110px] lg:min-w-[135px] event-text'>Speakers:</div>
 					<div className='w-full event-text event-text-speakers'>{item.speakers}</div>
 				</div>
 			</div>
