@@ -48,7 +48,7 @@ export default function Speakers() {
 					<h2 className='heading-xl'>{speakersData.title}</h2>
 				</div>
 
-				<div className={`three-col-grid`}>
+				<div className={`three-col-grid mb-[40px] sm:mb-0`}>
 					{speakersData?.speakers.featured.map((item, index) => {
 						const speakersImage = data.allFile.nodes.find((element) => element.name === item.image);
 						return (
