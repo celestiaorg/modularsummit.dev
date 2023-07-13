@@ -18,7 +18,7 @@ export default function Header() {
 
 	return (
 		<header id={`header`} className={`header ${menuOpen ? "menu-opened" : ""} ${scrollPosition > 50 ? "shrinked-header" : ""}`}>
-			<div className='container'>
+			<div className='container overflow-y-auto'>
 				<div className='flex items-center justify-center nav-wrapper'>
 					<div className={`basis-auto z-0 order-3 lg:order-2 min-w-[32px]`}>
 						<HeaderNav event={toggleClick} />
