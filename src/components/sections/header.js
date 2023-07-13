@@ -1,24 +1,24 @@
 import React, { useState } from "react";
 import HeaderNav from "../elements/header-nav";
 import useScrollPosition from "../../hooks/useScrollPosition";
-import { useLockBodyScroll, useToggle } from "react-use";
+// import { useLockBodyScroll, useToggle } from "react-use";
 
 export default function Header() {
 	const [menuOpen, setMenuOpen] = useState(false);
-	const [locked, toggleLocked] = useToggle(false);
+	// const [locked, toggleLocked] = useToggle(false);
 	const scrollPosition = useScrollPosition();
 
 	// useLockBodyScroll - locks scrolling on the body element for modals
-	useLockBodyScroll(locked);
+	// useLockBodyScroll(locked);
 
 	const toggleClick = () => {
 		setMenuOpen((value) => !value);
-		toggleLocked((value) => !value);
+		// toggleLocked((value) => !value);
 	};
 
 	return (
 		<header id={`header`} className={`header ${menuOpen ? "menu-opened" : ""} ${scrollPosition > 50 ? "shrinked-header" : ""}`}>
-			<div className='container overflow-y-auto'>
+			<div className='container'>
 				<div className='flex items-center justify-center nav-wrapper'>
 					<div className={`basis-auto z-0 order-3 lg:order-2 min-w-[32px]`}>
 						<HeaderNav event={toggleClick} />
