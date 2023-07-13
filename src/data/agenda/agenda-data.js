@@ -83,7 +83,7 @@ export const agendaData = {
 			{
 				title: "DA as broadband",
 				date: "2023. July 21",
-				time: "13:05",
+				time: "13:10",
 				speakers: "Alex Evans",
 			},
 			{
