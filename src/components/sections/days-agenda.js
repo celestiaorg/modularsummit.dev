@@ -42,7 +42,7 @@ export default function DaysAgenda({ data }) {
 	}, [activeTab]);
 
 	return (
-		<section className='days-agenda'>
+		<section id='days-agenda' className='days-agenda'>
 			<div className='container'>
 				<div className='content-wrapper'>
 					<div className='flex flex-col items-center justify-between pb-8 lg:flex-row lg:pb-16'>
@@ -147,9 +147,9 @@ function TabList({ activeTab, toggleTabs }) {
 				<div className='stage-card-arrow' />
 				<div className='stage-card-container'>
 					<div className='tabe-title'>Galois Stage</div>
-					{/* <div className='flex md:mt-[.5rem] space-x-2 md:space-x-4'>
+					<div className='flex md:mt-[.5rem] space-x-2 md:space-x-4'>
 						<div className='tab-tag-1'>ZK Track</div>
-					</div> */}
+					</div>
 				</div>
 			</button>
 
@@ -160,9 +160,9 @@ function TabList({ activeTab, toggleTabs }) {
 				<div className='stage-card-arrow' />
 				<div className='stage-card-container'>
 					<div className='tabe-title'>Fourier Stage</div>
-					{/* <div className='flex md:mt-[.5rem] space-x-2 md:space-x-4'>
+					<div className='flex md:mt-[.5rem] space-x-2 md:space-x-4'>
 						<div className='tab-tag-3'>Gaming</div>
-					</div> */}
+					</div>
 				</div>
 			</button>
 
