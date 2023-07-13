@@ -18,6 +18,60 @@ export const agendaData = {
 			type: "internal",
 		},
 	},
+	themes: [
+		{
+			id: "rollups",
+			color: "red",
+		},
+		{
+			id: "data-availability",
+			color: "blue",
+		},
+		{
+			id: "zk",
+			color: "green",
+		},
+		{
+			id: "infrastructure",
+			color: "orange",
+		},
+		{
+			id: "shared-seq",
+			color: "purple",
+		},
+		{
+			id: "raas",
+			color: "pink",
+		},
+		{
+			id: "modular-interop",
+			color: "teal",
+		},
+		{
+			id: "modular-cosmos",
+			color: "yellow",
+		},
+		{
+			id: "pbs-day",
+			color: "gray",
+		},
+		{
+			id: "developer",
+			color: "indigo",
+		},
+		{
+			id: "gaming",
+			color: "brown",
+		},
+		{
+			id: "zk-apps",
+			color: "cyan",
+		},
+		{
+			id: "cosmos-celestia",
+			color: "lime",
+		},
+	],
 	day1: {
 		title: "Day 1",
 		subtitle: "Modularism > Maximalism",
@@ -169,7 +223,7 @@ export const agendaData = {
 				title: "Happy Hour",
 				date: "2023. July 21",
 				time: "18:30",
-				speakers: "",
+				// speakers: "",
 				theme: "",
 			},
 		],

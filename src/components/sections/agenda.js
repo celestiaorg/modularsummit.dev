@@ -20,10 +20,10 @@ export default function Agenda() {
 	};
 
 	return (
-		<section id="agenda" className='agenda'>
+		<section id='agenda' className='agenda'>
 			<div className='container'>
 				<div className='content-wrapper'>
-					<div className='flex flex-col items-center justify-between pb-8 md:flex-row md:pb-16'>
+					<div className='flex flex-col items-start justify-between pb-8 md:flex-row md:pb-16'>
 						<div className='max-md:mb-10'>
 							<h2 className='heading-xl'>Agenda</h2>
 						</div>
@@ -46,18 +46,18 @@ export default function Agenda() {
 							</div>
 						</div>
 					</div>
-					<div className='flex flex-col md:flex-row md:space-x-20'>
-						<div className='basis-1/4'>
+					<div className='flex flex-col lg:flex-row lg:space-x-20'>
+						<div className='basis-full lg:basis-1/4'>
 							<TabList activeTab={activeTab} toggleTabs={toggleTabs} />
 						</div>
 
 						{activeDay === "Day1" && (
-							<div className='basis-3/4'>
+							<div className='basis-full lg:basis-3/4'>
 								<EventList activeTab={activeTab} day={agendaData.day1} />
 							</div>
 						)}
 						{activeDay === "Day2" && (
-							<div className='basis-3/4'>
+							<div className='basis-full lg:basis-3/4'>
 								<EventList activeTab={activeTab} day={agendaData.day2} />
 							</div>
 						)}
@@ -68,35 +68,28 @@ export default function Agenda() {
 	);
 }
 
-
 function EventList({ activeTab, day }) {
 	return (
 		<div className=''>
-			<div className="event-list-border"/>
+			<div className='event-list-border' />
 			{activeTab === "Tab1" && (
 				<ul className=''>
 					{day.stage1.map((item, index) => {
-						return (
-							<EventItem index={index} item={item}/>
-						);
+						return <EventItem index={index} item={item} />;
 					})}
 				</ul>
 			)}
 			{activeTab === "Tab2" && (
 				<ul className=''>
 					{day.stage2.map((item, index) => {
-						return (
-							<EventItem index={index} item={item}/>
-						);
+						return <EventItem key={index} item={item} />;
 					})}
 				</ul>
 			)}
 			{activeTab === "Tab3" && (
 				<ul className=''>
 					{day.stage3.map((item, index) => {
-						return (
-							<EventItem index={index} item={item}/>
-						);
+						return <EventItem key={index} item={item} />;
 					})}
 				</ul>
 			)}
@@ -104,31 +97,29 @@ function EventList({ activeTab, day }) {
 	);
 }
 
-
-function EventItem({index, item }) {
+function EventItem({ item }) {
 	return (
-		<li key={index} className='py-8 md:pl-10'>
-			<div className='mb-3.5 event-title element-spacing'>{item.title}</div>
+		<li className='event-item'>
+			<div className='mb-4 event-title element-spacing'>{item.title}</div>
 
-			<div className='flex flex-wrap max-md:space-y-1.5 md:space-x-5'>
-				<div className='flex items-center basis-full md:basis-auto'>
-					<div className='event-text w-[95px] md:w-[127px]'>{item.date}</div>
-					<div className='w-[16px] md:w-[25px]'>
-						<svg className='w-[5px] h-[5px] inline-block mb-0.5' xmlns='http://www.w3.org/2000/svg'>
-							<rect width='5' height='5' x='60' y='13' fill='#000' fillRule='evenodd' rx='2.5' transform='translate(-60 -13)' />
-						</svg>
-					</div>
-					<div className='event-text w-[180px]'>{item.time}</div>
+			<div className='flex flex-col max-sm:space-y-3 sm:space-x-14 md:space-x-16 sm:flex-row items-star'>
+				<div className='flex items-center space-x-5 h-fit md:basis-1/3 lg:basis-3/12'>
+					<div className='event-text whitespace-nowrap'>{item.date}</div>
+						<div className="flex">
+							<svg className='w-[5px] h-[5px] inline-block mt-[2px]' xmlns='http://www.w3.org/2000/svg'>
+								<rect width='5' height='5' x='60' y='13' fill='#000' fillRule='evenodd' rx='2.5' transform='translate(-60 -13)' />
+							</svg>
+						</div>
+					<div className='event-text'>{item.time}</div>
 				</div>
-				<div className='flex items-center basis-full md:basis-auto'>
-					<div className='w-[100px] md:w-[135px] event-text'>Speakers:</div>
-					<div className='w-full event-text event-text-speakers'>{item.speakers}</div>
+				<div className='flex items-start space-x-5 md:basis-2/3 lg:basis-9/12'>
+					<div className='event-text'>Speakers:</div>
+					<div className='event-text event-text-speakers'>{item.speakers}</div>
 				</div>
 			</div>
 		</li>
 	);
 }
-
 
 function TabList({ activeTab, toggleTabs }) {
 	return (
@@ -140,9 +131,9 @@ function TabList({ activeTab, toggleTabs }) {
 				<div className='stage-card-arrow' />
 				<div className='stage-card-container'>
 					<div className='tabe-title'>Galois Stage</div>
-					<div className='flex md:mt-[8px] space-x-2 md:space-x-4'>
+					{/* <div className='flex md:mt-[8px] space-x-2 md:space-x-4'>
 						<div className='tab-tag-1'>ZK Track</div>
-					</div>
+					</div> */}
 				</div>
 			</button>
 
@@ -153,9 +144,9 @@ function TabList({ activeTab, toggleTabs }) {
 				<div className='stage-card-arrow' />
 				<div className='stage-card-container'>
 					<div className='tabe-title'>Fourier Stage</div>
-					<div className='flex md:mt-[8px] space-x-2 md:space-x-4'>
+					{/* <div className='flex md:mt-[8px] space-x-2 md:space-x-4'>
 						<div className='tab-tag-3'>Gaming</div>
-					</div>
+					</div> */}
 				</div>
 			</button>
 

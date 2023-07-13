@@ -1,5 +1,6 @@
 import React, { useLayoutEffect } from "react";
 import { useState } from "react";
+import { agendaData } from "../../data/agenda/agenda-data";
 
 export default function DaysAgenda({ data }) {
 	const [activeTab, setActiveTab] = useState("Tab1");
@@ -11,63 +12,30 @@ export default function DaysAgenda({ data }) {
 	};
 
 	const createThemeMarkers = () => {
-		const themes = [
-			"rollups",
-			"data-availability",
-			"zk",
-			"infrastructure",
-			"shared-seq",
-			"raas",
-			"modular-interop",
-			"modular-cosmos",
-			"pbs.day",
-			"developer",
-			"gaming",
-			"zk-apps",
-			"cosmos + celestia"
-		];
-		const colors = [
-			"red",
-			"blue",
-			"green",
-			"orange",
-			"purple",
-			"pink",
-			"teal",
-			"yellow",
-			"gray",
-			"indigo",
-			"brown",
-			"cyan",
-			"lime"
-		];
-		themes.forEach((theme, index) => {
-			const themeElements = document.querySelectorAll(`#${theme}`);
-			const themeElementHeights = Array.from(themeElements).reduce(
-				(acc, curr) => acc + curr.offsetHeight,
-				0
-			) - 35;
+		agendaData.themes.forEach((item, index) => {
+			const themeElements = document.querySelectorAll(`#${item.id}`);
+			const themeElementHeights = Array.from(themeElements).reduce((acc, curr) => acc + curr.offsetHeight, 0) - 35;
 			if (themeElements.length > 0) {
 				const firstElement = themeElements[0];
 				let beforeElement = firstElement.querySelector("#track-marker");
 				if (beforeElement) {
-					beforeElement.remove();
+					beforeElement();
 				}
 				beforeElement = document.createElement("div");
 				beforeElement.style.height = `${themeElementHeights}px`;
-				beforeElement.style.borderColor = colors[index];
+				beforeElement.style.borderColor = agendaData.themes[index].color;
 				beforeElement.setAttribute("id", "track-marker");
 
 				const trackMarkerText = document.createElement("div");
-				trackMarkerText.innerHTML = theme;
+				trackMarkerText.innerHTML = item.id;
 				trackMarkerText.classList.add("track-marker-text");
 				beforeElement.appendChild(trackMarkerText);
 
 				firstElement.insertBefore(beforeElement, firstElement.firstChild);
 			}
-			console.log(`${theme}: ${themeElementHeights}px`);
+			console.log(`${item.id}: ${themeElementHeights}px`);
 		});
-	}
+	};
 
 	useLayoutEffect(() => {
 		createThemeMarkers();
@@ -77,7 +45,7 @@ export default function DaysAgenda({ data }) {
 		<section className='days-agenda'>
 			<div className='container'>
 				<div className='content-wrapper'>
-					<div className='flex flex-col items-center justify-between pb-10 md:flex-row md:pb-16'>
+					<div className='flex flex-col items-center justify-between pb-8 lg:flex-row lg:pb-16'>
 						<div className=''>
 							<h2 className='heading-xl'>Agenda</h2>
 						</div>
@@ -119,21 +87,21 @@ function EventList({ activeTab, day }) {
 			{activeTab === "Tab1" && (
 				<ul className='event-list'>
 					{day.stage1.map((item, index) => {
-						return <EventItem key={index} index={index} item={item} />;
+						return <EventItem key={index} item={item} />;
 					})}
 				</ul>
 			)}
 			{activeTab === "Tab2" && (
-				<ul className=''>
+				<ul className='event-list'>
 					{day.stage2.map((item, index) => {
-						return <EventItem key={index} index={index} item={item} />;
+						return <EventItem key={index} item={item} />;
 					})}
 				</ul>
 			)}
 			{activeTab === "Tab3" && (
-				<ul className=''>
+				<ul className='event-list'>
 					{day.stage3.map((item, index) => {
-						return <EventItem key={index} index={index} item={item} />;
+						return <EventItem key={index} item={item} />;
 					})}
 				</ul>
 			)}
@@ -143,22 +111,26 @@ function EventList({ activeTab, day }) {
 
 function EventItem({ item }) {
 	return (
-		<li id={item.theme} className='event-item'>
+		<li id={item.theme.replace(/[\s+_.]+/g, "-")} className='event-item'>
 			<div className='mb-4 event-title element-spacing'>{item.title}</div>
 
-			<div className='flex flex-wrap max-md:space-y-1.5 md:space-x-5'>
-				<div className='flex items-start basis-full md:basis-auto'>
-					<div className='event-text min-w-[95px] md:min-w-[127px]'>{item.date}</div>
-					<div className='w-[16px] md:w-[25px]'>
-						<svg className='w-[5px] h-[5px] inline-block mb-0.5' xmlns='http://www.w3.org/2000/svg'>
+			<div className='flex flex-col max-sm:space-y-3 sm:space-x-14 md:space-x-16 sm:flex-row items-star'>
+				<div className='flex items-center space-x-5 h-fit md:basis-1/3 lg:basis-3/12'>
+					<div className='event-text whitespace-nowrap'>{item.date}</div>
+					<div className='flex'>
+						<svg className='w-[5px] h-[5px] inline-block mt-[2px]' xmlns='http://www.w3.org/2000/svg'>
 							<rect width='5' height='5' x='60' y='13' fill='#000' fillRule='evenodd' rx='2.5' transform='translate(-60 -13)' />
 						</svg>
 					</div>
-					<div className='event-text w-[100px]'>{item.time}</div>
+					<div className='event-text'>{item.time}</div>
 				</div>
-				<div className='flex items-start basis-full md:basis-auto'>
-					<div className='min-w-[80px] md:min-w-[110px] lg:min-w-[135px] event-text'>Speakers:</div>
-					<div className='w-full event-text event-text-speakers'>{item.speakers}</div>
+				<div className='flex items-start space-x-5 md:basis-2/3 lg:basis-9/12'>
+					{item.speakers?.length > 1 && (
+						<>
+							<div className='event-text'>Speakers:</div>
+							<div className='event-text event-text-speakers'>{item.speakers}</div>
+						</>
+					)}
 				</div>
 			</div>
 		</li>
@@ -175,7 +147,7 @@ function TabList({ activeTab, toggleTabs }) {
 				<div className='stage-card-arrow' />
 				<div className='stage-card-container'>
 					<div className='tabe-title'>Galois Stage</div>
-					{/* <div className='flex md:mt-[8px] space-x-2 md:space-x-4'>
+					{/* <div className='flex md:mt-[.5rem] space-x-2 md:space-x-4'>
 						<div className='tab-tag-1'>ZK Track</div>
 					</div> */}
 				</div>
@@ -188,7 +160,7 @@ function TabList({ activeTab, toggleTabs }) {
 				<div className='stage-card-arrow' />
 				<div className='stage-card-container'>
 					<div className='tabe-title'>Fourier Stage</div>
-					{/* <div className='flex md:mt-[8px] space-x-2 md:space-x-4'>
+					{/* <div className='flex md:mt-[.5rem] space-x-2 md:space-x-4'>
 						<div className='tab-tag-3'>Gaming</div>
 					</div> */}
 				</div>

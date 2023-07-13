@@ -53,19 +53,22 @@
 
 	.event-title {
 		font-size: 26px;
-		font-weight: bold;
+		font-weight: 700;
 		letter-spacing: 0;
 		line-height: 1.2;
+
 		@media (max-width: $md) {
 			font-size: 18px;
+		}
+		@media (max-width: $xs) {
+			font-size: 16px;
 		}
 	}
 
 	.event-text {
 		font-size: 16px;
-		font-style: normal;
+		line-height: 1em;
 		font-weight: 700;
-		line-height: normal;
 		letter-spacing: -0.412px;
 		max-width: 300px;
 		@media (max-width: $md) {
@@ -127,7 +130,7 @@
 						font-weight: 700;
 					}
 
-					@media (max-width: $md) {
+					@media (max-width: $lg) {
 						margin-right: 0;
 					}
 				}
@@ -179,7 +182,7 @@
 				border: 2px solid transparent;
 				z-index: 1;
 
-				@media (max-width: $md) {
+				@media (max-width: $lg) {
 					display: none;
 				}
 			}
