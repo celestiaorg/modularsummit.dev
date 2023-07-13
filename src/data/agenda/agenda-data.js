@@ -74,17 +74,17 @@ export const agendaData = {
 				time: "12:05",
 				speakers: "Moderator: Bartek Kiepuszewski | Panelists: Anurag Arjun, Mustafa Al-Bassam",
 			},
+      {
+				title: "Light nodes are not just a meme",
+				date: "2023. July 21",
+				time: "12:45",
+				speakers: "Nick White",
+			},
 			{
 				title: "DA as broadband",
 				date: "2023. July 21",
-				time: "12:45",
+				time: "13:10",
 				speakers: "Alex Evans",
-			},
-			{
-				title: "Light nodes are not just a meme",
-				date: "2023. July 21",
-				time: "13:05",
-				speakers: "Nick White",
 			},
 			{
 				title: "Lunch Break",
@@ -224,7 +224,7 @@ export const agendaData = {
 				title: "Shared Sequencer Panel",
 				date: "2023. July 21",
 				time: "15:10",
-				speakers: "Moderator: Evan Forbes | Panelists: Josh Bowen, Tariz Jeong, Ben Fisch",
+				speakers: "Moderator: Evan Forbes | Panelists: Josh Bowen, Ben Fisch",
 			},
 			{
 				title: "Rollups-as-a-Service Are Going To Zero",
@@ -314,7 +314,7 @@ export const agendaData = {
 				title: "Shielded Data Availability on Celestia",
 				date: "2023. July 22",
 				time: "10:00",
-				speakers: "Chris Goes",
+				speakers: "Adrian Brink",
 			},
 			{
 				title: "Many chains, One Transaction: Democratizing Great Modular UX",
@@ -599,7 +599,7 @@ export const agendaData = {
 			{
 				title: "Modular Hacker House Demos",
 				date: "2023. July 22",
-				time: "15:30",
+				time: "16:00",
 				speakers: "Argus and Celestia Labs",
 			},
 		],
