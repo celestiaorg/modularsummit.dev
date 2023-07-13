@@ -47,7 +47,7 @@ export default function Agenda() {
 
 	useLayoutEffect(() => {
 		createThemeMarkers();
-	}, [activeTab]);
+	}, [activeTab, activeDay]);
 
 	return (
 		<section id='agenda' className='agenda'>
