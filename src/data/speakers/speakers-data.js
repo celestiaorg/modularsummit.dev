@@ -322,13 +322,6 @@ export const speakersData = {
 				alt: "Marko Baricevic - Modular Summit 2023",
 			},
 			{
-				name: "Tariz Jeong",
-				title: "Co-Founder, ZK Researcher",
-				company: "Radius",
-				image: "tariz_jeong",
-				alt: "Tariz Jeong - Modular Summit 2023",
-			},
-			{
 				name: "Andres Monty",
 				title: "Founder & CEO",
 				company: "Range",

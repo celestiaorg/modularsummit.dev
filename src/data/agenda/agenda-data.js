@@ -224,7 +224,7 @@ export const agendaData = {
 				title: "Shared Sequencer Panel",
 				date: "2023. July 21",
 				time: "15:10",
-				speakers: "Moderator: Evan Forbes | Panelists: Josh Bowen, Tariz Jeong, Ben Fisch",
+				speakers: "Moderator: Evan Forbes | Panelists: Josh Bowen, Ben Fisch",
 			},
 			{
 				title: "Rollups-as-a-Service Are Going To Zero",
