@@ -332,7 +332,7 @@ export const agendaData = {
 				title: "Modularity in Monetary Design",
 				date: "2023. July 22",
 				time: "11:20",
-				speakers: "Ethan Buchmann",
+				speakers: "Ethan Buchman",
 			},
 			{
 				title: "Celestia architecture: the present and a glimpse into the future",
@@ -350,7 +350,7 @@ export const agendaData = {
 				title: "Panel: Cosmos goes modular - Internet of Modular Blockchains",
 				date: "2023. July 22",
 				time: "12:15",
-				speakers: "Moderator: David Feiock | Panelist: Ethan Buchmann, Zaki Manian, Ismail Khoffi, Jack Zampolin",
+				speakers: "Moderator: David Feiock | Panelist: Ethan Buchman, Zaki Manian, Ismail Khoffi, Jack Zampolin",
 			},
 			{
 				title: "Lunch",

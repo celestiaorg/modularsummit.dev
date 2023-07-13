@@ -483,11 +483,11 @@ export const speakersData = {
 				alt: "Connor O’Hara - Modular Summit 2023",
 			},
 			{
-				name: "Ethan Buchmann",
+				name: "Ethan Buchman",
 				title: "CEO",
 				company: "Informal",
 				image: "ethan_buchmann",
-				alt: "Ethan Buchmann - Modular Summit 2023",
+				alt: "Ethan Buchman - Modular Summit 2023",
 			},
 			{
 				name: "David Feiock",
