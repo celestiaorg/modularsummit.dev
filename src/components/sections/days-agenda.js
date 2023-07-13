@@ -1,4 +1,4 @@
-import * as React from "react";
+import React, { useLayoutEffect } from "react";
 import { useState } from "react";
 
 export default function DaysAgenda({ data }) {
@@ -9,6 +9,69 @@ export default function DaysAgenda({ data }) {
 			setActiveTab(tab);
 		}
 	};
+
+	const createThemeMarkers = () => {
+		const themes = [
+			"rollups",
+			"data-availability",
+			"zk",
+			"infrastructure",
+			"shared-seq",
+			"raas",
+			"modular-interop",
+			"modular-cosmos",
+			"pbs.day",
+			"developer",
+			"gaming",
+			"zk-apps",
+			"cosmos + celestia"
+		];
+		const colors = [
+			"red",
+			"blue",
+			"green",
+			"orange",
+			"purple",
+			"pink",
+			"teal",
+			"yellow",
+			"gray",
+			"indigo",
+			"brown",
+			"cyan",
+			"lime"
+		];
+		themes.forEach((theme, index) => {
+			const themeElements = document.querySelectorAll(`#${theme}`);
+			const themeElementHeights = Array.from(themeElements).reduce(
+				(acc, curr) => acc + curr.offsetHeight,
+				0
+			) - 35;
+			if (themeElements.length > 0) {
+				const firstElement = themeElements[0];
+				let beforeElement = firstElement.querySelector("#track-marker");
+				if (beforeElement) {
+					beforeElement.remove();
+				}
+				beforeElement = document.createElement("div");
+				beforeElement.style.height = `${themeElementHeights}px`;
+				beforeElement.style.borderColor = colors[index];
+				beforeElement.setAttribute("id", "track-marker");
+
+				const trackMarkerText = document.createElement("div");
+				trackMarkerText.innerHTML = theme;
+				trackMarkerText.classList.add("track-marker-text");
+				beforeElement.appendChild(trackMarkerText);
+
+				firstElement.insertBefore(beforeElement, firstElement.firstChild);
+			}
+			console.log(`${theme}: ${themeElementHeights}px`);
+		});
+	}
+
+	useLayoutEffect(() => {
+		createThemeMarkers();
+	}, [activeTab]);
 
 	return (
 		<section className='days-agenda'>
@@ -27,7 +90,6 @@ export default function DaysAgenda({ data }) {
 						<div className='basis-full lg:basis-3/4'>
 							<div className='w-full mt-8 md:w-auto livestream-banner'>
 								<div className='flex flex-col items-start justify-between px-2 lg:space-x-4 max-lg:space-y-2 lg:items-center lg:flex-row'>
-
 									<div className='livestream-text'>Watch our livestream on Youtube</div>
 									<div className='flex items-center space-x-3'>
 										<svg xmlns='http://www.w3.org/2000/svg' width='25' height='25' viewBox='0 0 25 25' fill='none'>
@@ -37,7 +99,7 @@ export default function DaysAgenda({ data }) {
 												fill='#4F02EC'
 											/>
 										</svg>
-										<div className="button-label">Link is coming soon</div>
+										<div className='button-label'>Link is coming soon</div>
 									</div>
 								</div>
 							</div>
@@ -55,23 +117,23 @@ function EventList({ activeTab, day }) {
 		<div className=''>
 			<div className='event-list-border' />
 			{activeTab === "Tab1" && (
-				<ul className=''>
+				<ul className='event-list'>
 					{day.stage1.map((item, index) => {
-						return <EventItem index={index} item={item} />;
+						return <EventItem key={index} index={index} item={item} />;
 					})}
 				</ul>
 			)}
 			{activeTab === "Tab2" && (
 				<ul className=''>
 					{day.stage2.map((item, index) => {
-						return <EventItem index={index} item={item} />;
+						return <EventItem key={index} index={index} item={item} />;
 					})}
 				</ul>
 			)}
 			{activeTab === "Tab3" && (
 				<ul className=''>
 					{day.stage3.map((item, index) => {
-						return <EventItem index={index} item={item} />;
+						return <EventItem key={index} index={index} item={item} />;
 					})}
 				</ul>
 			)}
@@ -79,9 +141,9 @@ function EventList({ activeTab, day }) {
 	);
 }
 
-function EventItem({ index, item }) {
+function EventItem({ item }) {
 	return (
-		<li key={index} className='py-8 md:pl-10'>
+		<li id={item.theme} className='event-item'>
 			<div className='mb-4 event-title element-spacing'>{item.title}</div>
 
 			<div className='flex flex-wrap max-md:space-y-1.5 md:space-x-5'>
@@ -89,13 +151,13 @@ function EventItem({ index, item }) {
 					<div className='event-text min-w-[95px] md:min-w-[127px]'>{item.date}</div>
 					<div className='w-[16px] md:w-[25px]'>
 						<svg className='w-[5px] h-[5px] inline-block mb-0.5' xmlns='http://www.w3.org/2000/svg'>
-							<rect width='5' height='5' x='60' y='13' fill='#000' fill-rule='evenodd' rx='2.5' transform='translate(-60 -13)' />
+							<rect width='5' height='5' x='60' y='13' fill='#000' fillRule='evenodd' rx='2.5' transform='translate(-60 -13)' />
 						</svg>
 					</div>
 					<div className='event-text w-[100px]'>{item.time}</div>
 				</div>
 				<div className='flex items-start basis-full md:basis-auto'>
-					<div className='min-w-[100px] md:min-w-[110px] lg:min-w-[135px] event-text'>Speakers:</div>
+					<div className='min-w-[80px] md:min-w-[110px] lg:min-w-[135px] event-text'>Speakers:</div>
 					<div className='w-full event-text event-text-speakers'>{item.speakers}</div>
 				</div>
 			</div>

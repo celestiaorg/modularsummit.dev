@@ -115,7 +115,7 @@ function EventItem({index, item }) {
 					<div className='event-text w-[95px] md:w-[127px]'>{item.date}</div>
 					<div className='w-[16px] md:w-[25px]'>
 						<svg className='w-[5px] h-[5px] inline-block mb-0.5' xmlns='http://www.w3.org/2000/svg'>
-							<rect width='5' height='5' x='60' y='13' fill='#000' fill-rule='evenodd' rx='2.5' transform='translate(-60 -13)' />
+							<rect width='5' height='5' x='60' y='13' fill='#000' fillRule='evenodd' rx='2.5' transform='translate(-60 -13)' />
 						</svg>
 					</div>
 					<div className='event-text w-[180px]'>{item.time}</div>

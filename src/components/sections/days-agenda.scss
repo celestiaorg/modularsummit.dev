@@ -24,6 +24,32 @@
 			margin-top: 20px;
 		}
 	}
+	
+	.event-list {
+		@media (min-width: $lg) {
+			margin-left: 35px;
+		}
+	}
+
+	.event-item {
+		position: relative;
+		margin-left: 55px;
+		padding-top: 20px;
+		padding-bottom: 20px;
+		@media (min-width: $md) {
+			margin-left: 0px;
+			padding-top: 32px;
+			padding-bottom: 25px;
+		}
+		&:first-of-type {
+			padding-top: 0;
+			margin-top: 30px;
+			@media (min-width: $md) {
+				padding-top: 0;
+				margin-top: 42px;
+			}
+		}
+	}
 
 	.event-title {
 		font-size: 26px;
@@ -53,6 +79,34 @@
 
 	li:not(:last-of-type) {
 		border-bottom: 2px solid #dfdfdf;
+	}
+
+	#track-marker {
+		width: 25px;
+		border-width: 0px 2px 0px 0px;
+		position: absolute;
+		left: -55px;
+		top: 7px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		@media (max-width: $sm) {
+			left: -50px;
+		}
+	}
+
+	.track-marker-text {
+		color: #000;
+		font-size: 12px;
+		line-height: 1em;
+		font-style: normal;
+		font-weight: 700;
+		// position //
+		width: fit-content;
+		transform: rotate(270deg);
+		text-transform: uppercase;
+		white-space: nowrap;
+		margin-right: 10px;
 	}
 
 	.stage-stack {
