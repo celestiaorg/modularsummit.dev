@@ -466,7 +466,7 @@ export const agendaData = {
 				title: "Rollkit: Unleashing the Power of Open Interfaces",
 				date: "2023. July 22",
 				time: "10:10",
-				speakers: "Gabriel Blaut",
+				speakers: "NashQ",
 			},
 			{
 				title: "Modular Devrel Panel: Build Whatever",

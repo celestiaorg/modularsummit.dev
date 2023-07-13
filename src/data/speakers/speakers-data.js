@@ -406,13 +406,6 @@ export const speakersData = {
 				alt: "NashQ - Modular Summit 2023",
 			},
 			{
-				name: "Bikem Ozaydin",
-				title: "Software Engineer",
-				company: "Essential Contributions",
-				image: "bikem_ozaydin",
-				alt: "Bikem Ozaydin - Modular Summit 2023",
-			},
-			{
 				name: "Jim Chang",
 				title: "Co-Founder",
 				company: "Catalyst",
@@ -523,13 +516,6 @@ export const speakersData = {
 				company: "Flashbots",
 				image: "danning_sui",
 				alt: "Danning Sui - Modular Summit 2023",
-			},
-			{
-				name: "Hasu",
-				title: "Strategy Lead",
-				company: "Flashbots",
-				image: "hasu",
-				alt: "Hasu - Modular Summit 2023",
 			},
 			{
 				name: "Georgios Vlachos",
