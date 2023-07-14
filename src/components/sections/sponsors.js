@@ -3,7 +3,7 @@ import { StaticImage } from "gatsby-plugin-image";
 
 export default function Sponsors() {
 	return (
-		<section id="sponsors" className='sponsors'>
+		<section id='sponsors' className='sponsors'>
 			<div className='container'>
 				<div className='gradient-1' />
 				<div className='gradient-2' />
@@ -195,11 +195,21 @@ export default function Sponsors() {
 							</div>
 						</div>
 					</div>
-					<div className='max-w-[150px] sm:max-w-[450px] md:max-w-[674px] space-y-8 md:space-y-6'>
+
+					<div className='flex flex-col items-center justify-center max-md:space-y-5 md:space-x-16 md:flex-row'>
 						<div className='flex flex-col items-center justify-center max-md:space-y-8 md:space-x-16 md:flex-row'>
 							<StaticImage
 								className='w-[170px] md:w-[220px]'
 								src='../../images/sections/sponsors/foresight.png'
+								placeholder='none'
+								quality={100}
+								alt='Lambda Class'
+							/>
+						</div>
+						<div className='flex flex-col items-center justify-center max-md:space-y-8 md:space-x-16 md:flex-row'>
+							<StaticImage
+								className='w-[80px] md:w-[100px]'
+								src='../../images/sections/sponsors/qredo.png'
 								placeholder='none'
 								quality={100}
 								alt='Lambda Class'
