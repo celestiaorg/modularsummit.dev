@@ -19,11 +19,11 @@ export default function DaysAgenda({ data, activeDay }) {
 				const firstElement = themeElements[0];
 				let beforeElement = firstElement.querySelector("#track-marker");
 				if (beforeElement) {
-					beforeElement();
+					beforeElement.remove();
 				}
 				beforeElement = document.createElement("div");
 				beforeElement.style.height = `${themeElementHeights}px`;
-				beforeElement.style.borderColor = agendaData.themes[index].color;
+				beforeElement.style.borderColor = `${agendaData.themes[index].color}`;
 				beforeElement.setAttribute("id", "track-marker");
 
 				const trackMarkerText = document.createElement("div");
@@ -33,7 +33,7 @@ export default function DaysAgenda({ data, activeDay }) {
 
 				firstElement.insertBefore(beforeElement, firstElement.firstChild);
 			}
-			// console.log(`${item.id}: ${themeElementHeights}px`);
+			console.log(`${item.id}: ${themeElementHeights}px`);
 		});
 	};
 
@@ -48,7 +48,7 @@ export default function DaysAgenda({ data, activeDay }) {
 				<div className='gradient-2' />
 				<div className='content-wrapper'>
 					<div className='flex flex-col items-center justify-between pb-8 lg:flex-row lg:pb-16'>
-						<div className=''>
+						<div className='w-full'>
 							<h2 className='heading-xl'>Agenda</h2>
 						</div>
 					</div>
@@ -113,7 +113,7 @@ function EventList({ activeTab, day }) {
 
 function EventItem({ item }) {
 	return (
-		<li id={item.theme.replace(/[\s+_.]+/g, "-")} className='event-item'>
+		<li id={item.theme ? item.theme.replace(/[\s+_.]+/g, "-") : "theme-key-not-defined"} className='event-item'>
 			<div className='mb-4 event-title element-spacing'>{item.title}</div>
 
 			<div className='flex flex-col max-sm:space-y-3 sm:space-x-14 md:space-x-16 sm:flex-row items-star'>
