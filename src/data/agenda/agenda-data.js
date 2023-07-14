@@ -74,17 +74,17 @@ export const agendaData = {
 				time: "12:05",
 				speakers: "Moderator: Bartek Kiepuszewski | Panelists: Anurag Arjun, Mustafa Al-Bassam",
 			},
+      {
+				title: "Light nodes are not just a meme",
+				date: "2023. July 21",
+				time: "12:45",
+				speakers: "Nick White",
+			},
 			{
 				title: "DA as broadband",
 				date: "2023. July 21",
-				time: "12:45",
+				time: "13:10",
 				speakers: "Alex Evans",
-			},
-			{
-				title: "Light nodes are not just a meme",
-				date: "2023. July 21",
-				time: "13:05",
-				speakers: "Nick White",
 			},
 			{
 				title: "Lunch Break",
@@ -176,7 +176,7 @@ export const agendaData = {
 				title: "Developer Infrastructure Panel",
 				date: "2023. July 21",
 				time: "11:10",
-				speakers: "Moderator: Stephy | Panelists: Jordan Oroshiba, Dan Lynch, lzrs, Andres Monty",
+				speakers: "Moderator: Stephy | Panelists: Jordan Oroshiba, Dan Lynch, lzrs, Josh Stein",
 			},
 			{
 				title: "Bringing Security to Your Cosmos Chain with Ledger",
@@ -224,7 +224,7 @@ export const agendaData = {
 				title: "Shared Sequencer Panel",
 				date: "2023. July 21",
 				time: "15:10",
-				speakers: "Moderator: Evan Forbes | Panelists: Josh Bowen, Tariz Jeong, Ben Fisch",
+				speakers: "Moderator: Evan Forbes | Panelists: Josh Bowen, Ben Fisch, Connor O'Hara",
 			},
 			{
 				title: "Rollups-as-a-Service Are Going To Zero",
@@ -236,7 +236,7 @@ export const agendaData = {
 				title: "Caldera: OP stack x Celestia rollups",
 				date: "2023. July 21",
 				time: "16:10",
-				speakers: "Matt Katz ",
+				speakers: "Matt Katz",
 			},
 			{
 				title: "Rollup-as-a-Service Panel",
@@ -266,7 +266,7 @@ export const agendaData = {
 				title: "Happy Hour",
 				date: "2023. July 21",
 				time: "18:30",
-				speakers: "speaker",
+				speakers: "",
 			},
 		],
 		stage3: [
@@ -299,7 +299,7 @@ export const agendaData = {
 	day2: {
 		title: "Day 2",
 		subtitle: "Modularism > Maximalism",
-		zkText: "PBS.day is co-created with ZK Flashbots",
+		zkText: "PBS.day is co-created with Flashbots",
 		text: "Modular Summit's PBS.day: Keeping Crypto Decentralized is co-created by Flashbots, bringing together leading researchers such as Vitalik Buterin, Jon Charbonneau, Tarun Chitra, and more. Join us on July 21 at 2:00pm at Modular Summit as we navigate through the PBS design space from the elegant PEPC proposal to the latest version of the enshrined PBS (ePBS) design PTC.",
 		gameText: "Gaming track is curated by Argus",
 		date: "Paris | July 22 2023",
@@ -314,7 +314,7 @@ export const agendaData = {
 				title: "Shielded Data Availability on Celestia",
 				date: "2023. July 22",
 				time: "10:00",
-				speakers: "Chris Goes",
+				speakers: "Adrian Brink",
 			},
 			{
 				title: "Many chains, One Transaction: Democratizing Great Modular UX",
@@ -326,13 +326,13 @@ export const agendaData = {
 				title: "Panel: Rollups on Bitcoin",
 				date: "2023. July 22",
 				time: "10:35",
-				speakers: "Moderator: Eric Wall | Panelists: Sunny Aggarwal, Connor O'Hara, Cem Ozer",
+				speakers: "Moderator: Eric Wall | Panelists: Sunny Aggarwal, Connor O'Hara, Cem Özer",
 			},
 			{
 				title: "Modularity in Monetary Design",
 				date: "2023. July 22",
 				time: "11:20",
-				speakers: "Ethan Buchmann",
+				speakers: "Ethan Buchman",
 			},
 			{
 				title: "Celestia architecture: the present and a glimpse into the future",
@@ -350,7 +350,7 @@ export const agendaData = {
 				title: "Panel: Cosmos goes modular - Internet of Modular Blockchains",
 				date: "2023. July 22",
 				time: "12:15",
-				speakers: "Moderator: David Feiock | Panelist: Ethan Buchmann, Zaki Manian, Ismail Khoffi, Jack Zampolin",
+				speakers: "Moderator: David Feiock | Panelist: Ethan Buchman, Zaki Manian, Ismail Khoffi, Jack Zampolin",
 			},
 			{
 				title: "Lunch",
@@ -385,7 +385,7 @@ export const agendaData = {
 			{
 				title: "Builders and More Advanced Forms of Aggregation",
 				date: "2023. July 22",
-				time: "15:30",
+				time: "15:15",
 				speakers: "Vitalik Buterin",
 			},
 			{
@@ -446,7 +446,7 @@ export const agendaData = {
 				title: "PBS Guild: An Open Treasure Map to Keep Crypto Decentralized",
 				date: "2023. July 22",
 				time: "18:00",
-				speakers: "Tina",
+				speakers: "Tina Zhen",
 			},
 			{
 				title: "The End Game",
@@ -466,7 +466,7 @@ export const agendaData = {
 				title: "Rollkit: Unleashing the Power of Open Interfaces",
 				date: "2023. July 22",
 				time: "10:10",
-				speakers: "Gabriel Blaut",
+				speakers: "NashQ",
 			},
 			{
 				title: "Modular Devrel Panel: Build Whatever",
@@ -531,8 +531,8 @@ export const agendaData = {
 			{
 				title: "eIBC: IBC in a new Dymension",
 				date: "2023. July 22",
-				time: "Yishay",
-				speakers: "15:40",
+				speakers: "Yishay",
+				time: "15:40",
 			},
 			{
 				title: "Modular IBC Patterns",
@@ -555,8 +555,8 @@ export const agendaData = {
 			{
 				title: "Securing Connected Liquidity for Modular Blockchains",
 				date: "2023. July 22",
-				time: "Yeongin Lee",
-				speakers: "17:20",
+				speakers: "Yeongin Lee",
+				time: "17:20",
 			},
 			{
 				title: "Cosmos Panel: Applications",
@@ -573,16 +573,16 @@ export const agendaData = {
 		],
 		stage3: [
 			{
-				title: "Celestia Light Node Tutorial",
+				title: "Celestia Light Node Tutorial ✨",
 				date: "2023. July 22",
 				time: "10:00",
-				speakers: "Celestia Labs",
+				speakers: "Diego Ferrer and Josh Stein",
 			},
 			{
-				title: "OP Stack Rollup Workshop",
+				title: "OP Stack Rollup Workshop 🟣",
 				date: "2023. July 22",
 				time: "11:00",
-				speakers: "Celestia Labs and Caldera",
+				speakers: "Matt Katz, Diego Ferrer, Josh Stein",
 			},
 			{
 				title: "Rollkit Workshop",
@@ -599,7 +599,7 @@ export const agendaData = {
 			{
 				title: "Modular Hacker House Demos",
 				date: "2023. July 22",
-				time: "15:30",
+				time: "16:00",
 				speakers: "Argus and Celestia Labs",
 			},
 		],

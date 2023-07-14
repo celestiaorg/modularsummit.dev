@@ -120,10 +120,12 @@ function EventItem({index, item }) {
 					</div>
 					<div className='event-text w-[180px]'>{item.time}</div>
 				</div>
+				{item.speakers && (
 				<div className='flex items-center basis-full md:basis-auto'>
 					<div className='w-[100px] md:w-[135px] event-text'>Speakers:</div>
 					<div className='w-full event-text event-text-speakers'>{item.speakers}</div>
 				</div>
+				)}
 			</div>
 		</li>
 	);
@@ -140,9 +142,9 @@ function TabList({ activeTab, toggleTabs }) {
 				<div className='stage-card-arrow' />
 				<div className='stage-card-container'>
 					<div className='tabe-title'>Galois Stage</div>
-					<div className='flex md:mt-[8px] space-x-2 md:space-x-4'>
+					{/* <div className='flex md:mt-[8px] space-x-2 md:space-x-4'>
 						<div className='tab-tag-1'>ZK Track</div>
-					</div>
+					</div> */}
 				</div>
 			</button>
 
@@ -153,9 +155,9 @@ function TabList({ activeTab, toggleTabs }) {
 				<div className='stage-card-arrow' />
 				<div className='stage-card-container'>
 					<div className='tabe-title'>Fourier Stage</div>
-					<div className='flex md:mt-[8px] space-x-2 md:space-x-4'>
+					{/* <div className='flex md:mt-[8px] space-x-2 md:space-x-4'>
 						<div className='tab-tag-3'>Gaming</div>
-					</div>
+					</div> */}
 				</div>
 			</button>
 

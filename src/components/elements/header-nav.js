@@ -59,7 +59,7 @@ export default function HeaderNav(props) {
 			<div className={`container`}>
 				<div className='flex flex-wrap items-center h-full'>
 					<div className='basis-full'>
-						<ul className='flex flex-wrap justify-end space-y-1 lg:space-y-0 lg:space-x-10'>
+						<ul className='flex flex-wrap justify-end space-y-1 lg:space-y-0 lg:space-x-10 max-lg:pb-[56px]'>
 							{pathsArray.map((item) => {
 								return (
 									<li key={item.id}>
