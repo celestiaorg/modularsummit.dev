@@ -57,7 +57,7 @@ export default function Agenda() {
 			<div className='container'>
 				<div className='content-wrapper'>
 					<div className='flex flex-col items-start justify-between pb-8 md:flex-row md:pb-16'>
-						<div className='max-md:mb-10'>
+						<div className='max-md:mb-10 w-full'>
 							<h2 className='heading-xl'>Agenda</h2>
 						</div>
 						<div className='w-full md:w-auto'>
