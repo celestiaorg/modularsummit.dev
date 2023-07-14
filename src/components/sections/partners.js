@@ -20,7 +20,7 @@ export default function Sponsors() {
 							</div>
 							<div className='flex items-center basis-auto'>
 								<StaticImage
-									className='w-[70px] md:w-[80px]'
+									className='w-[80px]'
 									src='../../images/sections/partners/flashbot.png'
 									placeholder='none'
 									quality={100}
@@ -29,7 +29,7 @@ export default function Sponsors() {
 							</div>
 							<div className='flex items-center basis-auto'>
 								<StaticImage
-									className='w-[50px] md:w-[65px]'
+									className='w-[100px] md:w-[130px]'
 									src='../../images/sections/partners/zkpodcast.png'
 									placeholder='none'
 									quality={100}
