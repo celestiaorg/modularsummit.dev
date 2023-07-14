@@ -53,8 +53,8 @@ export default function DaysAgenda({ data, activeDay }) {
 						</div>
 					</div>
 					<div className='flex flex-col lg:flex-row lg:space-x-20 xl:space-x-28'>
-						<div className='basis-full lg:basis-4/12 xl:basis-3/12'> 
-							<TabList activeTab={activeTab} toggleTabs={toggleTabs}  activeDay={activeDay}/>
+						<div className='basis-full lg:basis-4/12 xl:basis-3/12'>
+							<TabList activeTab={activeTab} toggleTabs={toggleTabs} activeDay={activeDay} />
 						</div>
 
 						<div className='basis-full lg:basis-8/12 xl:basis-9/12'>
@@ -134,7 +134,6 @@ function EventItem({ item }) {
 						</>
 					)}
 				</div>
-				)}
 			</div>
 		</li>
 	);
@@ -167,23 +166,27 @@ function TabList({ activeTab, toggleTabs, activeDay }) {
 			>
 				<div className='stage-card-arrow' />
 				<div className='stage-card-container'>
-					<div className='tabe-title'>Galois Stage</div>
-					<div className='flex flex-wrap'>
-						{activeDay === "Day1"
-							? getThemes("day1", "stage1").map((theme) => {
-									return (
-										<div className='tab-tags' style={{ backgroundColor: theme.color }}>
-											{theme.id}
-										</div>
-									);
-							  })
-							: getThemes("day2", "stage1").map((theme) => {
-									return (
-										<div className='tab-tags' style={{ backgroundColor: theme.color }}>
-											{theme.id}
-										</div>
-									);
-							  })}
+					<div className='basis-1/3 sm:basis-1/2 lg:basis-auto'>
+						<div className='tabe-title'>Galois Stage</div>
+					</div>
+					<div className='basis-2/3 sm:basis-1/2 lg:basis-auto'>
+						<div className='flex flex-wrap'>
+							{activeDay === "Day1"
+								? getThemes("day1", "stage1").map((theme) => {
+										return (
+											<div className='tab-tags' style={{ backgroundColor: theme.color }}>
+												{theme.id}
+											</div>
+										);
+								  })
+								: getThemes("day2", "stage1").map((theme) => {
+										return (
+											<div className='tab-tags' style={{ backgroundColor: theme.color }}>
+												{theme.id}
+											</div>
+										);
+								  })}
+						</div>
 					</div>
 				</div>
 			</button>
@@ -193,23 +196,27 @@ function TabList({ activeTab, toggleTabs, activeDay }) {
 			>
 				<div className='stage-card-arrow' />
 				<div className='stage-card-container'>
-					<div className='tabe-title'>Fourier Stage</div>
-					<div className='flex flex-wrap'>
-						{activeDay === "Day1"
-							? getThemes("day1", "stage2").map((theme) => {
-									return (
-										<div className='tab-tags' style={{ backgroundColor: theme.color }}>
-											{theme.id}
-										</div>
-									);
-							  })
-							: getThemes("day2", "stage2").map((theme) => {
-									return (
-										<div className='tab-tags' style={{ backgroundColor: theme.color }}>
-											{theme.id}
-										</div>
-									);
-							  })}
+					<div className='basis-1/3 sm:basis-1/2 lg:basis-auto'>
+						<div className='tabe-title'>Fourier Stage</div>
+					</div>
+					<div className='basis-2/3 sm:basis-1/2 lg:basis-auto'>
+						<div className='flex flex-wrap'>
+							{activeDay === "Day1"
+								? getThemes("day1", "stage2").map((theme) => {
+										return (
+											<div className='tab-tags' style={{ backgroundColor: theme.color }}>
+												{theme.id}
+											</div>
+										);
+								  })
+								: getThemes("day2", "stage2").map((theme) => {
+										return (
+											<div className='tab-tags' style={{ backgroundColor: theme.color }}>
+												{theme.id}
+											</div>
+										);
+								  })}
+						</div>
 					</div>
 				</div>
 			</button>
@@ -217,23 +224,27 @@ function TabList({ activeTab, toggleTabs, activeDay }) {
 			<button className={`stage-card ${activeTab === "Tab3" && "selected"}`} onClick={() => toggleTabs("Tab3")}>
 				<div className='stage-card-arrow' />
 				<div className='stage-card-container'>
-					<div className='tabe-title'>Cauchy Stage</div>
-					<div className='flex flex-wrap'>
-						{activeDay === "Day1"
-							? getThemes("day1", "stage3").map((theme) => {
-									return (
-										<div className='tab-tags' style={{ backgroundColor: theme.color }}>
-											{theme.id}
-										</div>
-									);
-							  })
-							: getThemes("day2", "stage3").map((theme) => {
-									return (
-										<div className='tab-tags' style={{ backgroundColor: theme.color }}>
-											{theme.id}
-										</div>
-									);
-							  })}
+					<div className='basis-1/3 sm:basis-1/2 lg:basis-auto'>
+						<div className='tabe-title'>Cauchy Stage</div>
+					</div>
+					<div className='basis-2/3 sm:basis-1/2 lg:basis-auto'>
+						<div className='flex flex-wrap'>
+							{activeDay === "Day1"
+								? getThemes("day1", "stage3").map((theme) => {
+										return (
+											<div className='tab-tags' style={{ backgroundColor: theme.color }}>
+												{theme.id}
+											</div>
+										);
+								  })
+								: getThemes("day2", "stage3").map((theme) => {
+										return (
+											<div className='tab-tags' style={{ backgroundColor: theme.color }}>
+												{theme.id}
+											</div>
+										);
+								  })}
+						</div>
 					</div>
 				</div>
 			</button>
