@@ -22,7 +22,7 @@ export default function Agenda() {
 	const createThemeMarkers = () => {
 		agendaData.themes.forEach((item, index) => {
 			const themeElements = document.querySelectorAll(`#${item.id}`);
-			const themeElementHeights = Array.from(themeElements).reduce((acc, curr) => acc + curr.offsetHeight, 0) - 35;
+			const themeElementHeights = Array.from(themeElements).reduce((acc, curr) => acc + curr.offsetHeight, 0) - 76;
 			if (themeElements.length > 0) {
 				const firstElement = themeElements[0];
 				let beforeElement = firstElement.querySelector("#track-marker");
@@ -35,19 +35,22 @@ export default function Agenda() {
 				beforeElement.setAttribute("id", "track-marker");
 
 				const trackMarkerText = document.createElement("div");
-				trackMarkerText.innerHTML = item.id;
+				trackMarkerText.innerHTML = item.trackLabel;
 				trackMarkerText.classList.add("track-marker-text");
 				beforeElement.appendChild(trackMarkerText);
 
 				firstElement.insertBefore(beforeElement, firstElement.firstChild);
 			}
-			console.log(`${item.id}: ${themeElementHeights}px`);
+			// console.log(`${item.id}: ${themeElementHeights}px`);
 		});
 	};
 
 	useLayoutEffect(() => {
 		createThemeMarkers();
 	}, [activeTab, activeDay]);
+
+	// // const day1Themes = getThemes("day1", "stage1");
+	// console.log(getThemes("day1", "stage1"));
 
 	return (
 		<section id='agenda' className='agenda'>
@@ -76,18 +79,17 @@ export default function Agenda() {
 							</div>
 						</div>
 					</div>
-					<div className='flex flex-col lg:flex-row lg:space-x-20'>
-						<div className='basis-full lg:basis-1/4'>
-							<TabList activeTab={activeTab} toggleTabs={toggleTabs} />
+					<div className='flex flex-col lg:flex-row lg:space-x-20 xl:space-x-28'>
+						<div className='basis-full lg:basis-4/12 xl:basis-3/12'>
+							<TabList activeTab={activeTab} activeDay={activeDay} agendaData={agendaData} toggleTabs={toggleTabs} />
 						</div>
-
 						{activeDay === "Day1" && (
-							<div className='basis-full lg:basis-3/4'>
+							<div className='basis-full lg:basis-8/12 xl:basis-9/12'>
 								<EventList activeTab={activeTab} day={agendaData.day1} />
 							</div>
 						)}
 						{activeDay === "Day2" && (
-							<div className='basis-full lg:basis-3/4'>
+							<div className='basis-full lg:basis-8/12 xl:basis-9/12'>
 								<EventList activeTab={activeTab} day={agendaData.day2} />
 							</div>
 						)}
@@ -155,7 +157,25 @@ function EventItem({ item }) {
 	);
 }
 
-function TabList({ activeTab, toggleTabs }) {
+function TabList({ agendaData, activeTab, activeDay, toggleTabs }) {
+	const getThemes = (day, stage) => {
+		const stages = agendaData[day];
+		const events = stages[stage];
+		const themes = events
+			.map((item) => item.theme)
+			.filter((theme) => theme !== "")
+			.reduce((uniqueThemes, theme) => {
+				if (!uniqueThemes.includes(theme)) {
+					uniqueThemes.push(theme);
+				}
+				return uniqueThemes;
+			}, []);
+		return themes.map((themeId) => {
+			const theme = agendaData.themes.find((t) => t.id === themeId);
+			return theme ? { id: theme.trackLabel, color: theme.color } : { id: "", color: "" };
+		});
+	};
+
 	return (
 		<div className='md:pt-8 stage-stack'>
 			<button
@@ -165,10 +185,22 @@ function TabList({ activeTab, toggleTabs }) {
 				<div className='stage-card-arrow' />
 				<div className='stage-card-container'>
 					<div className='tabe-title'>Galois Stage</div>
-					<div className='flex flex-wrap md:mt-[8px]'>
-						<div className='bg-red-500 tab-tags'>ROLLUPS</div>
-						<div className='bg-blue-500 tab-tags'>DATA-AVAILABILITY</div>
-						<div className='bg-green-500 tab-tags'>ZK</div>
+					<div className='flex flex-wrap'>
+						{activeDay === "Day1"
+							? getThemes("day1", "stage1").map((theme) => {
+									return (
+										<div className='tab-tags' style={{ backgroundColor: theme.color }}>
+											{theme.id}
+										</div>
+									);
+							  })
+							: getThemes("day2", "stage1").map((theme) => {
+									return (
+										<div className='tab-tags' style={{ backgroundColor: theme.color }}>
+											{theme.id}
+										</div>
+									);
+							  })}
 					</div>
 				</div>
 			</button>
@@ -179,8 +211,22 @@ function TabList({ activeTab, toggleTabs }) {
 				<div className='stage-card-arrow' />
 				<div className='stage-card-container'>
 					<div className='tabe-title'>Fourier Stage</div>
-					<div className='flex md:mt-[8px] space-x-2 md:space-x-4'>
-						<div className='tab-tag-3'>Gaming</div>
+					<div className='flex flex-wrap'>
+						{activeDay === "Day1"
+							? getThemes("day1", "stage2").map((theme) => {
+									return (
+										<div className='tab-tags' style={{ backgroundColor: theme.color }}>
+											{theme.id}
+										</div>
+									);
+							  })
+							: getThemes("day2", "stage2").map((theme) => {
+									return (
+										<div className='tab-tags' style={{ backgroundColor: theme.color }}>
+											{theme.id}
+										</div>
+									);
+							  })}
 					</div>
 				</div>
 			</button>
@@ -189,6 +235,23 @@ function TabList({ activeTab, toggleTabs }) {
 				<div className='stage-card-arrow' />
 				<div className='stage-card-container'>
 					<div className='tabe-title'>Cauchy Stage</div>
+					<div className='flex flex-wrap'>
+						{activeDay === "Day1"
+							? getThemes("day1", "stage3").map((theme) => {
+									return (
+										<div className='tab-tags' style={{ backgroundColor: theme.color }}>
+											{theme.id}
+										</div>
+									);
+							  })
+							: getThemes("day2", "stage3").map((theme) => {
+									return (
+										<div className='tab-tags' style={{ backgroundColor: theme.color }}>
+											{theme.id}
+										</div>
+									);
+							  })}
+					</div>
 				</div>
 			</button>
 		</div>

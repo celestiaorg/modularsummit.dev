@@ -9,7 +9,7 @@ export default function Day1() {
 	return (
 		<Layout footerType="agenda">
 			<AgendaHeroDay1 data={agendaData.day1} />
-			<DaysAgenda data={agendaData.day1}/>
+			<DaysAgenda data={agendaData.day1} activeDay={"Day1"}/>
 		</Layout>
 	);
 }

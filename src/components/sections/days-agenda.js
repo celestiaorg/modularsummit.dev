@@ -2,7 +2,7 @@ import React, { useLayoutEffect } from "react";
 import { useState } from "react";
 import { agendaData } from "../../data/agenda/agenda-data";
 
-export default function DaysAgenda({ data }) {
+export default function DaysAgenda({ data, activeDay }) {
 	const [activeTab, setActiveTab] = useState("Tab1");
 
 	const toggleTabs = (tab) => {
@@ -14,7 +14,7 @@ export default function DaysAgenda({ data }) {
 	const createThemeMarkers = () => {
 		agendaData.themes.forEach((item, index) => {
 			const themeElements = document.querySelectorAll(`#${item.id}`);
-			const themeElementHeights = Array.from(themeElements).reduce((acc, curr) => acc + curr.offsetHeight, 0) - 35;
+			const themeElementHeights = Array.from(themeElements).reduce((acc, curr) => acc + curr.offsetHeight, 0) - 76;
 			if (themeElements.length > 0) {
 				const firstElement = themeElements[0];
 				let beforeElement = firstElement.querySelector("#track-marker");
@@ -27,13 +27,13 @@ export default function DaysAgenda({ data }) {
 				beforeElement.setAttribute("id", "track-marker");
 
 				const trackMarkerText = document.createElement("div");
-				trackMarkerText.innerHTML = item.id;
+				trackMarkerText.innerHTML = item.trackLabel;
 				trackMarkerText.classList.add("track-marker-text");
 				beforeElement.appendChild(trackMarkerText);
 
 				firstElement.insertBefore(beforeElement, firstElement.firstChild);
 			}
-			console.log(`${item.id}: ${themeElementHeights}px`);
+			// console.log(`${item.id}: ${themeElementHeights}px`);
 		});
 	};
 
@@ -44,18 +44,20 @@ export default function DaysAgenda({ data }) {
 	return (
 		<section id='days-agenda' className='days-agenda'>
 			<div className='container'>
+				<div className='gradient-1' />
+				<div className='gradient-2' />
 				<div className='content-wrapper'>
 					<div className='flex flex-col items-center justify-between pb-8 lg:flex-row lg:pb-16'>
 						<div className=''>
 							<h2 className='heading-xl'>Agenda</h2>
 						</div>
 					</div>
-					<div className='flex flex-col lg:flex-row lg:space-x-20'>
-						<div className='basis-full sm:basis-1/4'>
-							<TabList activeTab={activeTab} toggleTabs={toggleTabs} />
+					<div className='flex flex-col lg:flex-row lg:space-x-20 xl:space-x-28'>
+						<div className='basis-full lg:basis-4/12 xl:basis-3/12'> 
+							<TabList activeTab={activeTab} toggleTabs={toggleTabs}  activeDay={activeDay}/>
 						</div>
 
-						<div className='basis-full lg:basis-3/4'>
+						<div className='basis-full lg:basis-8/12 xl:basis-9/12'>
 							<div className='w-full mt-8 md:w-auto livestream-banner'>
 								<div className='flex flex-col items-start justify-between px-2 lg:space-x-4 max-lg:space-y-2 lg:items-center lg:flex-row'>
 									<div className='livestream-text'>Watch our livestream on Youtube</div>
@@ -137,7 +139,25 @@ function EventItem({ item }) {
 	);
 }
 
-function TabList({ activeTab, toggleTabs }) {
+function TabList({ activeTab, toggleTabs, activeDay }) {
+	const getThemes = (day, stage) => {
+		const stages = agendaData[day];
+		const events = stages[stage];
+		const themes = events
+			.map((item) => item.theme)
+			.filter((theme) => theme !== "")
+			.reduce((uniqueThemes, theme) => {
+				if (!uniqueThemes.includes(theme)) {
+					uniqueThemes.push(theme);
+				}
+				return uniqueThemes;
+			}, []);
+		return themes.map((themeId) => {
+			const theme = agendaData.themes.find((t) => t.id === themeId);
+			return theme ? { id: theme.trackLabel, color: theme.color } : { id: "", color: "" };
+		});
+	};
+
 	return (
 		<div className='md:pt-8 stage-stack'>
 			<button
@@ -147,12 +167,25 @@ function TabList({ activeTab, toggleTabs }) {
 				<div className='stage-card-arrow' />
 				<div className='stage-card-container'>
 					<div className='tabe-title'>Galois Stage</div>
-					<div className='flex md:mt-[.5rem] space-x-2 md:space-x-4'>
-						<div className='tab-tag-1'>ZK Track</div>
+					<div className='flex flex-wrap'>
+						{activeDay === "Day1"
+							? getThemes("day1", "stage1").map((theme) => {
+									return (
+										<div className='tab-tags' style={{ backgroundColor: theme.color }}>
+											{theme.id}
+										</div>
+									);
+							  })
+							: getThemes("day2", "stage1").map((theme) => {
+									return (
+										<div className='tab-tags' style={{ backgroundColor: theme.color }}>
+											{theme.id}
+										</div>
+									);
+							  })}
 					</div>
 				</div>
 			</button>
-
 			<button
 				className={`stage-card ${activeTab === "Tab2" && "selected"} ${activeTab !== "Tab2" && activeTab !== "Tab3" && "width-border"}`}
 				onClick={() => toggleTabs("Tab2")}
@@ -160,8 +193,22 @@ function TabList({ activeTab, toggleTabs }) {
 				<div className='stage-card-arrow' />
 				<div className='stage-card-container'>
 					<div className='tabe-title'>Fourier Stage</div>
-					<div className='flex md:mt-[.5rem] space-x-2 md:space-x-4'>
-						<div className='tab-tag-3'>Gaming</div>
+					<div className='flex flex-wrap'>
+						{activeDay === "Day1"
+							? getThemes("day1", "stage2").map((theme) => {
+									return (
+										<div className='tab-tags' style={{ backgroundColor: theme.color }}>
+											{theme.id}
+										</div>
+									);
+							  })
+							: getThemes("day2", "stage2").map((theme) => {
+									return (
+										<div className='tab-tags' style={{ backgroundColor: theme.color }}>
+											{theme.id}
+										</div>
+									);
+							  })}
 					</div>
 				</div>
 			</button>
@@ -170,6 +217,23 @@ function TabList({ activeTab, toggleTabs }) {
 				<div className='stage-card-arrow' />
 				<div className='stage-card-container'>
 					<div className='tabe-title'>Cauchy Stage</div>
+					<div className='flex flex-wrap'>
+						{activeDay === "Day1"
+							? getThemes("day1", "stage3").map((theme) => {
+									return (
+										<div className='tab-tags' style={{ backgroundColor: theme.color }}>
+											{theme.id}
+										</div>
+									);
+							  })
+							: getThemes("day2", "stage3").map((theme) => {
+									return (
+										<div className='tab-tags' style={{ backgroundColor: theme.color }}>
+											{theme.id}
+										</div>
+									);
+							  })}
+					</div>
 				</div>
 			</button>
 		</div>
