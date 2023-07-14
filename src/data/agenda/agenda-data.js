@@ -565,6 +565,12 @@ export const agendaData = {
 				speakers: "Moderator: Zion Thomas | Panelists: Albert Chon, Yeongin Lee, Jelena Djuric, Dev Bear, Dan Lynch",
 			},
 			{
+				title: "Berachain: Polaris",
+				date: "2023. July 22",
+				time: "18:20",
+				speakers: "Dev Bear",
+			},
+			{
 				title: "Happy Hour",
 				date: "2023. July 22",
 				time: "19:00",
@@ -589,6 +595,12 @@ export const agendaData = {
 				date: "2023. July 22",
 				time: "12:00",
 				speakers: "Rollkit",
+			},
+			{
+				title: "Altlayer Workshop",
+				date: "2023. July 22",
+				time: "12:45",
+				speakers: "Altlayer",
 			},
 			{
 				title: "Sovereign SDK Workshop",
