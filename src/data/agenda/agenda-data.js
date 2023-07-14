@@ -150,7 +150,7 @@ export const agendaData = {
 				speakers: "Moderator: Bartek Kiepuszewski | Panelists: Anurag Arjun, Mustafa Al-Bassam",
 				theme: "data-availability",
 			},
-      {
+			{
 				title: "Light nodes are not just a meme",
 				date: "2023. July 21",
 				time: "12:45",
@@ -375,7 +375,6 @@ export const agendaData = {
 				time: "18:30",
 				speakers: "",
 				theme: "",
-				trackLabel: "",
 			},
 		],
 		stage3: [
@@ -385,7 +384,6 @@ export const agendaData = {
 				time: "11:30",
 				speakers: "Argus",
 				theme: "",
-				trackLabel: "",
 			},
 			{
 				title: "Curio Gaming Workshop",
@@ -393,7 +391,6 @@ export const agendaData = {
 				time: "12:30",
 				speakers: "Curio",
 				theme: "",
-				trackLabel: "",
 			},
 			{
 				title: "Anoma Workshop",
@@ -401,7 +398,6 @@ export const agendaData = {
 				time: "14:30",
 				speakers: "Anoma",
 				theme: "",
-				trackLabel: "",
 			},
 			{
 				title: "Astria Workshop",
@@ -409,7 +405,6 @@ export const agendaData = {
 				time: "16:30",
 				speakers: "Astria",
 				theme: "",
-				trackLabel: "",
 			},
 		],
 	},
@@ -482,7 +477,6 @@ export const agendaData = {
 				time: "13:00",
 				speakers: "",
 				theme: "",
-				trackLabel: "",
 			},
 			{
 				title: "Modularity, PBS and MEV - Freedom from the Bitcoin Mind Prison",
@@ -602,7 +596,6 @@ export const agendaData = {
 				time: "19:00",
 				speakers: "",
 				theme: "",
-				trackLabel: "",
 			},
 		],
 		stage2: [
@@ -654,7 +647,6 @@ export const agendaData = {
 				time: "13:00",
 				speakers: "",
 				theme: "",
-				trackLabel: "",
 			},
 			{
 				title: "Fireside chat with zk Sync",
@@ -690,7 +682,6 @@ export const agendaData = {
 				time: "15:40",
 				speakers: "Yishay",
 				theme: "cosmos-celestia",
-				
 			},
 			{
 				title: "Modular IBC Patterns",
@@ -698,7 +689,6 @@ export const agendaData = {
 				time: "16:00",
 				speakers: "Jack Zampolin",
 				theme: "cosmos-celestia",
-				
 			},
 			{
 				title: "Bitcoin Staking: Unlocking 21M Bitcoins to Secure the Decentralised Economy",
@@ -706,7 +696,6 @@ export const agendaData = {
 				time: "16:20",
 				speakers: "David Tse",
 				theme: "cosmos-celestia",
-				
 			},
 			{
 				title: "Cosmos Panel: Infrastructure",
@@ -714,7 +703,6 @@ export const agendaData = {
 				time: "16:40",
 				speakers: "Moderator: Thyborg | Panelists: Marko Bar, Sean Braithwaite, Barry Plunkett, Jack Zampolin",
 				theme: "cosmos-celestia",
-				
 			},
 			{
 				title: "Securing Connected Liquidity for Modular Blockchains",
@@ -722,7 +710,6 @@ export const agendaData = {
 				speakers: "Yeongin Lee",
 				time: "17:20",
 				theme: "cosmos-celestia",
-				
 			},
 			{
 				title: "Cosmos Panel: Applications",
@@ -737,7 +724,6 @@ export const agendaData = {
 				time: "19:00",
 				speakers: "",
 				theme: "",
-				trackLabel: "",
 			},
 		],
 		stage3: [
@@ -761,7 +747,6 @@ export const agendaData = {
 				time: "12:00",
 				speakers: "Rollkit",
 				theme: "",
-				trackLabel: "",
 			},
 			{
 				title: "Sovereign SDK Workshop",
@@ -769,7 +754,6 @@ export const agendaData = {
 				time: "14:30",
 				speakers: "Sovereign Labs",
 				theme: "",
-				trackLabel: "",
 			},
 			{
 				title: "Modular Hacker House Demos",
@@ -777,7 +761,6 @@ export const agendaData = {
 				time: "16:00",
 				speakers: "Argus and Celestia Labs",
 				theme: "",
-				trackLabel: "",
 			},
 		],
 	},
