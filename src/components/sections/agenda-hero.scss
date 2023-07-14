@@ -1,6 +1,7 @@
 .agenda-hero {
 	padding-top: 155px;
 	background-color: #ffffff;
+	z-index: 1;
 	@media (min-width: $md) {
 		padding-top: 163px;
 		transform: translateX(0px);
