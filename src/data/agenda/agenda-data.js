@@ -18,58 +18,60 @@ export const agendaData = {
 			type: "internal",
 		},
 	},
+
+	// Colors taken from Tailwind CSS color 500 palettes  --> https://tailwindcss.com/docs/customizing-colors
 	themes: [
 		{
 			id: "rollups",
-			color: "red",
+			color: "#ef4444",
 		},
 		{
 			id: "data-availability",
-			color: "blue",
+			color: "#3b82f6",
 		},
 		{
 			id: "zk",
-			color: "green",
+			color: "#22c55e",
 		},
 		{
 			id: "infrastructure",
-			color: "orange",
+			color: "#f97316",
 		},
 		{
 			id: "shared-seq",
-			color: "purple",
+			color: "#a855f7",
 		},
 		{
 			id: "raas",
-			color: "pink",
+			color: "#ec4899",
 		},
 		{
 			id: "modular-interop",
-			color: "teal",
+			color: "#14b8a6",
 		},
 		{
 			id: "modular-cosmos",
-			color: "yellow",
+			color: "#eab308",
 		},
 		{
 			id: "pbs-day",
-			color: "gray",
+			color: "#6b7280",
 		},
 		{
 			id: "developer",
-			color: "indigo",
+			color: "#6366f1",
 		},
 		{
 			id: "gaming",
-			color: "brown",
+			color: "#d946ef",
 		},
 		{
 			id: "zk-apps",
-			color: "cyan",
+			color: "#06b6d4",
 		},
 		{
 			id: "cosmos-celestia",
-			color: "lime",
+			color: "#84cc16",
 		},
 	],
 	day1: {

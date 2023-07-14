@@ -139,7 +139,8 @@
 			}
 
 			.stage-card-container {
-				height: 90px;
+				min-height: 90px;
+				height: 100%;
 				padding: 20px 20px 20px 20px;
 				border-radius: 0;
 				background-color: transparent;
@@ -201,10 +202,12 @@
 		text-transform: uppercase;
 		border-radius: 4px;
 		padding: 6px 10px;
+		margin-right: 6px;
 	}
 
 	.tab-tag-1 {
-		background-color: #f2ddda;
+		background-color: #F43F5E;
+		color: #fff;
 	}
 	.tab-tag-2 {
 		background-color: #ede3ff;

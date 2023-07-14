@@ -31,7 +31,7 @@ export default function Agenda() {
 				}
 				beforeElement = document.createElement("div");
 				beforeElement.style.height = `${themeElementHeights}px`;
-				beforeElement.style.borderColor = agendaData.themes[index].color;
+				beforeElement.style.borderColor = `${agendaData.themes[index].color}`;
 				beforeElement.setAttribute("id", "track-marker");
 
 				const trackMarkerText = document.createElement("div");
@@ -165,12 +165,13 @@ function TabList({ activeTab, toggleTabs }) {
 				<div className='stage-card-arrow' />
 				<div className='stage-card-container'>
 					<div className='tabe-title'>Galois Stage</div>
-					<div className='flex md:mt-[8px] space-x-2 md:space-x-4'>
-						<div className='tab-tag-1'>ZK Track</div>
+					<div className='flex flex-wrap md:mt-[8px]'>
+						<div className='tab-tag-1'>ROLLUPS</div>
+						<div className='tab-tag-1'>DATA-AVAILABILITY</div>
+						<div className='tab-tag-1'>ZK</div>
 					</div>
 				</div>
 			</button>
-
 			<button
 				className={`stage-card ${activeTab === "Tab2" && "selected"} ${activeTab !== "Tab2" && activeTab !== "Tab3" && "width-border"}`}
 				onClick={() => toggleTabs("Tab2")}
