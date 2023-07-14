@@ -769,7 +769,7 @@ export const speakersData = {
 				image: "tina_haibodi",
 				alt: "Tina Haibodi - Modular Summit 2023",
 			},
-      		{
+			{
 				name: "Adrian Brink",
 				title: "Co-founder",
 				company: "Anoma",
@@ -790,7 +790,6 @@ export const speakersData = {
 				image: "josh_stein",
 				alt: "Josh Stein - Modular Summit 2023",
 			},
-
 		],
 	},
 };
