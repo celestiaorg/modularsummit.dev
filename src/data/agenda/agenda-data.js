@@ -106,6 +106,7 @@ export const agendaData = {
 				date: "2023. July 21",
 				time: "10:00",
 				speakers: "Balder Bomans",
+				abstract: "",
 				theme: "rollups",
 			},
 			{
@@ -113,6 +114,7 @@ export const agendaData = {
 				date: "2023. July 21",
 				time: "10:10",
 				speakers: "Scott Sunarto",
+				abstract: "",
 				theme: "rollups",
 			},
 			{
@@ -120,6 +122,7 @@ export const agendaData = {
 				date: "2023. July 21",
 				time: "10:30",
 				speakers: "Chris Goes",
+				abstract: "",
 				theme: "rollups",
 			},
 			{
@@ -127,6 +130,7 @@ export const agendaData = {
 				date: "2023. July 21",
 				time: "10:55",
 				speakers: "Moderator: Mo | Panelist: Sandeep Naiwal",
+				abstract: "",
 				theme: "rollups",
 			},
 			{
@@ -134,6 +138,7 @@ export const agendaData = {
 				date: "2023. July 21",
 				time: "11:20",
 				speakers: "Anurag Arjun",
+				abstract: "",
 				theme: "data-availability",
 			},
 			{
@@ -141,6 +146,7 @@ export const agendaData = {
 				date: "2023. July 21",
 				time: "11:40",
 				speakers: "Mustafa Al-Bassam",
+				abstract: "",
 				theme: "data-availability",
 			},
 			{
@@ -148,6 +154,7 @@ export const agendaData = {
 				date: "2023. July 21",
 				time: "12:05",
 				speakers: "Moderator: Bartek Kiepuszewski | Panelists: Anurag Arjun, Mustafa Al-Bassam",
+				abstract: "",
 				theme: "data-availability",
 			},
 			{
@@ -155,6 +162,7 @@ export const agendaData = {
 				date: "2023. July 21",
 				time: "12:45",
 				speakers: "Nick White",
+				abstract: "",
 				theme: "data-availability",
 			},
 			{
@@ -162,6 +170,7 @@ export const agendaData = {
 				date: "2023. July 21",
 				time: "13:10",
 				speakers: "Alex Evans",
+				abstract: "",
 				theme: "data-availability",
 			},
 			{
@@ -169,6 +178,7 @@ export const agendaData = {
 				date: "2023. July 21",
 				time: "13:30",
 				speakers: "",
+				abstract: "",
 				theme: "",
 			},
 			{
@@ -176,6 +186,7 @@ export const agendaData = {
 				date: "2023. July 21",
 				time: "14:30",
 				speakers: "Brian Retford",
+				abstract: "",
 				theme: "zk",
 			},
 			{
@@ -183,6 +194,7 @@ export const agendaData = {
 				date: "2023. July 21",
 				time: "14:50",
 				speakers: "Zac Williamson",
+				abstract: "",
 				theme: "zk",
 			},
 			{
@@ -190,6 +202,7 @@ export const agendaData = {
 				date: "2023. July 21",
 				time: "15:10",
 				speakers: "Henry de Valence",
+				abstract: "",
 				theme: "zk",
 			},
 			{
@@ -197,6 +210,7 @@ export const agendaData = {
 				date: "2023. July 21",
 				time: "15:30",
 				speakers: "Moderator: Anna Rose | Panelists: Nicolas Mohnblatt, Benedikt Bunz, Zac Williamson, Chris Goes",
+				abstract: "",
 				theme: "zk",
 			},
 			{
@@ -204,6 +218,7 @@ export const agendaData = {
 				date: "2023. July 21",
 				time: "16:10",
 				speakers: "",
+				abstract: "",
 				theme: "zk",
 			},
 			{
@@ -211,6 +226,7 @@ export const agendaData = {
 				date: "2023. July 21",
 				time: "16:30",
 				speakers: "Uma Roy",
+				abstract: "",
 				theme: "zk",
 			},
 			{
@@ -218,6 +234,7 @@ export const agendaData = {
 				date: "2023. July 21",
 				time: "16:50",
 				speakers: "Yi Sun",
+				abstract: "",
 				theme: "zk",
 			},
 			{
@@ -225,6 +242,7 @@ export const agendaData = {
 				date: "2023. July 21",
 				time: "17:10",
 				speakers: "Moderator: Tracy | Panelists: Uma Roy, Yi Sun, Ismael Hishon-Rezaizadeh",
+				abstract: "",
 				theme: "zk",
 			},
 			{
@@ -232,6 +250,7 @@ export const agendaData = {
 				date: "2023. July 21",
 				time: "17:40",
 				speakers: "Mustafa Al-Bassam, Mike Ippolito",
+				abstract: "",
 				theme: "",
 			},
 			{
@@ -239,6 +258,7 @@ export const agendaData = {
 				date: "2023. July 21",
 				time: "18:30",
 				speakers: "",
+				abstract: "",
 				theme: "",
 			},
 		],
@@ -248,6 +268,7 @@ export const agendaData = {
 				date: "2023. July 21",
 				time: "10:10",
 				speakers: "lzrs",
+				abstract: "",
 				theme: "infrastructure",
 			},
 			{
@@ -255,6 +276,7 @@ export const agendaData = {
 				date: "2023. July 21",
 				time: "10:30",
 				speakers: "Andres Monty",
+				abstract: "",
 				theme: "infrastructure",
 			},
 			{
@@ -262,20 +284,23 @@ export const agendaData = {
 				date: "2023. July 21",
 				time: "10:50",
 				speakers: "Bunny",
+				abstract: "",
 				theme: "infrastructure",
 			},
 			{
 				title: "Developer Infrastructure Panel",
 				date: "2023. July 21",
 				time: "11:10",
-				theme: "infrastructure",
 				speakers: "Moderator: Stephy | Panelists: Bunny, Jordan Oroshiba, lzrs, Josh Stein",
+				abstract: "",
+				theme: "infrastructure",
 			},
 			{
 				title: "Bringing Security to Your Cosmos Chain with Ledger",
 				date: "2023. July 21",
 				time: "11:50",
 				speakers: "Nicolas Consigny",
+				abstract: "",
 				theme: "infrastructure",
 			},
 			{
@@ -283,6 +308,7 @@ export const agendaData = {
 				date: "2023. July 21",
 				time: "12:10",
 				speakers: "Aditi Sriram",
+				abstract: "",
 				theme: "infrastructure",
 			},
 			{
@@ -290,6 +316,7 @@ export const agendaData = {
 				date: "2023. July 21",
 				time: "12:30",
 				speakers: "Moderator: Joe Coll | Panelists: Calvin Poon, Juri Stricker, Mathijs van Esch",
+				abstract: "",
 				theme: "infrastructure",
 			},
 			{
@@ -297,6 +324,7 @@ export const agendaData = {
 				date: "2023. July 21",
 				time: "13:10",
 				speakers: "Arjun Kalsy",
+				abstract: "",
 				theme: "infrastructure",
 			},
 			{
@@ -304,6 +332,7 @@ export const agendaData = {
 				date: "2023. July 21",
 				time: "13:30",
 				speakers: "",
+				abstract: "",
 				theme: "infrastructure",
 			},
 			{
@@ -311,6 +340,7 @@ export const agendaData = {
 				date: "2023. July 21",
 				time: "14:30",
 				speakers: "Ben Fisch",
+				abstract: "",
 				theme: "shared-seq",
 			},
 			{
@@ -318,6 +348,7 @@ export const agendaData = {
 				date: "2023. July 21",
 				time: "14:50",
 				speakers: "Josh Bowen",
+				abstract: "",
 				theme: "shared-seq",
 			},
 			{
@@ -325,6 +356,7 @@ export const agendaData = {
 				date: "2023. July 21",
 				time: "15:10",
 				speakers: "Moderator: Evan Forbes | Panelists: Josh Bowen, Ben Fisch, Connor O'Hara",
+				abstract: "",
 				theme: "shared-seq",
 			},
 			{
@@ -332,6 +364,7 @@ export const agendaData = {
 				date: "2023. July 21",
 				time: "15:50",
 				speakers: "Neel Somani",
+				abstract: "",
 				theme: "raas",
 			},
 			{
@@ -339,6 +372,7 @@ export const agendaData = {
 				date: "2023. July 21",
 				time: "16:10",
 				theme: "raas",
+				abstract: "",
 				speakers: "Matt Katz",
 			},
 			{
@@ -346,6 +380,7 @@ export const agendaData = {
 				date: "2023. July 21",
 				time: "16:30",
 				speakers: "Moderator: Tracy Wang | Panelists: Matt Katz, Neel Somani, YQ, Kautuk",
+				abstract: "",
 				theme: "raas",
 			},
 			{
@@ -353,6 +388,7 @@ export const agendaData = {
 				date: "2023. July 21",
 				time: "17:10",
 				speakers: "Jim Chang",
+				abstract: "",
 				theme: "modular-interop",
 			},
 			{
@@ -360,6 +396,7 @@ export const agendaData = {
 				date: "2023. July 21",
 				time: "17:30",
 				speakers: "Jon Kol",
+				abstract: "",
 				theme: "modular-interop",
 			},
 			{
@@ -367,6 +404,7 @@ export const agendaData = {
 				date: "2023. July 21",
 				time: "17:50",
 				speakers: "Moderator: Mads Mathiessen | Panelists: Georgios Vlachos, Fig, Bo Du, Richard Adjei",
+				abstract: "",
 				theme: "modular-interop",
 			},
 			{
@@ -374,6 +412,7 @@ export const agendaData = {
 				date: "2023. July 21",
 				time: "18:30",
 				speakers: "",
+				abstract: "",
 				theme: "",
 			},
 		],
@@ -383,6 +422,7 @@ export const agendaData = {
 				date: "2023. July 21",
 				time: "11:30",
 				speakers: "Argus",
+				abstract: "",
 				theme: "",
 			},
 			{
@@ -390,6 +430,7 @@ export const agendaData = {
 				date: "2023. July 21",
 				time: "12:30",
 				speakers: "Curio",
+				abstract: "",
 				theme: "",
 			},
 			{
@@ -397,6 +438,7 @@ export const agendaData = {
 				date: "2023. July 21",
 				time: "14:30",
 				speakers: "Anoma",
+				abstract: "",
 				theme: "",
 			},
 			{
@@ -404,6 +446,7 @@ export const agendaData = {
 				date: "2023. July 21",
 				time: "16:30",
 				speakers: "Astria",
+				abstract: "",
 				theme: "",
 			},
 		],
@@ -426,14 +469,16 @@ export const agendaData = {
 				title: "Shielded Data Availability on Celestia",
 				date: "2023. July 22",
 				time: "10:00",
-				theme: "modular-cosmos",
 				speakers: "Adrian Brink",
+				abstract: "",
+				theme: "modular-cosmos",
 			},
 			{
 				title: "Many chains, One Transaction: Democratizing Great Modular UX",
 				date: "2023. July 22",
 				time: "10:20",
 				speakers: "Barry Plunkett",
+				abstract: "",
 				theme: "modular-cosmos",
 			},
 			{
@@ -441,6 +486,7 @@ export const agendaData = {
 				date: "2023. July 22",
 				time: "10:35",
 				speakers: "Moderator: Eric Wall | Panelists: Sunny Aggarwal, Connor O'Hara, Cem Özer",
+				abstract: "",
 				theme: "modular-cosmos",
 			},
 			{
@@ -448,6 +494,7 @@ export const agendaData = {
 				date: "2023. July 22",
 				time: "11:20",
 				speakers: "Ethan Buchman",
+				abstract: "",
 				theme: "modular-cosmos",
 			},
 			{
@@ -455,6 +502,7 @@ export const agendaData = {
 				date: "2023. July 22",
 				time: "11:35",
 				speakers: "Ismail Khoffi",
+				abstract: "",
 				theme: "modular-cosmos",
 			},
 			{
@@ -462,6 +510,7 @@ export const agendaData = {
 				date: "2023. July 22",
 				time: "11:55",
 				speakers: "Sunny Aggarwal",
+				abstract: "",
 				theme: "modular-cosmos",
 			},
 			{
@@ -469,6 +518,7 @@ export const agendaData = {
 				date: "2023. July 22",
 				time: "12:15",
 				speakers: "Moderator: David Feiock | Panelist: Ethan Buchman, Zaki Manian, Ismail Khoffi, Jack Zampolin",
+				abstract: "",
 				theme: "modular-cosmos",
 			},
 			{
@@ -476,6 +526,7 @@ export const agendaData = {
 				date: "2023. July 22",
 				time: "13:00",
 				speakers: "",
+				abstract: "",
 				theme: "",
 			},
 			{
@@ -483,6 +534,7 @@ export const agendaData = {
 				date: "2023. July 22",
 				time: "14:00",
 				speakers: "Zaki Manian",
+				abstract: "",
 				theme: "pbs-day",
 			},
 			{
@@ -490,6 +542,7 @@ export const agendaData = {
 				date: "2023. July 22",
 				time: "14:20",
 				speakers: "Tarun Chitra",
+				abstract: "",
 				theme: "pbs-day",
 			},
 			{
@@ -497,6 +550,7 @@ export const agendaData = {
 				date: "2023. July 22",
 				time: "14:40",
 				speakers: "Robert Miller",
+				abstract: "",
 				theme: "pbs-day",
 			},
 			{
@@ -504,6 +558,7 @@ export const agendaData = {
 				date: "2023. July 22",
 				time: "15:00",
 				speakers: "Danning Sui",
+				abstract: "",
 				theme: "pbs-day",
 			},
 			{
@@ -511,6 +566,7 @@ export const agendaData = {
 				date: "2023. July 22",
 				time: "15:15",
 				speakers: "Vitalik Buterin",
+				abstract: "",
 				theme: "pbs-day",
 			},
 			{
@@ -518,6 +574,7 @@ export const agendaData = {
 				date: "2023. July 22",
 				time: "15:45",
 				speakers: "Mike Neuder",
+				abstract: "",
 				theme: "pbs-day",
 			},
 			{
@@ -525,6 +582,7 @@ export const agendaData = {
 				date: "2023. July 22",
 				time: "16:00",
 				speakers: "Georgios Konstantopoulos",
+				abstract: "",
 				theme: "pbs-day",
 			},
 			{
@@ -532,6 +590,7 @@ export const agendaData = {
 				date: "2023. July 22",
 				time: "16:15",
 				speakers: "Toghrul Maharramov",
+				abstract: "",
 				theme: "pbs-day",
 			},
 			{
@@ -539,6 +598,7 @@ export const agendaData = {
 				date: "2023. July 22",
 				time: "16:30",
 				speakers: "Patrick McCorrey",
+				abstract: "",
 				theme: "pbs-day",
 			},
 			{
@@ -546,6 +606,7 @@ export const agendaData = {
 				date: "2023. July 22",
 				time: "16:45",
 				speakers: "Tomasz Stanczak",
+				abstract: "",
 				theme: "pbs-day",
 			},
 			{
@@ -553,6 +614,7 @@ export const agendaData = {
 				date: "2023. July 22",
 				time: "17:00",
 				speakers: "Joe Andrews",
+				abstract: "",
 				theme: "pbs-day",
 			},
 			{
@@ -560,6 +622,7 @@ export const agendaData = {
 				date: "2023. July 22",
 				time: "17:15",
 				speakers: "Ben Fisch",
+				abstract: "",
 				theme: "pbs-day",
 			},
 			{
@@ -567,6 +630,7 @@ export const agendaData = {
 				date: "2023. July 22",
 				time: "17:30",
 				speakers: "Evan Forbes",
+				abstract: "",
 				theme: "pbs-day",
 			},
 			{
@@ -574,6 +638,7 @@ export const agendaData = {
 				date: "2023. July 22",
 				time: "17:45",
 				speakers: "Jon Charbonneau",
+				abstract: "",
 				theme: "pbs-day",
 			},
 			{
@@ -581,6 +646,7 @@ export const agendaData = {
 				date: "2023. July 22",
 				time: "18:00",
 				theme: "pbs-day",
+				abstract: "",
 				speakers: "Tina Zhen",
 			},
 			{
@@ -588,6 +654,7 @@ export const agendaData = {
 				date: "2023. July 22",
 				time: "18:15",
 				speakers: "Mustafa Al-Bassam, Anatoly Yakovenko, Tarun Chitra",
+				abstract: "",
 				theme: "pbs-day",
 			},
 			{
@@ -595,6 +662,7 @@ export const agendaData = {
 				date: "2023. July 22",
 				time: "19:00",
 				speakers: "",
+				abstract: "",
 				theme: "",
 			},
 		],
@@ -604,6 +672,7 @@ export const agendaData = {
 				date: "2023. July 22",
 				time: "10:10",
 				speakers: "NashQ",
+				abstract: "",
 				theme: "developer",
 			},
 			{
@@ -611,6 +680,7 @@ export const agendaData = {
 				date: "2023. July 22",
 				time: "10:30",
 				speakers: "Moderator: David Phelps | Panelists: Camila Ramos, Yaz Khoury, Henri Lieutaud, Tina Haibodi",
+				abstract: "",
 				theme: "developer",
 			},
 			{
@@ -618,6 +688,7 @@ export const agendaData = {
 				date: "2023. July 22",
 				time: "11:10",
 				speakers: "Scott Sunarto",
+				abstract: "",
 				theme: "gaming",
 			},
 			{
@@ -625,6 +696,7 @@ export const agendaData = {
 				date: "2023. July 22",
 				time: "11:35",
 				speakers: "Moderator: Scott Sunarto | Panelists: Morris Hsieh, Breck Stodghill, David Brillembourgh",
+				abstract: "",
 				theme: "gaming",
 			},
 			{
@@ -632,6 +704,7 @@ export const agendaData = {
 				date: "2023. July 22",
 				time: "12:20",
 				speakers: "Norswap",
+				abstract: "",
 				theme: "gaming",
 			},
 			{
@@ -639,6 +712,7 @@ export const agendaData = {
 				date: "2023. July 22",
 				time: "12:40",
 				speakers: "Yijia Chen",
+				abstract: "",
 				theme: "gaming",
 			},
 			{
@@ -646,6 +720,7 @@ export const agendaData = {
 				date: "2023. July 22",
 				time: "13:00",
 				speakers: "",
+				abstract: "",
 				theme: "",
 			},
 			{
@@ -653,6 +728,7 @@ export const agendaData = {
 				date: "2023. July 22",
 				time: "14:00",
 				speakers: "Moderator: Adriana Hamacher | Panelists: Alex Gluchowski",
+				abstract: "",
 				theme: "zk-apps",
 			},
 			{
@@ -660,6 +736,7 @@ export const agendaData = {
 				date: "2023. July 22",
 				time: "14:20",
 				speakers: "Kenny Li",
+				abstract: "",
 				theme: "zk-apps",
 			},
 			{
@@ -667,6 +744,7 @@ export const agendaData = {
 				date: "2023. July 22",
 				time: "14:40",
 				speakers: "Ismael Hishon-Rezaizadeh",
+				abstract: "",
 				theme: "zk-apps",
 			},
 			{
@@ -674,6 +752,7 @@ export const agendaData = {
 				date: "2023. July 22",
 				time: "15:00",
 				speakers: "Moderator: Eshita Nandini | Panelists: Niraj Pant, Ben Fielding, Lakshman Sankar, Daniel Shorr",
+				abstract: "",
 				theme: "zk-apps",
 			},
 			{
@@ -681,6 +760,7 @@ export const agendaData = {
 				date: "2023. July 22",
 				time: "15:40",
 				speakers: "Yishay",
+				abstract: "",
 				theme: "cosmos-celestia",
 			},
 			{
@@ -688,6 +768,7 @@ export const agendaData = {
 				date: "2023. July 22",
 				time: "16:00",
 				speakers: "Jack Zampolin",
+				abstract: "",
 				theme: "cosmos-celestia",
 			},
 			{
@@ -695,6 +776,7 @@ export const agendaData = {
 				date: "2023. July 22",
 				time: "16:20",
 				speakers: "David Tse",
+				abstract: "",
 				theme: "cosmos-celestia",
 			},
 			{
@@ -702,13 +784,15 @@ export const agendaData = {
 				date: "2023. July 22",
 				time: "16:40",
 				speakers: "Moderator: Thyborg | Panelists: Marko Bar, Sean Braithwaite, Barry Plunkett, Jack Zampolin",
+				abstract: "",
 				theme: "cosmos-celestia",
 			},
 			{
 				title: "Securing Connected Liquidity for Modular Blockchains",
 				date: "2023. July 22",
-				speakers: "Yeongin Lee",
 				time: "17:20",
+				speakers: "Yeongin Lee",
+				abstract: "",
 				theme: "cosmos-celestia",
 			},
 			{
@@ -716,12 +800,14 @@ export const agendaData = {
 				date: "2023. July 22",
 				time: "17:40",
 				theme: "cosmos-celestia",
+				abstract: "",
 				speakers: "Moderator: Zion Thomas | Panelists: Albert Chon, Yeongin Lee, Jelena Djuric, Dev Bear, Dan Lynch",
 			},
 			{
 				title: "Berachain: Polaris",
 				date: "2023. July 22",
 				time: "18:20",
+				abstract: "",
 				speakers: "Dev Bear",
 			},
 			{
@@ -729,6 +815,7 @@ export const agendaData = {
 				date: "2023. July 22",
 				time: "19:00",
 				speakers: "",
+				abstract: "",
 				theme: "",
 			},
 		],
@@ -737,27 +824,31 @@ export const agendaData = {
 				title: "Celestia Light Node Tutorial ✨",
 				date: "2023. July 22",
 				time: "10:00",
-				theme: "",
 				speakers: "Diego Ferrer and Josh Stein",
+				abstract: "",
+				theme: "",
 			},
 			{
 				title: "OP Stack Rollup Workshop 🟣",
 				date: "2023. July 22",
 				time: "11:00",
-				theme: "",
 				speakers: "Matt Katz, Diego Ferrer, Josh Stein",
+				abstract: "",
+				theme: "",
 			},
 			{
 				title: "Rollkit Workshop",
 				date: "2023. July 22",
 				time: "12:00",
 				speakers: "Rollkit",
+				abstract: "",
 				theme: "",
 			},
 			{
 				title: "Altlayer Workshop",
 				date: "2023. July 22",
 				time: "12:45",
+				abstract: "",
 				speakers: "Altlayer",
 			},
 			{
@@ -765,6 +856,7 @@ export const agendaData = {
 				date: "2023. July 22",
 				time: "14:30",
 				speakers: "Sovereign Labs",
+				abstract: "",
 				theme: "",
 			},
 			{
@@ -772,6 +864,7 @@ export const agendaData = {
 				date: "2023. July 22",
 				time: "16:00",
 				speakers: "Argus and Celestia Labs",
+				abstract: "",
 				theme: "",
 			},
 		],

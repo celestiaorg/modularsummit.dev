@@ -57,7 +57,7 @@ export default function Agenda() {
 			<div className='container'>
 				<div className='content-wrapper'>
 					<div className='flex flex-col items-start justify-between pb-8 md:flex-row md:pb-16'>
-						<div className='max-md:mb-10 w-full'>
+						<div className='w-full max-md:mb-10'>
 							<h2 className='heading-xl'>Agenda</h2>
 						</div>
 						<div className='w-full md:w-auto'>
@@ -153,6 +153,11 @@ function EventItem({ item }) {
 					)}
 				</div>
 			</div>
+			{item.abstract.length > 0 && (
+				<div className='flex mt-4 basis-auto'>
+					<p className='event-abstarct'>{item.abstract}</p>
+				</div>
+			)}
 		</li>
 	);
 }

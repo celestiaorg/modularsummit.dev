@@ -117,7 +117,7 @@ function EventItem({ item }) {
 			<div className='mb-4 event-title element-spacing'>{item.title}</div>
 
 			<div className='flex flex-col max-sm:space-y-3 sm:space-x-14 md:space-x-16 sm:flex-row items-star'>
-				<div className='flex items-center space-x-5 h-fit md:basis-1/3 lg:basis-3/12'>
+				<div className='flex items-center space-x-2.5 sm:space-x-5 h-fit md:basis-1/3 lg:basis-3/12'>
 					<div className='event-text whitespace-nowrap'>{item.date}</div>
 					<div className='flex'>
 						<svg className='w-[5px] h-[5px] inline-block mt-[2px]' xmlns='http://www.w3.org/2000/svg'>
@@ -127,7 +127,7 @@ function EventItem({ item }) {
 					<div className='event-text'>{item.time}</div>
 				</div>
 				<div className='flex items-start space-x-5 md:basis-2/3 lg:basis-9/12'>
-					{item.speakers?.length > 1 && (
+					{item.speakers.length > 0 && (
 						<>
 							<div className='event-text'>Speakers:</div>
 							<div className='event-text event-text-speakers'>{item.speakers}</div>
@@ -135,6 +135,11 @@ function EventItem({ item }) {
 					)}
 				</div>
 			</div>
+			{item.abstract.length > 0 && (
+				<div className='flex mt-4 basis-auto'>
+					<p className='event-abstarct'>{item.abstract}</p>
+				</div>
+			)}
 		</li>
 	);
 }
