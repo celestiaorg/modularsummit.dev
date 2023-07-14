@@ -10,12 +10,14 @@ export default function Agenda() {
 	const toggleTabs = (tab) => {
 		if (activeTab !== tab) {
 			setActiveTab(tab);
+			createThemeMarkers();
 		}
 	};
 
 	const toggleDay = (tab) => {
 		if (activeDay !== tab) {
 			setActiveDay(tab);
+			createThemeMarkers();
 		}
 	};
 
@@ -27,7 +29,7 @@ export default function Agenda() {
 				const firstElement = themeElements[0];
 				let beforeElement = firstElement.querySelector("#track-marker");
 				if (beforeElement) {
-					beforeElement();
+					beforeElement.remove();
 				}
 				beforeElement = document.createElement("div");
 				beforeElement.style.height = `${themeElementHeights}px`;
@@ -41,7 +43,7 @@ export default function Agenda() {
 
 				firstElement.insertBefore(beforeElement, firstElement.firstChild);
 			}
-			// console.log(`${item.id}: ${themeElementHeights}px`);
+			console.log(`${item.id}: ${themeElementHeights}px`);
 		});
 	};
 
@@ -131,7 +133,7 @@ function EventList({ activeTab, day }) {
 
 function EventItem({ item }) {
 	return (
-		<li id={item.theme.replace(/[\s+_.]+/g, "-")} className='event-item'>
+		<li id={item.theme ? item.theme.replace(/[\s+_.]+/g, "-") : "theme-key-not-defined"} className='event-item'>
 			<div className='mb-4 event-title element-spacing'>{item.title}</div>
 
 			<div className='flex flex-col max-sm:space-y-3 sm:space-x-14 md:space-x-16 sm:flex-row items-star'>
@@ -145,7 +147,7 @@ function EventItem({ item }) {
 					<div className='event-text'>{item.time}</div>
 				</div>
 				<div className='flex items-start space-x-5 md:basis-2/3 lg:basis-9/12'>
-					{item.speakers?.length > 1 && (
+					{item.speakers.length > 0 && (
 						<>
 							<div className='event-text'>Speakers:</div>
 							<div className='event-text event-text-speakers'>{item.speakers}</div>
