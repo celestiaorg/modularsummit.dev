@@ -190,10 +190,8 @@
 		}
 	}
 
-	.tab-tag-1,
-	.tab-tag-2,
-	.tab-tag-3 {
-		color: #000;
+	.tab-tags {
+		color: #ffffff;
 		font-size: 10px;
 		font-style: normal;
 		font-weight: 900;
@@ -203,17 +201,6 @@
 		border-radius: 4px;
 		padding: 6px 10px;
 		margin-right: 6px;
-	}
-
-	.tab-tag-1 {
-		background-color: #F43F5E;
-		color: #fff;
-	}
-	.tab-tag-2 {
-		background-color: #ede3ff;
-	}
-	.tab-tag-3 {
-		background-color: #d9d9d9;
 	}
 
 	.button {

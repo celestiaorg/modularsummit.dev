@@ -166,9 +166,9 @@ function TabList({ activeTab, toggleTabs }) {
 				<div className='stage-card-container'>
 					<div className='tabe-title'>Galois Stage</div>
 					<div className='flex flex-wrap md:mt-[8px]'>
-						<div className='tab-tag-1'>ROLLUPS</div>
-						<div className='tab-tag-1'>DATA-AVAILABILITY</div>
-						<div className='tab-tag-1'>ZK</div>
+						<div className='bg-red-500 tab-tags'>ROLLUPS</div>
+						<div className='bg-blue-500 tab-tags'>DATA-AVAILABILITY</div>
+						<div className='bg-green-500 tab-tags'>ZK</div>
 					</div>
 				</div>
 			</button>
