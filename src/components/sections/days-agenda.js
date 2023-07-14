@@ -94,10 +94,12 @@ function EventItem({ index, item }) {
 					</div>
 					<div className='event-text w-[100px]'>{item.time}</div>
 				</div>
+				{item.speakers && (
 				<div className='flex items-start basis-full md:basis-auto'>
 					<div className='min-w-[100px] md:min-w-[110px] lg:min-w-[135px] event-text'>Speakers:</div>
 					<div className='w-full event-text event-text-speakers'>{item.speakers}</div>
 				</div>
+				)}
 			</div>
 		</li>
 	);
