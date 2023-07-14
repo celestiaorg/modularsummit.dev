@@ -176,7 +176,7 @@ export const agendaData = {
 				title: "Developer Infrastructure Panel",
 				date: "2023. July 21",
 				time: "11:10",
-				speakers: "Moderator: Stephy | Panelists: Jordan Oroshiba, Dan Lynch, lzrs, Andres Monty",
+				speakers: "Moderator: Stephy | Panelists: Jordan Oroshiba, Dan Lynch, lzrs, Josh Stein",
 			},
 			{
 				title: "Bringing Security to Your Cosmos Chain with Ledger",
@@ -224,7 +224,7 @@ export const agendaData = {
 				title: "Shared Sequencer Panel",
 				date: "2023. July 21",
 				time: "15:10",
-				speakers: "Moderator: Evan Forbes | Panelists: Josh Bowen, Ben Fisch",
+				speakers: "Moderator: Evan Forbes | Panelists: Josh Bowen, Ben Fisch, Connor O'Hara",
 			},
 			{
 				title: "Rollups-as-a-Service Are Going To Zero",
@@ -236,7 +236,7 @@ export const agendaData = {
 				title: "Caldera: OP stack x Celestia rollups",
 				date: "2023. July 21",
 				time: "16:10",
-				speakers: "Matt Katz ",
+				speakers: "Matt Katz",
 			},
 			{
 				title: "Rollup-as-a-Service Panel",
@@ -326,7 +326,7 @@ export const agendaData = {
 				title: "Panel: Rollups on Bitcoin",
 				date: "2023. July 22",
 				time: "10:35",
-				speakers: "Moderator: Eric Wall | Panelists: Sunny Aggarwal, Connor O'Hara, Cem Ozer",
+				speakers: "Moderator: Eric Wall | Panelists: Sunny Aggarwal, Connor O'Hara, Cem Özer",
 			},
 			{
 				title: "Modularity in Monetary Design",
@@ -446,7 +446,7 @@ export const agendaData = {
 				title: "PBS Guild: An Open Treasure Map to Keep Crypto Decentralized",
 				date: "2023. July 22",
 				time: "18:00",
-				speakers: "Tina",
+				speakers: "Tina Zhen",
 			},
 			{
 				title: "The End Game",
@@ -573,16 +573,16 @@ export const agendaData = {
 		],
 		stage3: [
 			{
-				title: "Celestia Light Node Tutorial",
+				title: "Celestia Light Node Tutorial ✨",
 				date: "2023. July 22",
 				time: "10:00",
-				speakers: "Celestia Labs",
+				speakers: "Diego Ferrer and Josh Stein",
 			},
 			{
-				title: "OP Stack Rollup Workshop",
+				title: "OP Stack Rollup Workshop 🟣",
 				date: "2023. July 22",
 				time: "11:00",
-				speakers: "Celestia Labs and Caldera",
+				speakers: "Matt Katz, Diego Ferrer, Josh Stein",
 			},
 			{
 				title: "Rollkit Workshop",
