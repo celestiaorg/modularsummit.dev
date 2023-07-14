@@ -64,6 +64,16 @@
 		}
 	}
 
+	.event-abstarct {
+		font-size: 15px;
+		line-height: 1.4em;
+		font-weight: 500;
+		letter-spacing: -0.412px;
+		@media (max-width: $md) {
+			font-size: 14px;
+		}
+	}
+
 	li:not(:last-of-type) {
 		border-bottom: 2px solid #dfdfdf;
 	}
