@@ -176,7 +176,7 @@ export const agendaData = {
 				title: "Developer Infrastructure Panel",
 				date: "2023. July 21",
 				time: "11:10",
-				speakers: "Moderator: Stephy | Panelists: Jordan Oroshiba, Dan Lynch, lzrs, Josh Stein",
+				speakers: "Moderator: Stephy | Panelists: Bunny, Jordan Oroshiba, lzrs, Josh Stein",
 			},
 			{
 				title: "Bringing Security to Your Cosmos Chain with Ledger",
@@ -562,7 +562,7 @@ export const agendaData = {
 				title: "Cosmos Panel: Applications",
 				date: "2023. July 22",
 				time: "17:40",
-				speakers: "Moderator: Zion Thomas | Panelists: Albert Chon, Yeongin Lee, Jelena Djuric, Berachain, Mars",
+				speakers: "Moderator: Zion Thomas | Panelists: Albert Chon, Yeongin Lee, Jelena Djuric, Dev Bear, Dan Lynch",
 			},
 			{
 				title: "Happy Hour",

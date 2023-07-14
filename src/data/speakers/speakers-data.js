@@ -560,6 +560,13 @@ export const speakersData = {
 				alt: "Bunny - Modular Summit 2023",
 			},
 			{
+				name: "Dev Bear",
+				title: "CTO",
+				company: "Berachain",
+				image: "dev_bear",
+				alt: "Dev Bear - Modular Summit 2023",
+			},
+			{
 				name: "Stephy Dunbar",
 				title: "Research analyst",
 				company: "Messari",
