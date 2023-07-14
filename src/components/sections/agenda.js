@@ -152,6 +152,7 @@ function EventItem({ item }) {
 						</>
 					)}
 				</div>
+				)}
 			</div>
 		</li>
 	);

@@ -51,7 +51,7 @@ export const speakersData = {
 				title: "Stewards",
 				company: "Flashbots",
 				image: "tina_zhen",
-				alt: "Adriana Hamacher - Modular Summit 2023",
+				alt: "Tina Zhen - Modular Summit 2023",
 			},
 			{
 				name: "Alex Gluchowski",
@@ -224,11 +224,11 @@ export const speakersData = {
 				alt: "Kenny Li - Modular Summit 2023",
 			},
 			{
-				name: "Cem Ozer",
+				name: "Cem Özer",
 				title: "Co-Founder",
 				company: "Sovereign Labs",
 				image: "cem_ozer",
-				alt: "Cem Ozer - Modular Summit 2023",
+				alt: "Cem Özer - Modular Summit 2023",
 			},
 			{
 				name: "Josh Bowen",
@@ -483,11 +483,11 @@ export const speakersData = {
 				alt: "Connor O’Hara - Modular Summit 2023",
 			},
 			{
-				name: "Ethan Buchmann",
+				name: "Ethan Buchman",
 				title: "CEO",
 				company: "Informal",
 				image: "ethan_buchmann",
-				alt: "Ethan Buchmann - Modular Summit 2023",
+				alt: "Ethan Buchman - Modular Summit 2023",
 			},
 			{
 				name: "David Feiock",
@@ -557,7 +557,7 @@ export const speakersData = {
 				title: "CEO",
 				company: "Dora",
 				image: "bunny",
-				alt: "bunny - Modular Summit 2023",
+				alt: "Bunny - Modular Summit 2023",
 			},
 			{
 				name: "Stephy Dunbar",
@@ -762,6 +762,28 @@ export const speakersData = {
 				image: "tina_haibodi",
 				alt: "Tina Haibodi - Modular Summit 2023",
 			},
+      		{
+				name: "Adrian Brink",
+				title: "Co-founder",
+				company: "Anoma",
+				image: "adrian_brink",
+				alt: "Adrian Brink - Modular Summit 2023",
+			},
+			{
+				name: "Diego Ferrer",
+				title: "Solutions Engineer",
+				company: "Celestia Labs",
+				image: "diego_ferrer",
+				alt: "Diego Ferrer - Modular Summit 2023",
+			},
+			{
+				name: "Josh Stein",
+				title: "Solutions Engineer",
+				company: "Celestia Labs",
+				image: "josh_stein",
+				alt: "Josh Stein - Modular Summit 2023",
+			},
+
 		],
 	},
 };

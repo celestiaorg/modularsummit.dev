@@ -150,18 +150,18 @@ export const agendaData = {
 				speakers: "Moderator: Bartek Kiepuszewski | Panelists: Anurag Arjun, Mustafa Al-Bassam",
 				theme: "data-availability",
 			},
-			{
-				title: "DA as broadband",
+      {
+				title: "Light nodes are not just a meme",
 				date: "2023. July 21",
 				time: "12:45",
-				speakers: "Alex Evans",
+				speakers: "Nick White",
 				theme: "data-availability",
 			},
 			{
-				title: "Light nodes are not just a meme",
+				title: "DA as broadband",
 				date: "2023. July 21",
-				time: "13:05",
-				speakers: "Nick White",
+				time: "13:10",
+				speakers: "Alex Evans",
 				theme: "data-availability",
 			},
 			{
@@ -268,7 +268,7 @@ export const agendaData = {
 				title: "Developer Infrastructure Panel",
 				date: "2023. July 21",
 				time: "11:10",
-				speakers: "Moderator: Stephy | Panelists: Jordan Oroshiba, Dan Lynch, lzrs, Andres Monty",
+				speakers: "Moderator: Stephy | Panelists: Jordan Oroshiba, Dan Lynch, lzrs, Josh Stein",
 				theme: "infrastructure",
 			},
 			{
@@ -324,7 +324,7 @@ export const agendaData = {
 				title: "Shared Sequencer Panel",
 				date: "2023. July 21",
 				time: "15:10",
-				speakers: "Moderator: Evan Forbes | Panelists: Josh Bowen, Tariz Jeong, Ben Fisch",
+				speakers: "Moderator: Evan Forbes | Panelists: Josh Bowen, Ben Fisch, Connor O'Hara",
 				theme: "shared-seq",
 			},
 			{
@@ -338,8 +338,8 @@ export const agendaData = {
 				title: "Caldera: OP stack x Celestia rollups",
 				date: "2023. July 21",
 				time: "16:10",
-				speakers: "Matt Katz ",
 				theme: "raas",
+				speakers: "Matt Katz",
 			},
 			{
 				title: "Rollup-as-a-Service Panel",
@@ -431,8 +431,8 @@ export const agendaData = {
 				title: "Shielded Data Availability on Celestia",
 				date: "2023. July 22",
 				time: "10:00",
-				speakers: "Chris Goes",
 				theme: "modular-cosmos",
+				speakers: "Adrian Brink",
 			},
 			{
 				title: "Many chains, One Transaction: Democratizing Great Modular UX",
@@ -445,14 +445,14 @@ export const agendaData = {
 				title: "Panel: Rollups on Bitcoin",
 				date: "2023. July 22",
 				time: "10:35",
-				speakers: "Moderator: Eric Wall | Panelists: Sunny Aggarwal, Connor O'Hara, Cem Ozer",
+				speakers: "Moderator: Eric Wall | Panelists: Sunny Aggarwal, Connor O'Hara, Cem Özer",
 				theme: "modular-cosmos",
 			},
 			{
 				title: "Modularity in Monetary Design",
 				date: "2023. July 22",
 				time: "11:20",
-				speakers: "Ethan Buchmann",
+				speakers: "Ethan Buchman",
 				theme: "modular-cosmos",
 			},
 			{
@@ -473,7 +473,7 @@ export const agendaData = {
 				title: "Panel: Cosmos goes modular - Internet of Modular Blockchains",
 				date: "2023. July 22",
 				time: "12:15",
-				speakers: "Moderator: David Feiock | Panelist: Ethan Buchmann, Zaki Manian, Ismail Khoffi, Jack Zampolin",
+				speakers: "Moderator: David Feiock | Panelist: Ethan Buchman, Zaki Manian, Ismail Khoffi, Jack Zampolin",
 				theme: "modular-cosmos",
 			},
 			{
@@ -586,8 +586,8 @@ export const agendaData = {
 				title: "PBS Guild: An Open Treasure Map to Keep Crypto Decentralized",
 				date: "2023. July 22",
 				time: "18:00",
-				speakers: "Tina",
 				theme: "pbs-day",
+				speakers: "Tina Zhen",
 			},
 			{
 				title: "The End Game",
@@ -743,20 +743,18 @@ export const agendaData = {
 		],
 		stage3: [
 			{
-				title: "Celestia Light Node Tutorial",
+				title: "Celestia Light Node Tutorial ✨",
 				date: "2023. July 22",
 				time: "10:00",
-				speakers: "Celestia Labs",
 				theme: "",
-				trackLabel: "",
+				speakers: "Diego Ferrer and Josh Stein",
 			},
 			{
-				title: "OP Stack Rollup Workshop",
+				title: "OP Stack Rollup Workshop 🟣",
 				date: "2023. July 22",
 				time: "11:00",
-				speakers: "Celestia Labs and Caldera",
 				theme: "",
-				trackLabel: "",
+				speakers: "Matt Katz, Diego Ferrer, Josh Stein",
 			},
 			{
 				title: "Rollkit Workshop",
@@ -777,7 +775,7 @@ export const agendaData = {
 			{
 				title: "Modular Hacker House Demos",
 				date: "2023. July 22",
-				time: "15:30",
+				time: "16:00",
 				speakers: "Argus and Celestia Labs",
 				theme: "",
 				trackLabel: "",
