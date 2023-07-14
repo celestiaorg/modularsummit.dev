@@ -10,14 +10,12 @@ export default function Agenda() {
 	const toggleTabs = (tab) => {
 		if (activeTab !== tab) {
 			setActiveTab(tab);
-			createThemeMarkers();
 		}
 	};
 
 	const toggleDay = (tab) => {
 		if (activeDay !== tab) {
 			setActiveDay(tab);
-			createThemeMarkers();
 		}
 	};
 
