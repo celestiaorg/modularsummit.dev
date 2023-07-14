@@ -837,10 +837,10 @@ export const agendaData = {
 				theme: "",
 			},
 			{
-				title: "Rollkit Workshop",
+				title: "Rollkit & Polaris Workshop",
 				date: "2023. July 22",
 				time: "12:00",
-				speakers: "Rollkit",
+				speakers: "Rollkit and Berachain",
 				abstract: "",
 				theme: "",
 			},
