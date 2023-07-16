@@ -10,6 +10,10 @@
 
 	.container {
 		position: relative;
+		@media (max-width: $sm) {
+			padding-left: 10px;
+			padding-right: 10px;
+		}
 	}
 	.gradient-1 {
 		width: 100%;
@@ -177,7 +181,7 @@
 					@media (max-width: $md) {
 						border-radius: 8px;
 					}
-					.tabe-title {
+					.tab {
 						font-weight: 700;
 					}
 
@@ -215,7 +219,7 @@
 					min-height: 60px;
 					display: flex;
 					justify-content: space-between;
-					align-items: center;
+					align-items: flex-start;
 					padding: 15px 15px 15px 15px;
 					height: auto;
 				}
@@ -242,7 +246,7 @@
 		}
 	}
 
-	.tabe-title {
+	.tab {
 		color: #000;
 		font-size: 20px;
 		font-style: normal;
@@ -252,6 +256,8 @@
 		@media (max-width: $md) {
 			font-size: 16px;
 			margin-right: 16px;
+			white-space: nowrap;
+			margin-top: 7px;
 		}
 	}
 
