@@ -171,11 +171,11 @@ function TabList({ activeTab, toggleTabs, activeDay }) {
 			>
 				<div className='stage-card-arrow' />
 				<div className='stage-card-container'>
-					<div className='basis-1/3 sm:basis-1/2 lg:basis-auto'>
-						<div className='tabe-title'>Galois Stage</div>
+					<div className='basis-auto sm:basis-1/3 md:basis-1/2 lg:basis-auto'>
+						<div className='tab'>Galois Stage</div>
 					</div>
-					<div className='basis-2/3 sm:basis-1/2 lg:basis-auto'>
-						<div className='flex flex-wrap'>
+					<div className='basis-2/3 md:basis-1/2 lg:basis-auto'>
+						<div className='flex flex-wrap justify-end md:justify-start'>
 							{activeDay === "Day1"
 								? getThemes("day1", "stage1").map((theme) => {
 										return (
@@ -201,11 +201,11 @@ function TabList({ activeTab, toggleTabs, activeDay }) {
 			>
 				<div className='stage-card-arrow' />
 				<div className='stage-card-container'>
-					<div className='basis-1/3 sm:basis-1/2 lg:basis-auto'>
-						<div className='tabe-title'>Fourier Stage</div>
+					<div className='basis-auto sm:basis-1/3 md:basis-1/2 lg:basis-auto'>
+						<div className='tab'>Fourier Stage</div>
 					</div>
-					<div className='basis-2/3 sm:basis-1/2 lg:basis-auto'>
-						<div className='flex flex-wrap'>
+					<div className='basis-2/3 md:basis-1/2 lg:basis-auto'>
+						<div className='flex flex-wrap justify-end md:justify-start'>
 							{activeDay === "Day1"
 								? getThemes("day1", "stage2").map((theme) => {
 										return (
@@ -229,11 +229,11 @@ function TabList({ activeTab, toggleTabs, activeDay }) {
 			<button className={`stage-card ${activeTab === "Tab3" && "selected"}`} onClick={() => toggleTabs("Tab3")}>
 				<div className='stage-card-arrow' />
 				<div className='stage-card-container'>
-					<div className='basis-1/3 sm:basis-1/2 lg:basis-auto'>
-						<div className='tabe-title'>Cauchy Stage</div>
+					<div className='basis-auto sm:basis-1/3 md:basis-1/2 lg:basis-auto'>
+						<div className='tab'>Cauchy Stage</div>
 					</div>
-					<div className='basis-2/3 sm:basis-1/2 lg:basis-auto'>
-						<div className='flex flex-wrap'>
+					<div className='basis-2/3 md:basis-1/2 lg:basis-auto'>
+						<div className='flex flex-wrap justify-end md:justify-start'>
 							{activeDay === "Day1"
 								? getThemes("day1", "stage3").map((theme) => {
 										return (
