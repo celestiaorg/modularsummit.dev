@@ -692,7 +692,7 @@ export const agendaData = {
 				theme: "developer",
 			},
 			{
-				title: "Dark Forest V2 + Future of onchain games",
+				title: "The Intergame Thesis: Endgame for Onchain Games",
 				date: "2023. July 22",
 				time: "11:10",
 				speakers: "Scott Sunarto",
