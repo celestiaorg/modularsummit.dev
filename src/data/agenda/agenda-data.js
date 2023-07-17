@@ -118,7 +118,7 @@ export const agendaData = {
 				theme: "rollups",
 			},
 			{
-				title: "Anoma ❤️  Celestia: Privacy-preserving runtime rollups with efficient DA sampling",
+				title: "Anoma ❤️ Celestia: intent-centric rollups",
 				date: "2023. July 21",
 				time: "10:30",
 				speakers: "Chris Goes",
@@ -182,7 +182,7 @@ export const agendaData = {
 				theme: "",
 			},
 			{
-				title: "ZKPOLITIK: Coprocessing & Collaboration",
+				title: "Bonsai: a Verifiable & ZK Computing Platform for a Modular World",
 				date: "2023. July 21",
 				time: "14:30",
 				speakers: "Brian Retford",
@@ -417,6 +417,14 @@ export const agendaData = {
 			},
 		],
 		stage3: [
+			{
+				title: "Sovereign SDK Workshop",
+				date: "2023. July 21",
+				time: "10:30",
+				speakers: "Sovereign Labs",
+				abstract: "",
+				theme: "",
+			},
 			{
 				title: "Argus Gaming Workshop",
 				date: "2023. July 21",
@@ -850,14 +858,6 @@ export const agendaData = {
 				date: "2023. July 22",
 				time: "12:45",
 				speakers: "Altlayer",
-				abstract: "",
-				theme: "",
-			},
-			{
-				title: "Sovereign SDK Workshop",
-				date: "2023. July 22",
-				time: "14:30",
-				speakers: "Sovereign Labs",
 				abstract: "",
 				theme: "",
 			},
