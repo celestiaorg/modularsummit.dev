@@ -152,7 +152,7 @@ export const agendaData = {
 			{
 				title: "Data Availability Panel",
 				date: "2023. July 21",
-				time: "12:05",
+				time: "12:10",
 				speakers: "Moderator: Bartek Kiepuszewski | Panelists: Anurag Arjun, Mustafa Al-Bassam",
 				abstract: "",
 				theme: "data-availability",
