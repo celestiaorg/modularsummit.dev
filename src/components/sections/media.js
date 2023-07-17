@@ -11,16 +11,7 @@ export default function Media() {
 						<div className='flex flex-col items-center justify-center max-md:space-y-10 md:space-x-16 md:flex-row'>
 							<div className='flex items-center basis-auto'>
 								<StaticImage
-									className='w-[110px] md:w-[200px]'
-									src='../../images/sections/partners/media/coindesk.png'
-									placeholder='none'
-									quality={100}
-									alt='Coindesk'
-								/>
-							</div>
-							<div className='flex items-center basis-auto'>
-								<StaticImage
-									className='w-[80px] md:w-[90px]'
+									className='w-[70px] md:w-[80px]'
 									src='../../images/sections/partners/media/zk.png'
 									placeholder='none'
 									quality={100}
@@ -29,11 +20,29 @@ export default function Media() {
 							</div>
 							<div className='flex items-center basis-auto'>
 								<StaticImage
-									className='w-[110px] md:w-[200px]'
+									className='w-[120px] md:w-[130px]'
+									src='../../images/sections/partners/media/coindesk.png'
+									placeholder='none'
+									quality={100}
+									alt='Coindesk'
+								/>
+							</div>
+							<div className='flex items-center basis-auto'>
+								<StaticImage
+									className='w-[120px] md:w-[130px]'
 									src='../../images/sections/partners/media/modular-media.svg'
 									placeholder='none'
 									quality={100}
 									alt='Modular Media'
+								/>
+							</div>
+							<div className='flex items-center basis-auto'>
+								<StaticImage
+									className='w-[120px] md:w-[130px]'
+									src='../../images/sections/partners/media/blockworks.svg'
+									placeholder='none'
+									quality={100}
+									alt='Blockworks'
 								/>
 							</div>
 						</div>
