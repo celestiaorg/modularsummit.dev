@@ -707,11 +707,11 @@ export const speakersData = {
 				alt: "Ismael Hishon-Rezaizadeh - Modular Summit 2023",
 			},
 			{
-				name: "Ben Fielding",
+				name: "Harry Grieve",
 				title: "Co-founder",
 				company: "Gensyn",
-				image: "ben_fielding",
-				alt: "Ben Fielding - Modular Summit 2023",
+				image: "harry_grieve",
+				alt: "Harry Grieve - Modular Summit 2023",
 			},
 			{
 				name: "Niraj Pant",
