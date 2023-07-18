@@ -703,7 +703,7 @@ export const agendaData = {
 				title: "Gaming builders and investors fireside chat",
 				date: "2023. July 22",
 				time: "11:35",
-				speakers: "Moderator: Scott Sunarto | Panelists: Morris Hsieh, Breck Stodghill, David Brillembourgh",
+				speakers: "Moderator: David Zhou | Panelists: Morris Hsieh, Breck Stodghill, David Brillembourgh",
 				abstract: "",
 				theme: "gaming",
 			},

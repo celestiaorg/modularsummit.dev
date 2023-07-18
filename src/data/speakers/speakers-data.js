@@ -161,6 +161,13 @@ export const speakersData = {
 				alt: "Scott Sunarto - Modular Summit 2023",
 			},
 			{
+				name: "David Zhou",
+				title: "Strategy and Operations",
+				company: "Argus Labs",
+				image: "david_zhou",
+				alt: "David Zhou - Modular Summit 2023",
+			},
+			{
 				name: "Norswap",
 				title: "Founder",
 				company: "0xFable",
