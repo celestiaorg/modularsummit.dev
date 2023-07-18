@@ -756,7 +756,7 @@ export const agendaData = {
 				theme: "zk-apps",
 			},
 			{
-				title: "ZK ML Panel",
+				title: "Novel Applications of ZK",
 				date: "2023. July 22",
 				time: "15:00",
 				speakers: "Moderator: Eshita Nandini | Panelists: Niraj Pant, Ben Fielding, Lakshman Sankar, Daniel Shorr",
