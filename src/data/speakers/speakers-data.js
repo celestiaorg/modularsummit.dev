@@ -238,11 +238,11 @@ export const speakersData = {
 				alt: "Josh Bowen - Modular Summit 2023",
 			},
 			{
-				name: "Barry Plunkett",
+				name: "Maghnus Mareneck",
 				title: "Co-Founder",
 				company: "Skip Protocol ",
-				image: "barry_plunkett",
-				alt: "Barry Plunkett - Modular Summit 2023",
+				image: "maghnus-mareneck",
+				alt: "Maghnus Mareneck - Modular Summit 2023",
 			},
 			{
 				name: "Jon Kol",
