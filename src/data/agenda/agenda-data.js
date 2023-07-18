@@ -500,7 +500,7 @@ export const agendaData = {
 			{
 				title: "Modularity in Monetary Design",
 				date: "2023. July 22",
-				time: "11:20",
+				time: "11:15",
 				speakers: "Ethan Buchman",
 				abstract: "",
 				theme: "modular-cosmos",
@@ -508,7 +508,7 @@ export const agendaData = {
 			{
 				title: "Celestia architecture: the present and a glimpse into the future",
 				date: "2023. July 22",
-				time: "11:35",
+				time: "11:30",
 				speakers: "Ismail Khoffi",
 				abstract: "",
 				theme: "modular-cosmos",
@@ -516,7 +516,7 @@ export const agendaData = {
 			{
 				title: "Mesh Security",
 				date: "2023. July 22",
-				time: "11:55",
+				time: "11:50",
 				speakers: "Sunny Aggarwal",
 				abstract: "",
 				theme: "modular-cosmos",
