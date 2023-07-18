@@ -241,7 +241,7 @@ export const speakersData = {
 				name: "Maghnus Mareneck",
 				title: "Co-Founder",
 				company: "Skip Protocol ",
-				image: "maghnus-mareneck",
+				image: "maghnus_mareneck",
 				alt: "Maghnus Mareneck - Modular Summit 2023",
 			},
 			{
