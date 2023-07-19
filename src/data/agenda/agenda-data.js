@@ -574,7 +574,7 @@ export const agendaData = {
 				date: "2023. July 22",
 				time: "15:15",
 				speakers: "Vitalik Buterin",
-				abstract: "",
+				abstract: "As the Ethereum ecosystem starts taking scalability, privacy and account security more seriously, we start seeing the need for more advanced forms of \"aggregation\" when combining user operations into a block. So far, this has started to include ERC-4337 bundling with its aggregate signature feature, but in the future such aggregation will include proofs of L2 state, a single recursive SNARK replacing many application-layer SNARKs, and perhaps even state update proof bundling across different L2s. This will add more load to the builder ecosystem. I will talk about what kinds of aggregation we may end up seeing, and the challenges in creating standardized open mempools or maximally decentralized markets for performing this type of aggregation.",
 				theme: "pbs-day",
 			},
 			{
