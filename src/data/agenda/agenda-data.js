@@ -186,7 +186,7 @@ export const agendaData = {
 				date: "2023. July 21",
 				time: "14:30",
 				speakers: "Brian Retford",
-				abstract: "",
+				abstract: "Discuss how geenral purpose ZK can enable modular applications",
 				theme: "zk",
 			},
 			{
@@ -194,7 +194,7 @@ export const agendaData = {
 				date: "2023. July 21",
 				time: "14:50",
 				speakers: "Zac Williamson",
-				abstract: "",
+				abstract: "Privacy is hard. We describe the abstraction layers and modular technologies required to turn zero-knowledge cryptography into a tool that can empower the next generation of web3 products.",
 				theme: "zk",
 			},
 			{
@@ -226,7 +226,7 @@ export const agendaData = {
 				date: "2023. July 21",
 				time: "16:30",
 				speakers: "Uma Roy",
-				abstract: "",
+				abstract: "Aggregation is all you need: Combining proof systems to push the limits of ZK",
 				theme: "zk",
 			},
 			{
@@ -234,7 +234,7 @@ export const agendaData = {
 				date: "2023. July 21",
 				time: "16:50",
 				speakers: "Yi Sun",
-				abstract: "",
+				abstract: "Scaling data-rich applications on Ethereum with Axiom",
 				theme: "zk",
 			},
 			{
@@ -348,7 +348,7 @@ export const agendaData = {
 				date: "2023. July 21",
 				time: "14:50",
 				speakers: "Josh Bowen",
-				abstract: "",
+				abstract: "Josh Bowen, presents Astria's view of the modular blockchain endgame",
 				theme: "shared-seq",
 			},
 			{
@@ -364,7 +364,7 @@ export const agendaData = {
 				date: "2023. July 21",
 				time: "15:50",
 				speakers: "Neel Somani",
-				abstract: "",
+				abstract: "In this talk, Neel Somani (CEO of Eclipse) explores the economic and technical constraints on app-specific rollups as they exist today.",
 				theme: "raas",
 			},
 			{
@@ -638,7 +638,7 @@ export const agendaData = {
 				date: "2023. July 22",
 				time: "17:30",
 				speakers: "Evan Forbes",
-				abstract: "",
+				abstract: "Breaking the proposer monopoly for more sovereign MEV capture.",
 				theme: "pbs-day",
 			},
 			{
@@ -712,7 +712,7 @@ export const agendaData = {
 				date: "2023. July 22",
 				time: "12:20",
 				speakers: "Norswap",
-				abstract: "",
+				abstract: "Why every on-chain games wants to be a rollup, why decentralized sequencing is particular important in that context, and a review of possible designs.",
 				theme: "gaming",
 			},
 			{
@@ -720,7 +720,7 @@ export const agendaData = {
 				date: "2023. July 22",
 				time: "12:40",
 				speakers: "Yijia Chen",
-				abstract: "",
+				abstract: "Keystone, our sovereign rollup-based onchain game engine, and the novel experiences the onchain games building on top can enable.",
 				theme: "gaming",
 			},
 			{
@@ -752,7 +752,7 @@ export const agendaData = {
 				date: "2023. July 22",
 				time: "14:40",
 				speakers: "Ismael Hishon-Rezaizadeh",
-				abstract: "",
+				abstract: "The fragmentation of state across modular rollups creates a veritable data lake of historical state. ZK MapReduce is a proprietary proof construction, designed by Lagrange Labs, that is optimized for generating large scale batch storage proofs concurrently with data parallel computation. In this talk, we’ll explore how verifiable big data scale computation intersects with the modular ecosystem to create new forms of composability of data between chains.",
 				theme: "zk-apps",
 			},
 			{
@@ -800,7 +800,7 @@ export const agendaData = {
 				date: "2023. July 22",
 				time: "17:20",
 				speakers: "Yeongin Lee",
-				abstract: "",
+				abstract: "The importance of securing connected liquidity.",
 				theme: "cosmos-celestia",
 			},
 			{
