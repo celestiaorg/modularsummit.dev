@@ -1,0 +1,54 @@
+.livestream-banner {
+	border-radius: 10px;
+	background: #4f02ec;
+	width: 100%;
+	padding: 8px 8px 8px 30px;
+	@media (max-width: $lg) {
+		padding: 18px 24px 12px 24px;
+	}
+	.livestream-text {
+		color: #fff;
+		font-size: 20px;
+		list-style: 1em;
+		font-style: normal;
+		font-weight: 400;
+		line-height: normal;
+		text-align: left;
+        margin-right: 16px;
+		@media (max-width: $sm) {
+            margin-right: 0px;
+			font-size: 18px;
+		}
+	}
+	.button-label {
+		color: #fff;
+		font-size: 14px;
+		list-style: 1em;
+		font-style: normal;
+		font-weight: 700;
+		line-height: normal;
+		text-transform: uppercase;
+	}
+
+	.livestream-button {
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+		&:hover {
+			background-color: #6b21ff;
+		}
+		&:active {
+			background-color: #4a06d0;
+		}
+		transition-property: color, background-color;
+		padding: 16px 16px;
+		border-radius: 0.5rem;
+
+        @media (max-width: $lg) {
+            margin-top: 6px;
+            padding: 10px 14px 10px 10px;
+            margin-left: -10px;
+            margin-right: -10px;
+        }
+	}
+}

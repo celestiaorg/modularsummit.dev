@@ -99,7 +99,12 @@ export const agendaData = {
 			type: "external",
 			url: "https://lu.ma/79ay90fe",
 		},
-
+		livestreams: {
+			title: "Watch our livestream on Youtube",
+			linkLabel: "STREAM LIVE",
+			stage1: "https://youtube.com/live/lHyQKCVQTPo?feature=share",
+			stage2: "https://youtube.com/live/nNGVz-FRjKY?feature=share",
+		},
 		stage1: [
 			{
 				title: "Opening words",
@@ -515,6 +520,12 @@ export const agendaData = {
 			class: "primary",
 			type: "external",
 			url: "https://lu.ma/79ay90fe",
+		},
+		livestreams: {
+			title: "Watch our livestream on Youtube",
+			linkLabel: "STREAM LIVE",
+			stage1: "https://youtube.com/live/WYH7n4M016A?feature=share",
+			stage2: "https://youtube.com/live/iSaN8poAmr4?feature=share",
 		},
 		stage1: [
 			{
