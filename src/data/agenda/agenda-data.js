@@ -135,7 +135,7 @@ export const agendaData = {
 				speakers: "Chris Goes",
 				abstract: "",
 				theme: "rollups",
-				renderLabel: false,
+				renderLabel: true,
 			},
 			{
 				title: "Fireside chat with Sandeep of Polygon",
@@ -144,7 +144,7 @@ export const agendaData = {
 				speakers: "Moderator: Mo | Panelist: Sandeep Naiwal",
 				abstract: "",
 				theme: "rollups",
-				renderLabel: true,
+				renderLabel: false,
 			},
 			{
 				title: "Avail: Architecture and Use Cases",
@@ -823,7 +823,7 @@ export const agendaData = {
 				speakers: "Kenny Li",
 				abstract: "",
 				theme: "zk-apps",
-				renderLabel: true,
+				renderLabel: false,
 			},
 			{
 				title: "Zero-Knowledge Proofs for Modular State Composability",
@@ -832,7 +832,7 @@ export const agendaData = {
 				speakers: "Ismael Hishon-Rezaizadeh",
 				abstract: "The fragmentation of state across modular rollups creates a veritable data lake of historical state. ZK MapReduce is a proprietary proof construction, designed by Lagrange Labs, that is optimized for generating large scale batch storage proofs concurrently with data parallel computation. In this talk, we’ll explore how verifiable big data scale computation intersects with the modular ecosystem to create new forms of composability of data between chains.",
 				theme: "zk-apps",
-				renderLabel: false,
+				renderLabel: true,
 			},
 			{
 				title: "Novel Applications of ZK",
