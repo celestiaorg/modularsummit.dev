@@ -80,12 +80,15 @@
 		}
 	}
 
-	.event-list {
-		@media (min-width: $lg) {
-			margin-left: 35px;
+		.event-list {
+		margin-left: 35px;
+		margin-top: 32px;
+		@media (max-width: $lg) {
 			margin-top: 32px;
+			margin-left: 0px;
 		}
 	}
+
 
 	.event-item {
 		position: relative;
