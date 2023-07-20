@@ -83,6 +83,7 @@
 	.event-list {
 		@media (min-width: $lg) {
 			margin-left: 35px;
+			margin-top: 32px;
 		}
 	}
 
@@ -154,7 +155,7 @@
 	}
 
 	li:first-of-type {
-		#track-marker {
+		#track-marker-text {
 			transform: translateY(0px);
 		}
 	}
@@ -166,11 +167,18 @@
 		line-height: 1em;
 		font-style: normal;
 		font-weight: 700;
+		margin-right: 8px;
 		// position //
 		width: fit-content;
 		transform: rotate(270deg);
 		text-transform: uppercase;
 		white-space: nowrap;
+	}
+
+	.no-label {
+		.track-marker-text {
+			display: none;
+		}
 	}
 
 	.stage-stack {
