@@ -12,44 +12,26 @@
 		position: relative;
 	}
 	.gradient-1 {
-		width: 100%;
-		&::before {
-			content: "";
-			position: absolute;
-			top: -600px;
-			right: 0;
-			width: 1700px;
-			height: 1700px;
-			background-image: url(../images/sections/gradient-1.png);
-			background-position: center;
-			background-repeat: no-repeat;
-			background-size: cover;
-			transform: translateX(60%);
-			z-index: 0;
-			@media (max-width: $sm) {
-				transform: translateX(70%);
-			}
+		position: absolute;
+		top: -500px;
+		right: 0;
+		transform: translateX(50%);
+		z-index: 0;
+		@media (max-width: $lg) {
+			top: -300px;
+			transform: translateX(65%);
 		}
 	}
 	.gradient-2 {
-		width: 100%;
-		&::before {
-			content: "";
-			position: absolute;
-			top: 200px;
-			left: 0;
-			width: 1100px;
-			height: 1700px;
-			background-image: url(../images/sections/gradient-2.png);
-			background-position: center;
-			background-repeat: no-repeat;
-			background-size: cover;
+		position: absolute;
+		top: 1000px;
+		left: 0;
+		transform: translateX(-65%);
+		z-index: 0;
+		@media (max-width: $lg) {
+			opacity: 0.9;
+			top: 1800px;
 			transform: translateX(-70%);
-			z-index: 0;
-			@media (max-width: $sm) {
-				top: 700px;
-				transform: translateX(-73%);
-			}
 		}
 	}
 }

@@ -45,8 +45,75 @@ export default function DaysAgenda({ data, activeDay }) {
 	return (
 		<section id='days-agenda' className='days-agenda'>
 			<div className='container'>
-				<div className='gradient-1' />
-				<div className='gradient-2' />
+				<svg className='gradient-1' width='1935' height='1910' fill='none' xmlns='http://www.w3.org/2000/svg'>
+					<g opacity='.8'>
+						<g filter='url(#a)'>
+							<circle cx='1054.47' cy='1029.51' r='380.49' fill='#FF5202' />
+						</g>
+						<g filter='url(#b)'>
+							<ellipse cx='764.755' cy='765.133' rx='264.755' ry='265.133' fill='#27E5F1' />
+						</g>
+					</g>
+					<defs>
+						<filter
+							id='a'
+							x='173.982'
+							y='149.019'
+							width='1760.98'
+							height='1760.98'
+							filterUnits='userSpaceOnUse'
+							color-interpolation-filters='sRGB'
+						>
+							<feFlood flood-opacity='0' result='BackgroundImageFix' />
+							<feBlend in='SourceGraphic' in2='BackgroundImageFix' result='shape' />
+							<feGaussianBlur stdDeviation='250' result='effect1_foregroundBlur_367_128' />
+						</filter>
+						<filter id='b' x='0' y='0' width='1529.51' height='1530.27' filterUnits='userSpaceOnUse' color-interpolation-filters='sRGB'>
+							<feFlood flood-opacity='0' result='BackgroundImageFix' />
+							<feBlend in='SourceGraphic' in2='BackgroundImageFix' result='shape' />
+							<feGaussianBlur stdDeviation='250' result='effect1_foregroundBlur_367_128' />
+						</filter>
+					</defs>
+				</svg>
+				<svg className='gradient-2' width='1160' height='1768' viewBox='0 0 1160 1768' fill='none' xmlns='http://www.w3.org/2000/svg'>
+					<g opacity='.7'>
+						<g filter='url(#filter0_f_356_131)'>
+							<ellipse cx='579.88' cy='762.426' rx='455.362' ry='241.792' transform='rotate(-105 579.88 762.426)' fill='#FF5202' />
+						</g>
+						<g filter='url(#filter1_f_356_131)'>
+							<ellipse cx='507.34' cy='1140.82' rx='316.852' ry='168.485' transform='rotate(-105 507.34 1140.82)' fill='#27E5F1' />
+						</g>
+					</g>
+					<defs>
+						<filter
+							id='filter0_f_356_131'
+							x='0.481781'
+							y='0.357513'
+							width='1158.8'
+							height='1524.14'
+							filterUnits='userSpaceOnUse'
+							color-interpolation-filters='sRGB'
+						>
+							<feFlood flood-opacity='0' result='BackgroundImageFix' />
+							<feBlend mode='normal' in='SourceGraphic' in2='BackgroundImageFix' result='shape' />
+							<feGaussianBlur stdDeviation='158.868' result='effect1_foregroundBlur_356_131' />
+						</filter>
+						<filter
+							id='filter1_f_356_131'
+							x='7.32504'
+							y='513.898'
+							width='1000.03'
+							height='1253.85'
+							filterUnits='userSpaceOnUse'
+							color-interpolation-filters='sRGB'
+						>
+							<feFlood flood-opacity='0' result='BackgroundImageFix' />
+							<feBlend mode='normal' in='SourceGraphic' in2='BackgroundImageFix' result='shape' />
+							<feGaussianBlur stdDeviation='158.868' result='effect1_foregroundBlur_356_131' />
+						</filter>
+					</defs>
+				</svg>
+
 				<div className='content-wrapper'>
 					<div className='flex flex-col items-center justify-between pb-8 lg:flex-row lg:pb-16'>
 						<div className='w-full'>

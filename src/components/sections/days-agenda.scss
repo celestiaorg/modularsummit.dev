@@ -16,49 +16,25 @@
 		}
 	}
 	.gradient-1 {
-		width: 100%;
-		&::before {
-			content: "";
-			position: absolute;
-			top: -200px;
-			right: 0;
-			width: 1800px;
-			height: 1800px;
-			background-image: url(../images/sections/gradient-1.png);
-			background-position: center;
-			background-repeat: no-repeat;
-			background-size: cover;
-			transform: translateX(70%);
-			z-index: -1;
-			opacity: 0.8;
-			@media (max-width: $lg) {
-				top: 300px;
-				transform: translateX(65%);
-				opacity: 0.6;
-			}
+		position: absolute;
+		top: -400px;
+		right: 0;
+		transform: translateX(60%);
+		z-index: -1;
+		@media (max-width: $lg) {
+			top: 200px;
+			transform: translateX(67%);
 		}
 	}
 	.gradient-2 {
-		width: 100%;
-		&::before {
-			content: "";
-			position: absolute;
-			top: 1800px;
-			left: 0;
-			width: 1700px;
-			height: 2500px;
-			background-image: url(../images/sections/gradient-2.png);
-			background-position: center;
-			background-repeat: no-repeat;
-			background-size: cover;
-			transform: translateX(-60%);
-			z-index: -1;
-			opacity: 0.5;
-			@media (max-width: $lg) {
-				top: 2200px;
-				transform: translateX(-70%);
-				opacity: 0.5;
-			}
+		position: absolute;
+		top: 2000px;
+		left: 0;
+		transform: translateX(-60%);
+		z-index: -1;
+		@media (max-width: $lg) {
+			top: 2200px;
+			transform: translateX(-75%);
 		}
 	}
 
@@ -80,7 +56,7 @@
 		}
 	}
 
-		.event-list {
+	.event-list {
 		margin-left: 35px;
 		margin-top: 32px;
 		@media (max-width: $lg) {
@@ -88,7 +64,6 @@
 			margin-left: 0px;
 		}
 	}
-
 
 	.event-item {
 		position: relative;

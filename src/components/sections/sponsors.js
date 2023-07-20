@@ -5,8 +5,75 @@ export default function Sponsors() {
 	return (
 		<section id='sponsors' className='sponsors'>
 			<div className='container'>
-				<div className='gradient-1' />
-				<div className='gradient-2' />
+				<svg className='gradient-1' width='1935' height='1910' fill='none' xmlns='http://www.w3.org/2000/svg'>
+					<g opacity='1'>
+						<g filter='url(#a)'>
+							<circle cx='1054.47' cy='1029.51' r='380.49' fill='#FF5202' />
+						</g>
+						<g filter='url(#b)'>
+							<ellipse cx='764.755' cy='765.133' rx='264.755' ry='265.133' fill='#27E5F1' />
+						</g>
+					</g>
+					<defs>
+						<filter
+							id='a'
+							x='173.982'
+							y='149.019'
+							width='1760.98'
+							height='1760.98'
+							filterUnits='userSpaceOnUse'
+							color-interpolation-filters='sRGB'
+						>
+							<feFlood flood-opacity='0' result='BackgroundImageFix' />
+							<feBlend in='SourceGraphic' in2='BackgroundImageFix' result='shape' />
+							<feGaussianBlur stdDeviation='250' result='effect1_foregroundBlur_367_128' />
+						</filter>
+						<filter id='b' x='0' y='0' width='1529.51' height='1530.27' filterUnits='userSpaceOnUse' color-interpolation-filters='sRGB'>
+							<feFlood flood-opacity='0' result='BackgroundImageFix' />
+							<feBlend in='SourceGraphic' in2='BackgroundImageFix' result='shape' />
+							<feGaussianBlur stdDeviation='250' result='effect1_foregroundBlur_367_128' />
+						</filter>
+					</defs>
+				</svg>
+				<svg  className="gradient-2" width='1173' height='1894' viewBox='0 0 1173 1894' fill='none' xmlns='http://www.w3.org/2000/svg'>
+					<g opacity='0.8'>
+						<g filter='url(#filter0_f_356_131)'>
+							<ellipse cx='586.743' cy='813.354' rx='508.695' ry='241.788' transform='rotate(-105 586.743 813.354)' fill='#FF5202' />
+						</g>
+						<g filter='url(#filter1_f_356_131)'>
+							<ellipse cx='524.735' cy='1230.97' rx='353.963' ry='168.485' transform='rotate(-105 524.735 1230.97)' fill='#27E5F1' />
+						</g>
+					</g>
+					<defs>
+						<filter
+							id='filter0_f_356_131'
+							x='0.855316'
+							y='0.232269'
+							width='1171.78'
+							height='1626.24'
+							filterUnits='userSpaceOnUse'
+							color-interpolation-filters='sRGB'
+						>
+							<feFlood flood-opacity='0' result='BackgroundImageFix' />
+							<feBlend mode='normal' in='SourceGraphic' in2='BackgroundImageFix' result='shape' />
+							<feGaussianBlur stdDeviation='158.868' result='effect1_foregroundBlur_356_131' />
+						</filter>
+						<filter
+							id='filter1_f_356_131'
+							x='20.2069'
+							y='568.529'
+							width='1009.06'
+							height='1324.89'
+							filterUnits='userSpaceOnUse'
+							color-interpolation-filters='sRGB'
+						>
+							<feFlood flood-opacity='0' result='BackgroundImageFix' />
+							<feBlend mode='normal' in='SourceGraphic' in2='BackgroundImageFix' result='shape' />
+							<feGaussianBlur stdDeviation='158.868' result='effect1_foregroundBlur_356_131' />
+						</filter>
+					</defs>
+				</svg>
+
 				<div className='flex flex-col items-center sponsors-list'>
 					<h2 className='mb-[60px] heading-xl'>Sponsors</h2>
 					<StaticImage

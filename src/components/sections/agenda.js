@@ -54,6 +54,53 @@ export default function Agenda() {
 	return (
 		<section id='agenda' className='agenda'>
 			<div className='container'>
+				<svg className="gradient-9" width='3124' height='2613' viewBox='0 0 3124 2613' fill='none' xmlns='http://www.w3.org/2000/svg'>
+					<g opacity='0.15'>
+						<g filter='url(#filter0_f_356_146)'>
+							<ellipse
+								cx='2224.21'
+								cy='908.07'
+								rx='444.834'
+								ry='485.305'
+								transform='rotate(-0.355708 2224.21 908.07)'
+								fill='#A499F8'
+								fill-opacity='0.2'
+							/>
+						</g>
+						<g filter='url(#filter1_f_356_146)'>
+							<ellipse cx='697.84' cy='1630.99' rx='378.9' ry='379.441' transform='rotate(-34.8933 697.84 1630.99)' fill='#FF2A00' />
+						</g>
+					</g>
+					<defs>
+						<filter
+							id='filter0_f_356_146'
+							x='1461.64'
+							y='105.03'
+							width='1525.15'
+							height='1606.08'
+							filterUnits='userSpaceOnUse'
+							color-interpolation-filters='sRGB'
+						>
+							<feFlood flood-opacity='0' result='BackgroundImageFix' />
+							<feBlend mode='normal' in='SourceGraphic' in2='BackgroundImageFix' result='shape' />
+							<feGaussianBlur stdDeviation='158.868' result='effect1_foregroundBlur_356_146' />
+						</filter>
+						<filter
+							id='filter1_f_356_146'
+							x='0.993134'
+							y='933.953'
+							width='1393.69'
+							height='1394.07'
+							filterUnits='userSpaceOnUse'
+							color-interpolation-filters='sRGB'
+						>
+							<feFlood flood-opacity='0' result='BackgroundImageFix' />
+							<feBlend mode='normal' in='SourceGraphic' in2='BackgroundImageFix' result='shape' />
+							<feGaussianBlur stdDeviation='158.868' result='effect1_foregroundBlur_356_146' />
+						</filter>
+					</defs>
+				</svg>
+
 				<div className='content-wrapper'>
 					<div className='flex flex-col items-start justify-between pb-8 md:flex-row md:pb-16'>
 						<div className='w-full max-md:mb-10'>
@@ -115,7 +162,7 @@ function EventList({ activeTab, day }) {
 			)}
 			{activeTab === "Tab2" && (
 				<>
-				<LiveStreamBanner title={day.livestreams.title} link={day.livestreams.stage2} linkLabel={day.livestreams.linkLabel} />
+					<LiveStreamBanner title={day.livestreams.title} link={day.livestreams.stage2} linkLabel={day.livestreams.linkLabel} />
 					<ul className='event-list'>
 						{day.stage2.map((item, index) => {
 							return <EventItem key={index} item={item} label={item.renderLabel} />;

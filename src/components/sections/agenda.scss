@@ -9,9 +9,29 @@
 	}
 
 	.container {
+		position: relative;
 		@media (max-width: $sm) {
 			padding-left: 10px;
 			padding-right: 10px;
+		}
+	}
+
+	.gradient-9 {
+		position: absolute;
+		bottom: -800px;
+		transform: translateX(-20%);
+		z-index: 0;
+		@media (max-width: $xl) {
+			bottom: -800px;
+			transform: translateX(-10%);
+		}
+		@media (max-width: $md) {
+			bottom: -800px;
+			transform: translateX(-10%);
+		}
+		@media (max-width: $sm) {
+			bottom: -1000px;
+			transform: translateX(-20%);
 		}
 	}
 
