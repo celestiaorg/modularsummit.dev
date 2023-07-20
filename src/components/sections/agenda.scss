@@ -128,6 +128,12 @@
 		white-space: nowrap;
 	}
 
+	.no-label {
+		.track-marker-text {
+			display: none;
+		}
+	}
+
 	.stage-stack {
 		.stage-card {
 			width: 100%;

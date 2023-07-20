@@ -108,6 +108,7 @@ export const agendaData = {
 				speakers: "Balder Bomans",
 				abstract: "",
 				theme: "rollups",
+				renderLabel: true,
 			},
 			{
 				title: "Modular State of the Union ",
@@ -116,6 +117,7 @@ export const agendaData = {
 				speakers: "Mustafa Al-Bassam",
 				abstract: "",
 				theme: "data-availability",
+				renderLabel: true,
 			},
 			{
 				title: "World Engine: Horizontally Scaling Rollups With Shards",
@@ -124,6 +126,7 @@ export const agendaData = {
 				speakers: "Scott Sunarto",
 				abstract: "",
 				theme: "rollups",
+				renderLabel: false,
 			},
 			{
 				title: "Anoma ❤️ Celestia: intent-centric rollups",
@@ -132,6 +135,7 @@ export const agendaData = {
 				speakers: "Chris Goes",
 				abstract: "",
 				theme: "rollups",
+				renderLabel: false,
 			},
 			{
 				title: "Fireside chat with Sandeep of Polygon",
@@ -140,6 +144,7 @@ export const agendaData = {
 				speakers: "Moderator: Mo | Panelist: Sandeep Naiwal",
 				abstract: "",
 				theme: "rollups",
+				renderLabel: true,
 			},
 			{
 				title: "Avail: Architecture and Use Cases",
@@ -148,6 +153,7 @@ export const agendaData = {
 				speakers: "Anurag Arjun",
 				abstract: "",
 				theme: "data-availability",
+				renderLabel: false,
 			},
 			{
 				title: "Data Availability Panel",
@@ -156,6 +162,7 @@ export const agendaData = {
 				speakers: "Moderator: Bartek Kiepuszewski | Panelists: Anurag Arjun, Mustafa Al-Bassam, Toghrul Maharramov",
 				abstract: "",
 				theme: "data-availability",
+				renderLabel: true,
 			},
 			{
 				title: "Light nodes are not just a meme",
@@ -164,6 +171,7 @@ export const agendaData = {
 				speakers: "Nick White",
 				abstract: "",
 				theme: "data-availability",
+				renderLabel: false,
 			},
 			{
 				title: "DA as broadband",
@@ -172,6 +180,7 @@ export const agendaData = {
 				speakers: "Alex Evans",
 				abstract: "",
 				theme: "data-availability",
+				renderLabel: false,
 			},
 			{
 				title: "Lunch Break",
@@ -180,6 +189,7 @@ export const agendaData = {
 				speakers: "",
 				abstract: "",
 				theme: "",
+				renderLabel: false,
 			},
 			{
 				title: "Bonsai: a Verifiable & ZK Computing Platform for a Modular World",
@@ -188,6 +198,7 @@ export const agendaData = {
 				speakers: "Brian Retford",
 				abstract: "Discuss how geenral purpose ZK can enable modular applications",
 				theme: "zk",
+				renderLabel: false,
 			},
 			{
 				title: "Write Code, NOT Circuits",
@@ -196,6 +207,7 @@ export const agendaData = {
 				speakers: "Zac Williamson",
 				abstract: "Privacy is hard. We describe the abstraction layers and modular technologies required to turn zero-knowledge cryptography into a tool that can empower the next generation of web3 products.",
 				theme: "zk",
+				renderLabel: false,
 			},
 			{
 				title: "Shielded Transactions Are Rollups",
@@ -204,6 +216,7 @@ export const agendaData = {
 				speakers: "Henry de Valence",
 				abstract: "",
 				theme: "zk",
+				renderLabel: false,
 			},
 			{
 				title: "Modular ZK Systems Panel",
@@ -212,6 +225,7 @@ export const agendaData = {
 				speakers: "Moderator: Anna Rose | Panelists: Nicolas Mohnblatt, Benedikt Bunz, Zac Williamson, Chris Goes",
 				abstract: "",
 				theme: "zk",
+				renderLabel: true,
 			},
 			{
 				title: "Break",
@@ -220,6 +234,7 @@ export const agendaData = {
 				speakers: "",
 				abstract: "",
 				theme: "zk",
+				renderLabel: false,
 			},
 			{
 				title: "Aggregation is all you need",
@@ -228,6 +243,7 @@ export const agendaData = {
 				speakers: "Uma Roy",
 				abstract: "Aggregation is all you need: Combining proof systems to push the limits of ZK",
 				theme: "zk",
+				renderLabel: false,
 			},
 			{
 				title: "Axiom: The first ZK coprocessor scaling data-rich applications on Ethereum",
@@ -236,6 +252,7 @@ export const agendaData = {
 				speakers: "Yi Sun",
 				abstract: "Scaling data-rich applications on Ethereum with Axiom",
 				theme: "zk",
+				renderLabel: false,
 			},
 			{
 				title: "Modular ZK Architecture Panel",
@@ -244,6 +261,7 @@ export const agendaData = {
 				speakers: "Moderator: Tracy | Panelists: Uma Roy, Yi Sun, Ismael Hishon-Rezaizadeh",
 				abstract: "",
 				theme: "zk",
+				renderLabel: false,
 			},
 			{
 				title: "Fireside Chat with Mustafa and Mike",
@@ -252,6 +270,7 @@ export const agendaData = {
 				speakers: "Mustafa Al-Bassam, Mike Ippolito",
 				abstract: "",
 				theme: "",
+				renderLabel: false,
 			},
 			{
 				title: "Happy Hour",
@@ -260,6 +279,7 @@ export const agendaData = {
 				speakers: "",
 				abstract: "",
 				theme: "",
+				renderLabel: false,
 			},
 		],
 		stage2: [
@@ -270,6 +290,7 @@ export const agendaData = {
 				speakers: "lzrs",
 				abstract: "",
 				theme: "infrastructure",
+				renderLabel: false,
 			},
 			{
 				title: "More sovereignty, more security",
@@ -278,6 +299,7 @@ export const agendaData = {
 				speakers: "Andres Monty",
 				abstract: "",
 				theme: "infrastructure",
+				renderLabel: false,
 			},
 			{
 				title: "What we Search for: Search Engines in an era of Modular Existence",
@@ -286,6 +308,7 @@ export const agendaData = {
 				speakers: "Bunny",
 				abstract: "",
 				theme: "infrastructure",
+				renderLabel: false,
 			},
 			{
 				title: "Developer Infrastructure Panel",
@@ -294,6 +317,7 @@ export const agendaData = {
 				speakers: "Moderator: Stephy | Panelists: Bunny, Jordan Oroshiba, lzrs, Josh Stein",
 				abstract: "",
 				theme: "infrastructure",
+				renderLabel: false,
 			},
 			{
 				title: "Bringing Security to Your Cosmos Chain with Ledger",
@@ -302,6 +326,7 @@ export const agendaData = {
 				speakers: "Nicolas Consigny",
 				abstract: "",
 				theme: "infrastructure",
+				renderLabel: true,
 			},
 			{
 				title: "Mo Chains 'Mo Problems",
@@ -310,6 +335,7 @@ export const agendaData = {
 				speakers: "Aditi Sriram",
 				abstract: "",
 				theme: "infrastructure",
+				renderLabel: false,
 			},
 			{
 				title: "Investing in Modular Infrastructure",
@@ -318,6 +344,7 @@ export const agendaData = {
 				speakers: "Moderator: Joe Coll | Panelists: Calvin Poon, Juri Stricker, Mathijs van Esch",
 				abstract: "",
 				theme: "infrastructure",
+				renderLabel: false,
 			},
 			{
 				title: "Build it like Lego: The Modular Economy",
@@ -326,6 +353,7 @@ export const agendaData = {
 				speakers: "Arjun Kalsy",
 				abstract: "",
 				theme: "infrastructure",
+				renderLabel: false,
 			},
 			{
 				title: "Lunch Break",
@@ -334,6 +362,7 @@ export const agendaData = {
 				speakers: "",
 				abstract: "",
 				theme: "infrastructure",
+				renderLabel: false,
 			},
 			{
 				title: "Dumb blockchains require smart solutions (shared sequencing in the modular stack)",
@@ -342,6 +371,7 @@ export const agendaData = {
 				speakers: "Ben Fisch",
 				abstract: "",
 				theme: "shared-seq",
+				renderLabel: false,
 			},
 			{
 				title: "Astria: Speedrunning the Endgame",
@@ -350,6 +380,7 @@ export const agendaData = {
 				speakers: "Josh Bowen",
 				abstract: "Josh Bowen, presents Astria's view of the modular blockchain endgame",
 				theme: "shared-seq",
+				renderLabel: true,
 			},
 			{
 				title: "Shared Sequencer Panel",
@@ -358,6 +389,7 @@ export const agendaData = {
 				speakers: "Moderator: Evan Forbes | Panelists: Josh Bowen, Ben Fisch, Connor O'Hara",
 				abstract: "",
 				theme: "shared-seq",
+				renderLabel: false,
 			},
 			{
 				title: "Rollups-as-a-Service Are Going To Zero",
@@ -366,6 +398,7 @@ export const agendaData = {
 				speakers: "Neel Somani",
 				abstract: "In this talk, Neel Somani (CEO of Eclipse) explores the economic and technical constraints on app-specific rollups as they exist today.",
 				theme: "raas",
+				renderLabel: false,
 			},
 			{
 				title: "Caldera: OP stack x Celestia rollups",
@@ -374,6 +407,7 @@ export const agendaData = {
 				theme: "raas",
 				abstract: "",
 				speakers: "Matt Katz",
+				renderLabel: true,
 			},
 			{
 				title: "Rollup-as-a-Service Panel",
@@ -382,6 +416,7 @@ export const agendaData = {
 				speakers: "Moderator: Tracy Wang | Panelists: Matt Katz, Neel Somani, YQ, Kautuk",
 				abstract: "",
 				theme: "raas",
+				renderLabel: false,
 			},
 			{
 				title: "Relayers in the Modular World",
@@ -390,6 +425,7 @@ export const agendaData = {
 				speakers: "Jim Chang",
 				abstract: "",
 				theme: "modular-interop",
+				renderLabel: false,
 			},
 			{
 				title: "Hyperlane: modular blockchains and permissionless interoperability",
@@ -398,6 +434,7 @@ export const agendaData = {
 				speakers: "Jon Kol",
 				abstract: "",
 				theme: "modular-interop",
+				renderLabel: true,
 			},
 			{
 				title: "Bridging Panel",
@@ -406,6 +443,7 @@ export const agendaData = {
 				speakers: "Moderator: Mads Mathiessen | Panelists: Georgios Vlachos, Fig, Bo Du, Richard Adjei",
 				abstract: "",
 				theme: "modular-interop",
+				renderLabel: false,
 			},
 			{
 				title: "Happy Hour",
@@ -414,6 +452,7 @@ export const agendaData = {
 				speakers: "",
 				abstract: "",
 				theme: "",
+				renderLabel: false,
 			},
 		],
 		stage3: [
@@ -424,6 +463,7 @@ export const agendaData = {
 				speakers: "Sovereign Labs",
 				abstract: "",
 				theme: "",
+				renderLabel: false,
 			},
 			{
 				title: "Argus Gaming Workshop",
@@ -432,6 +472,7 @@ export const agendaData = {
 				speakers: "Argus",
 				abstract: "",
 				theme: "",
+				renderLabel: false,
 			},
 			{
 				title: "Curio Gaming Workshop",
@@ -440,6 +481,7 @@ export const agendaData = {
 				speakers: "Curio",
 				abstract: "",
 				theme: "",
+				renderLabel: false,
 			},
 			{
 				title: "Anoma Workshop",
@@ -448,6 +490,7 @@ export const agendaData = {
 				speakers: "Anoma",
 				abstract: "",
 				theme: "",
+				renderLabel: false,
 			},
 			{
 				title: "Astria Workshop",
@@ -456,6 +499,7 @@ export const agendaData = {
 				speakers: "Astria",
 				abstract: "",
 				theme: "",
+				renderLabel: false,
 			},
 		],
 	},
@@ -480,6 +524,7 @@ export const agendaData = {
 				speakers: "Adrian Brink",
 				abstract: "",
 				theme: "modular-cosmos",
+				renderLabel: false,
 			},
 			{
 				title: "Many chains, One Transaction: Democratizing Great Modular UX",
@@ -488,6 +533,7 @@ export const agendaData = {
 				speakers: "Maghnus Mareneck",
 				abstract: "",
 				theme: "modular-cosmos",
+				renderLabel: false,
 			},
 			{
 				title: "Panel: Rollups on Bitcoin",
@@ -496,6 +542,7 @@ export const agendaData = {
 				speakers: "Moderator: Eric Wall | Panelists: Sunny Aggarwal, Connor O'Hara, Cem Özer",
 				abstract: "",
 				theme: "modular-cosmos",
+				renderLabel: false,
 			},
 			{
 				title: "Modularity in Monetary Design",
@@ -504,6 +551,7 @@ export const agendaData = {
 				speakers: "Ethan Buchman",
 				abstract: "",
 				theme: "modular-cosmos",
+				renderLabel: true,
 			},
 			{
 				title: "Celestia architecture: the present and a glimpse into the future",
@@ -512,6 +560,7 @@ export const agendaData = {
 				speakers: "Ismail Khoffi",
 				abstract: "",
 				theme: "modular-cosmos",
+				renderLabel: false,
 			},
 			{
 				title: "Mesh Security",
@@ -520,6 +569,7 @@ export const agendaData = {
 				speakers: "Sunny Aggarwal",
 				abstract: "",
 				theme: "modular-cosmos",
+				renderLabel: false,
 			},
 			{
 				title: "Panel: Cosmos goes modular - Internet of Modular Blockchains",
@@ -528,6 +578,7 @@ export const agendaData = {
 				speakers: "Moderator: David Feiock | Panelist: Ethan Buchman, Zaki Manian, Ismail Khoffi, Jack Zampolin",
 				abstract: "",
 				theme: "modular-cosmos",
+				renderLabel: false,
 			},
 			{
 				title: "Lunch",
@@ -536,6 +587,7 @@ export const agendaData = {
 				speakers: "",
 				abstract: "",
 				theme: "",
+				renderLabel: false,
 			},
 			{
 				title: "Modularity, PBS and MEV - Freedom from the Bitcoin Mind Prison",
@@ -544,6 +596,7 @@ export const agendaData = {
 				speakers: "Zaki Manian",
 				abstract: "",
 				theme: "pbs-day",
+				renderLabel: false,
 			},
 			{
 				title: "Towards a Theory of MEV, Part II: Uncertainty",
@@ -552,6 +605,7 @@ export const agendaData = {
 				speakers: "Tarun Chitra",
 				abstract: "",
 				theme: "pbs-day",
+				renderLabel: false,
 			},
 			{
 				title: "SUAVE - Turning Zero-Sum to Positive-Sum Game",
@@ -560,6 +614,7 @@ export const agendaData = {
 				speakers: "Robert Miller",
 				abstract: "",
 				theme: "pbs-day",
+				renderLabel: false,
 			},
 			{
 				title: "Current State on Orderflow, Block Building & the Latency Game",
@@ -568,6 +623,7 @@ export const agendaData = {
 				speakers: "Danning Sui",
 				abstract: "",
 				theme: "pbs-day",
+				renderLabel: false,
 			},
 			{
 				title: "Builders and More Advanced Forms of Aggregation",
@@ -576,6 +632,7 @@ export const agendaData = {
 				speakers: "Vitalik Buterin",
 				abstract: "As the Ethereum ecosystem starts taking scalability, privacy and account security more seriously, we start seeing the need for more advanced forms of \"aggregation\" when combining user operations into a block. So far, this has started to include ERC-4337 bundling with its aggregate signature feature, but in the future such aggregation will include proofs of L2 state, a single recursive SNARK replacing many application-layer SNARKs, and perhaps even state update proof bundling across different L2s. This will add more load to the builder ecosystem. I will talk about what kinds of aggregation we may end up seeing, and the challenges in creating standardized open mempools or maximally decentralized markets for performing this type of aggregation.",
 				theme: "pbs-day",
+				renderLabel: false,
 			},
 			{
 				title: "Ethereum PBS R&D Roadmap",
@@ -584,6 +641,7 @@ export const agendaData = {
 				speakers: "Mike Neuder",
 				abstract: "",
 				theme: "pbs-day",
+				renderLabel: false,
 			},
 			{
 				title: "PBS on L2s",
@@ -592,6 +650,7 @@ export const agendaData = {
 				speakers: "Georgios Konstantopoulos",
 				abstract: "",
 				theme: "pbs-day",
+				renderLabel: false,
 			},
 			{
 				title: "PBS-ifying Rollups: Prover-Sequencer Separation",
@@ -600,6 +659,7 @@ export const agendaData = {
 				speakers: "Toghrul Maharramov",
 				abstract: "",
 				theme: "pbs-day",
+				renderLabel: true,
 			},
 			{
 				title: "PBS across the layers - from L1 to L1000",
@@ -608,6 +668,7 @@ export const agendaData = {
 				speakers: "Patrick McCorrey",
 				abstract: "",
 				theme: "pbs-day",
+				renderLabel: false,
 			},
 			{
 				title: "MEV-Garden: Cross-domain Markets with PBS and SUAVE",
@@ -616,6 +677,7 @@ export const agendaData = {
 				speakers: "Tomasz Stanczak",
 				abstract: "",
 				theme: "pbs-day",
+				renderLabel: false,
 			},
 			{
 				title: "Design Trade-offs in Proposals for Sequencer Decentralization",
@@ -624,6 +686,7 @@ export const agendaData = {
 				speakers: "Joe Andrews",
 				abstract: "",
 				theme: "pbs-day",
+				renderLabel: false,
 			},
 			{
 				title: "PBS on Shared Sequencing Layers and PBS design for Responsive Consensus Protocol",
@@ -632,6 +695,7 @@ export const agendaData = {
 				speakers: "Ben Fisch",
 				abstract: "",
 				theme: "pbs-day",
+				renderLabel: false,
 			},
 			{
 				title: "Exploring MEV Capture in Modular Systems",
@@ -640,6 +704,7 @@ export const agendaData = {
 				speakers: "Evan Forbes",
 				abstract: "Breaking the proposer monopoly for more sovereign MEV capture.",
 				theme: "pbs-day",
+				renderLabel: false,
 			},
 			{
 				title: "Reminscences of a Rollup Operator",
@@ -648,6 +713,7 @@ export const agendaData = {
 				speakers: "Jon Charbonneau",
 				abstract: "",
 				theme: "pbs-day",
+				renderLabel: false,
 			},
 			{
 				title: "PBS Guild: An Open Treasure Map to Keep Crypto Decentralized",
@@ -656,6 +722,7 @@ export const agendaData = {
 				abstract: "",
 				speakers: "Tina Zhen",
 				theme: "pbs-day",
+				renderLabel: false,
 			},
 			{
 				title: "The End Game",
@@ -664,6 +731,7 @@ export const agendaData = {
 				speakers: "Mustafa Al-Bassam, Anatoly Yakovenko, Tarun Chitra",
 				abstract: "",
 				theme: "pbs-day",
+				renderLabel: false,
 			},
 			{
 				title: "Happy Hour",
@@ -672,6 +740,7 @@ export const agendaData = {
 				speakers: "",
 				abstract: "",
 				theme: "",
+				renderLabel: false,
 			},
 		],
 		stage2: [
@@ -682,6 +751,7 @@ export const agendaData = {
 				speakers: "NashQ",
 				abstract: "",
 				theme: "developer",
+				renderLabel: true,
 			},
 			{
 				title: "Modular Devrel Panel: Build Whatever",
@@ -690,6 +760,7 @@ export const agendaData = {
 				speakers: "Moderator: David Phelps | Panelists: Camila Ramos, Yaz Khoury, Henri Lieutaud, Tina Haibodi",
 				abstract: "",
 				theme: "developer",
+				renderLabel: false,
 			},
 			{
 				title: "The Intergame Thesis: Endgame for Onchain Games",
@@ -698,6 +769,7 @@ export const agendaData = {
 				speakers: "Scott Sunarto",
 				abstract: "",
 				theme: "gaming",
+				renderLabel: false,
 			},
 			{
 				title: "Gaming builders and investors fireside chat",
@@ -706,6 +778,7 @@ export const agendaData = {
 				speakers: "Moderator: David Zhou | Panelists: Morris Hsieh, Breck Stodghill, David Brillembourgh",
 				abstract: "",
 				theme: "gaming",
+				renderLabel: true,
 			},
 			{
 				title: "Shared sequencing for gamers & smol brains",
@@ -714,6 +787,7 @@ export const agendaData = {
 				speakers: "Norswap",
 				abstract: "Why every on-chain games wants to be a rollup, why decentralized sequencing is particular important in that context, and a review of possible designs.",
 				theme: "gaming",
+				renderLabel: false,
 			},
 			{
 				title: "Lessons in Hyperscaling Onchain games - Web2 meets Web3",
@@ -722,6 +796,7 @@ export const agendaData = {
 				speakers: "Yijia Chen",
 				abstract: "Keystone, our sovereign rollup-based onchain game engine, and the novel experiences the onchain games building on top can enable.",
 				theme: "gaming",
+				renderLabel: false,
 			},
 			{
 				title: "Lunch",
@@ -730,6 +805,7 @@ export const agendaData = {
 				speakers: "",
 				abstract: "",
 				theme: "",
+				renderLabel: false,
 			},
 			{
 				title: "Fireside chat with zk Sync",
@@ -738,6 +814,7 @@ export const agendaData = {
 				speakers: "Moderator: Adriana Hamacher | Panelists: Alex Gluchowski",
 				abstract: "",
 				theme: "zk-apps",
+				renderLabel: false,
 			},
 			{
 				title: "Manta Pacific: The Celestium for EVM-Native ZK Applications",
@@ -746,6 +823,7 @@ export const agendaData = {
 				speakers: "Kenny Li",
 				abstract: "",
 				theme: "zk-apps",
+				renderLabel: true,
 			},
 			{
 				title: "Zero-Knowledge Proofs for Modular State Composability",
@@ -754,6 +832,7 @@ export const agendaData = {
 				speakers: "Ismael Hishon-Rezaizadeh",
 				abstract: "The fragmentation of state across modular rollups creates a veritable data lake of historical state. ZK MapReduce is a proprietary proof construction, designed by Lagrange Labs, that is optimized for generating large scale batch storage proofs concurrently with data parallel computation. In this talk, we’ll explore how verifiable big data scale computation intersects with the modular ecosystem to create new forms of composability of data between chains.",
 				theme: "zk-apps",
+				renderLabel: false,
 			},
 			{
 				title: "Novel Applications of ZK",
@@ -762,6 +841,7 @@ export const agendaData = {
 				speakers: "Moderator: Eshita Nandini | Panelists: Niraj Pant, Harry Grieve, Lakshman Sankar, Daniel Shorr",
 				abstract: "",
 				theme: "zk-apps",
+				renderLabel: false,
 			},
 			{
 				title: "eIBC: IBC in a new Dymension",
@@ -770,6 +850,7 @@ export const agendaData = {
 				speakers: "Yishay",
 				abstract: "",
 				theme: "cosmos-celestia",
+				renderLabel: false,
 			},
 			{
 				title: "Modular IBC Patterns",
@@ -778,6 +859,7 @@ export const agendaData = {
 				speakers: "Jack Zampolin",
 				abstract: "",
 				theme: "cosmos-celestia",
+				renderLabel: false,
 			},
 			{
 				title: "Bitcoin Staking: Unlocking 21M Bitcoins to Secure the Decentralised Economy",
@@ -786,6 +868,7 @@ export const agendaData = {
 				speakers: "David Tse",
 				abstract: "",
 				theme: "cosmos-celestia",
+				renderLabel: true,
 			},
 			{
 				title: "Cosmos Panel: Infrastructure",
@@ -794,6 +877,7 @@ export const agendaData = {
 				speakers: "Moderator: Thyborg | Panelists: Marko Bar, Sean Braithwaite, Maghnus Mareneck, Jack Zampolin",
 				abstract: "",
 				theme: "cosmos-celestia",
+				renderLabel: false,
 			},
 			{
 				title: "Securing Connected Liquidity for Modular Blockchains",
@@ -802,6 +886,7 @@ export const agendaData = {
 				speakers: "Yeongin Lee",
 				abstract: "The importance of securing connected liquidity.",
 				theme: "cosmos-celestia",
+				renderLabel: false,
 			},
 			{
 				title: "Cosmos Panel: Applications",
@@ -810,6 +895,7 @@ export const agendaData = {
 				speakers: "Moderator: Zion Thomas | Panelists: Albert Chon, Yeongin Lee, Jelena Djuric, Dev Bear, Dan Lynch",
 				abstract: "",
 				theme: "cosmos-celestia",
+				renderLabel: false,
 			},
 			{
 				title: "Berachain: Polaris",
@@ -818,6 +904,7 @@ export const agendaData = {
 				speakers: "Dev Bear",
 				abstract: "",
 				theme:"",
+				renderLabel: false,
 			},
 			{
 				title: "Happy Hour",
@@ -826,6 +913,7 @@ export const agendaData = {
 				speakers: "",
 				abstract: "",
 				theme: "",
+				renderLabel: false,
 			},
 		],
 		stage3: [
@@ -836,6 +924,7 @@ export const agendaData = {
 				speakers: "Celestia Labs",
 				abstract: "",
 				theme: "",
+				renderLabel: false,
 			},
 			{
 				title: "OP Stack Rollup Workshop 🟣",
@@ -844,6 +933,7 @@ export const agendaData = {
 				speakers: "Caldera & Celestia Labs",
 				abstract: "",
 				theme: "",
+				renderLabel: false,
 			},
 			{
 				title: "Rollkit & Polaris Workshop",
@@ -852,6 +942,7 @@ export const agendaData = {
 				speakers: "Rollkit and Berachain",
 				abstract: "",
 				theme: "",
+				renderLabel: false,
 			},
 			{
 				title: "Altlayer Workshop",
@@ -860,6 +951,7 @@ export const agendaData = {
 				speakers: "Altlayer",
 				abstract: "",
 				theme: "",
+				renderLabel: false,
 			},
 			{
 				title: "Modular Hacker House Demos",
@@ -868,6 +960,7 @@ export const agendaData = {
 				speakers: "Argus and Celestia Labs",
 				abstract: "",
 				theme: "",
+				renderLabel: false,
 			},
 		],
 	},

@@ -34,7 +34,7 @@ export default function Agenda() {
 				beforeElement.setAttribute("id", "track-marker");
 				beforeElement.style.height = "calc(100% + 2px)";
 				const trackMarkerText = document.createElement("div");
-				
+
 				trackMarkerText.classList.add("track-marker-text");
 				trackMarkerText.innerText = id;
 				beforeElement.appendChild(trackMarkerText);
@@ -105,21 +105,21 @@ function EventList({ activeTab, day }) {
 			{activeTab === "Tab1" && (
 				<ul className='event-list'>
 					{day.stage1.map((item, index) => {
-						return <EventItem index={index} item={item} />;
+						return <EventItem index={index} item={item} label={item.renderLabel} />;
 					})}
 				</ul>
 			)}
 			{activeTab === "Tab2" && (
 				<ul className='event-list'>
 					{day.stage2.map((item, index) => {
-						return <EventItem key={index} item={item} />;
+						return <EventItem key={index} item={item} label={item.renderLabel} />;
 					})}
 				</ul>
 			)}
 			{activeTab === "Tab3" && (
 				<ul className='event-list'>
 					{day.stage3.map((item, index) => {
-						return <EventItem key={index} item={item} />;
+						return <EventItem key={index} item={item}  label={item.renderLabel} />;
 					})}
 				</ul>
 			)}
@@ -127,9 +127,9 @@ function EventList({ activeTab, day }) {
 	);
 }
 
-function EventItem({ item }) {
+function EventItem({ item, label }) {
 	return (
-		<li id={item.theme ? item.theme.replace(/[\s+_.]+/g, "-") : "theme-key-not-defined"} className='event-item'>
+		<li id={item.theme ? item.theme.replace(/[\s+_.]+/g, "-") : "theme-key-not-defined"} className={`event-item ${label === false ? "no-label" : ""}`}>
 			<div className='mb-4 event-title element-spacing'>{item.title}</div>
 
 			<div className='flex flex-col max-sm:space-y-3 sm:space-x-14 md:space-x-16 sm:flex-row items-star'>
