@@ -33,6 +33,13 @@
 		}
 	}
 
+	.event-list {
+		@media (min-width: $lg) {
+			margin-left: 35px;
+			margin-top: 32px;
+		}
+	}
+
 	.event-item {
 		position: relative;
 		margin-left: 55px;
@@ -87,29 +94,44 @@
 
 	#track-marker {
 		width: 25px;
-		border-width: 0px 2px 0px 0px;
+		border-width: 0px 3px 0px 0px;
 		position: absolute;
 		left: -55px;
 		top: 38px;
 		display: flex;
 		align-items: center;
 		justify-content: center;
+		transform: translateY(-38px);
 		@media (max-width: $sm) {
 			left: -50px;
 		}
 	}
 
+	li:first-of-type {
+		#track-marker-text {
+			transform: translateY(0px);
+		}
+	}
+
 	.track-marker-text {
+		position: absolute;
 		color: #000;
 		font-size: 12px;
 		line-height: 1em;
 		font-style: normal;
 		font-weight: 700;
+		margin-right: 8px;
 		// position //
 		width: fit-content;
 		transform: rotate(270deg);
+		text-transform: uppercase;
 		white-space: nowrap;
-		margin-right: 10px;
+	}
+
+	.no-label {
+		.track-marker-text {
+			display: none;
+		}
 	}
 
 	.stage-stack {
