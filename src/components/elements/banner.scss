@@ -35,7 +35,7 @@
 		display: flex;
 		align-items: center;
 		text-decoration: none;
-		background: transparent;
+		background: #4f02ec;
 		height: fit-content;
 		border-radius: 7px;
 		padding: 16px 16px;
@@ -73,7 +73,7 @@
 			z-index: 1;
 			transform: translateX(100%);
 			transition: none;
-			background: linear-gradient(90deg, #ffffff00, #8549fd, #ffffff00);
+			background: linear-gradient(90deg, #ffffff00, #ffffff43, #ffffff00);
 			&.animate {
 				animation: none; /* remove animation on hover out */
 			}
