@@ -812,12 +812,12 @@ export const agendaData = {
 				theme: "cosmos-celestia",
 			},
 			{
-				title: "Berachain: Polaris",
+				title: "Berachain: Polaris EVM Framework",
 				date: "2023. July 22",
 				time: "18:20",
 				speakers: "Dev Bear",
 				abstract: "",
-				theme:"",
+				theme:"cosmos-celestia",
 			},
 			{
 				title: "Happy Hour",
