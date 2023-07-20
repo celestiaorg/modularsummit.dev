@@ -310,35 +310,4 @@
 			width: auto;
 		}
 	}
-
-	.livestream-banner {
-		border-radius: 10px;
-		background: #4f02ec;
-		width: 100%;
-		padding: 22px 30px;
-		@media (max-width: $sm) {
-			padding: 18px 20px;
-		}
-		.livestream-text {
-			color: #fff;
-			font-size: 20px;
-			list-style: 1em;
-			font-style: normal;
-			font-weight: 400;
-			line-height: normal;
-			text-align: left;
-			@media (max-width: $sm) {
-				font-size: 18px;
-			}
-		}
-		.button-label {
-			color: #fff;
-			font-size: 14px;
-			list-style: 1em;
-			font-style: normal;
-			font-weight: 700;
-			line-height: normal;
-			text-transform: uppercase;
-		}
-	}
 }
