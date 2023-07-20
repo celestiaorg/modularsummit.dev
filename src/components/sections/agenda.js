@@ -60,7 +60,7 @@ export default function Agenda() {
 							<h2 className='heading-xl'>Agenda</h2>
 						</div>
 						<div className='w-full md:w-auto'>
-							<div className='flex justify-center space-x-4'>
+							<div className='flex justify-center space-x-2 lg:space-x-4'>
 								<Button
 									class={agendaData.buttons.day1.class + (activeDay === "Day1" ? " selected" : "")}
 									type={agendaData.buttons.day1.type}
