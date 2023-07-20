@@ -33,6 +33,13 @@
 		}
 	}
 
+	.event-list {
+		@media (min-width: $lg) {
+			margin-left: 35px;
+			margin-top: 32px;
+		}
+	}
+
 	.event-item {
 		position: relative;
 		margin-left: 55px;
@@ -101,7 +108,7 @@
 	}
 
 	li:first-of-type {
-		#track-marker {
+		#track-marker-text {
 			transform: translateY(0px);
 		}
 	}
@@ -113,6 +120,7 @@
 		line-height: 1em;
 		font-style: normal;
 		font-weight: 700;
+		margin-right: 8px;
 		// position //
 		width: fit-content;
 		transform: rotate(270deg);

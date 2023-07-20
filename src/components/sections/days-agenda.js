@@ -19,15 +19,20 @@ export default function DaysAgenda({ data, activeDay }) {
 			const theme = agendaData.themes.find((theme) => theme.id === id);
 			if (theme) {
 				const beforeElement = document.createElement("div");
+				if (beforeElement) {
+					beforeElement.remove();
+				}
 				beforeElement.style.borderColor = theme.color;
 				beforeElement.setAttribute("id", "track-marker");
 				beforeElement.style.height = "calc(100% + 2px)";
+				const trackMarkerText = document.createElement("div");
+				
+				trackMarkerText.classList.add("track-marker-text");
+				trackMarkerText.innerText = id;
+				beforeElement.appendChild(trackMarkerText);
 				item.insertBefore(beforeElement, item.firstChild);
 			}
 		});
-
-		// get all Li elements with the same id and find the middle one append append a class to the claslist "Middle"
-		
 	};
 
 	useLayoutEffect(() => {
@@ -172,14 +177,14 @@ function TabList({ activeTab, toggleTabs, activeDay }) {
 							{activeDay === "Day1"
 								? getThemes("day1", "stage1").map((theme) => {
 										return (
-											<div className='tab-tags' style={{ backgroundColor: theme.color }}>
+											<div key={theme.id} className='tab-tags' style={{ backgroundColor: theme.color }}>
 												{theme.id}
 											</div>
 										);
 								  })
 								: getThemes("day2", "stage1").map((theme) => {
 										return (
-											<div className='tab-tags' style={{ backgroundColor: theme.color }}>
+											<div key={theme.id} className='tab-tags' style={{ backgroundColor: theme.color }}>
 												{theme.id}
 											</div>
 										);
@@ -202,14 +207,14 @@ function TabList({ activeTab, toggleTabs, activeDay }) {
 							{activeDay === "Day1"
 								? getThemes("day1", "stage2").map((theme) => {
 										return (
-											<div className='tab-tags' style={{ backgroundColor: theme.color }}>
+											<div key={theme.id} className='tab-tags' style={{ backgroundColor: theme.color }}>
 												{theme.id}
 											</div>
 										);
 								  })
 								: getThemes("day2", "stage2").map((theme) => {
 										return (
-											<div className='tab-tags' style={{ backgroundColor: theme.color }}>
+											<div key={theme.id} className='tab-tags' style={{ backgroundColor: theme.color }}>
 												{theme.id}
 											</div>
 										);

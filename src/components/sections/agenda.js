@@ -27,15 +27,20 @@ export default function Agenda() {
 			const theme = agendaData.themes.find((theme) => theme.id === id);
 			if (theme) {
 				const beforeElement = document.createElement("div");
+				if (beforeElement) {
+					beforeElement.remove();
+				}
 				beforeElement.style.borderColor = theme.color;
 				beforeElement.setAttribute("id", "track-marker");
 				beforeElement.style.height = "calc(100% + 2px)";
+				const trackMarkerText = document.createElement("div");
+				
+				trackMarkerText.classList.add("track-marker-text");
+				trackMarkerText.innerText = id;
+				beforeElement.appendChild(trackMarkerText);
 				item.insertBefore(beforeElement, item.firstChild);
 			}
 		});
-
-		// get all Li elements with the same id and find the middle one append append a class to the claslist "Middle"
-		
 	};
 
 	useLayoutEffect(() => {
