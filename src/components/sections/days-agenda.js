@@ -12,29 +12,22 @@ export default function DaysAgenda({ data, activeDay }) {
 	};
 
 	const createThemeMarkers = () => {
-		agendaData.themes.forEach((item, index) => {
-			const themeElements = document.querySelectorAll(`#${item.id}`);
-			const themeElementHeights = Array.from(themeElements).reduce((acc, curr) => acc + curr.offsetHeight, 0) - 76;
-			if (themeElements.length > 0) {
-				const firstElement = themeElements[0];
-				let beforeElement = firstElement.querySelector("#track-marker");
-				if (beforeElement) {
-					beforeElement.remove();
-				}
-				beforeElement = document.createElement("div");
-				beforeElement.style.height = `${themeElementHeights}px`;
-				beforeElement.style.borderColor = `${agendaData.themes[index].color}`;
+		// Draw lines for each element
+		const eventItems = document.querySelectorAll("li.event-item");
+		eventItems.forEach((item) => {
+			const id = item.getAttribute("id");
+			const theme = agendaData.themes.find((theme) => theme.id === id);
+			if (theme) {
+				const beforeElement = document.createElement("div");
+				beforeElement.style.borderColor = theme.color;
 				beforeElement.setAttribute("id", "track-marker");
-
-				const trackMarkerText = document.createElement("div");
-				trackMarkerText.innerHTML = item.trackLabel;
-				trackMarkerText.classList.add("track-marker-text");
-				beforeElement.appendChild(trackMarkerText);
-
-				firstElement.insertBefore(beforeElement, firstElement.firstChild);
+				beforeElement.style.height = "calc(100% + 2px)";
+				item.insertBefore(beforeElement, item.firstChild);
 			}
-			console.log(`${item.id}: ${themeElementHeights}px`);
 		});
+
+		// get all Li elements with the same id and find the middle one append append a class to the claslist "Middle"
+		
 	};
 
 	useLayoutEffect(() => {
