@@ -340,7 +340,7 @@ export const agendaData = {
 				date: "2023. July 21",
 				time: "14:30",
 				speakers: "Ben Fisch",
-				abstract: "",
+				abstract: "Rollups are horizontally scaling the application layer of Ethereum. But as computation is sharded across different rollups, the interoperability of applications running on these rollups becomes fragmented, significantly impacting user utility. Moreover, today rollups are operated by centralized servers that decide on which transactions to include and in what order. Fragmented interoperability and sequencing centralization are some of the biggest challenges facing rollups today as they undermine the core value-propositions of Ethereum. Shared decentralized (dumb) sequencing layers have the potential to improve the overall decentralization and interoperability of Ethereum’s rollup-centric future, but also create critical challenges that require creative solutions.",
 				theme: "shared-seq",
 			},
 			{
@@ -646,7 +646,7 @@ export const agendaData = {
 				date: "2023. July 22",
 				time: "17:45",
 				speakers: "Jon Charbonneau",
-				abstract: "",
+				abstract: "The endgame for rollup sequencer decentralization.",
 				theme: "pbs-day",
 			},
 			{
