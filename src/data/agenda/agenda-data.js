@@ -550,7 +550,7 @@ export const agendaData = {
 				title: "Panel: Rollups on Bitcoin",
 				date: "2023. July 22",
 				time: "10:35",
-				speakers: "Moderator: Eric Wall | Panelists: Sunny Aggarwal, Connor O'Hara, Cem Özer",
+				speakers: "Moderator: Eric Wall | Panelists: Sunny Aggarwal, Connor O'Hara, Cem Özer, John Light",
 				abstract: "",
 				theme: "modular-cosmos",
 				renderLabel: false,
@@ -914,7 +914,7 @@ export const agendaData = {
 				time: "18:20",
 				speakers: "Dev Bear",
 				abstract: "",
-				theme:"",
+				theme:"cosmos-celestia",
 				renderLabel: false,
 			},
 			{
