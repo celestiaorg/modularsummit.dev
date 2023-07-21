@@ -718,7 +718,7 @@ export const agendaData = {
 				renderLabel: false,
 			},
 			{
-				title: "Reminscences of a Rollup Operator",
+				title: "Endgame: Proof of Governance",
 				date: "2023. July 22",
 				time: "17:45",
 				speakers: "Jon Charbonneau",
