@@ -903,7 +903,7 @@ export const agendaData = {
 				title: "Cosmos Panel: Applications",
 				date: "2023. July 22",
 				time: "17:40",
-				speakers: "Moderator: Zion Thomas | Panelists: Albert Chon, Yeongin Lee, Jelena Djuric, Dev Bear, Dan Lynch",
+				speakers: "Moderator: Walt Smith | Panelists: Albert Chon, Yeongin Lee, Jelena Djuric, Dev Bear, Dan Lynch",
 				abstract: "",
 				theme: "cosmos-celestia",
 				renderLabel: false,
