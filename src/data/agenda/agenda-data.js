@@ -768,7 +768,7 @@ export const agendaData = {
 				title: "Modular Devrel Panel: Build Whatever",
 				date: "2023. July 22",
 				time: "10:30",
-				speakers: "Moderator: David Phelps | Panelists: Camila Ramos, Yaz Khoury, Henri Lieutaud, Tina Haibodi",
+				speakers: "Moderator: David Phelps | Panelists: Camila Ramos, Yaz Khoury, Henri Lieutaud, Daniel Helm",
 				abstract: "",
 				theme: "developer",
 				renderLabel: false,

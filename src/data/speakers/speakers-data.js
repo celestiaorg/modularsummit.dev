@@ -308,11 +308,11 @@ export const speakersData = {
 				alt: "Thyborg - Modular Summit 2023",
 			},
 			{
-				name: "Zion Thomas",
-				title: "Crypto Researcher",
+				name: "Walt Smith",
+				title: "Investor",
 				company: "",
-				image: "ansem",
-				alt: "Zion Thomas - Modular Summit 2023",
+				image: "walt_smith",
+				alt: "Walt Smith - Modular Summit 2023",
 			},
 			{
 				name: "David Tse",
@@ -770,11 +770,11 @@ export const speakersData = {
 				alt: "Tracy | devloper - Modular Summit 2023",
 			},
 			{
-				name: "Tina Haibodi",
-				title: "Product and Governance Lead",
-				company: "Eigenlayer",
-				image: "tina_haibodi",
-				alt: "Tina Haibodi - Modular Summit 2023",
+				name: "Daniel Helm",
+				title: "Developer Relations Lead",
+				company: "Scroll",
+				image: "daniel_helm",
+				alt: "Daniel Helm - Modular Summit 2023",
 			},
 			{
 				name: "Adrian Brink",
