@@ -203,6 +203,13 @@ export const speakersData = {
 				alt: "Jon Charbonneau - Modular Summit 2023",
 			},
 			{
+				name: "John Light",
+				title: "Product",
+				company: "Sovryn",
+				image: "john_light",
+				alt: "John Light - Modular Summit 2023",
+			},
+			{
 				name: "Ben Fisch",
 				title: "CEO",
 				company: "Espresso Systems",
