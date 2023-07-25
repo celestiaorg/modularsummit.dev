@@ -100,8 +100,8 @@ export const agendaData = {
 			url: "https://lu.ma/79ay90fe",
 		},
 		livestreams: {
-			title: "Watch our livestream on Youtube",
-			linkLabel: "STREAM LIVE",
+			title: "Watch the recording on YouTube",
+			linkLabel: "WATCH NOW",
 			stage1: "https://youtube.com/live/lHyQKCVQTPo?feature=share",
 			stage2: "https://youtube.com/live/nNGVz-FRjKY?feature=share",
 		},
@@ -522,8 +522,8 @@ export const agendaData = {
 			url: "https://lu.ma/79ay90fe",
 		},
 		livestreams: {
-			title: "Watch our livestream on Youtube",
-			linkLabel: "STREAM LIVE",
+			title: "Watch the recording on YouTube",
+			linkLabel: "WATCH NOW",
 			stage1: "https://youtube.com/live/WYH7n4M016A?feature=share",
 			stage2: "https://youtube.com/live/iSaN8poAmr4?feature=share",
 		},
