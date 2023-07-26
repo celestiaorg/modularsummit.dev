@@ -705,7 +705,7 @@ export const agendaData = {
 				date: "2023. July 22",
 				time: "17:20",
 				speakers: "Ben Fisch",
-				abstract: "",
+				abstract: "In a shared sequencer layer for L2 rollups, proposer-builder separation can be leveraged to achieve strong interoperability of applications across rollups with economic safety. The second part of the talk focusses on PBS design in a decentralized sequencing layer that uses a responsive consensus protocol for fast-finality and thus has no fixed block time. It has some advantages and also presents some unique challenges.",
 				theme: "pbs-day",
 				renderLabel: false,
 			},
